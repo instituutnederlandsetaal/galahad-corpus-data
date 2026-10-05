@@ -18,7 +18,7 @@ if __name__ == "__main__":
     files = list(args.dir.rglob("*.tsv") if args.r else args.dir.glob("*.tsv"))
     for file in files:
         os.system(
-            f"awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, $NF}}' {file} | tail -n +2 > {file}.fixed",
+            f"""awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, (NF == 4 ? "" : $NF)}}' {file} | tail -n +2 > {file}.fixed""",
         )
         Path(f"{file}.fixed").replace(file)
         # dos2unix conversion
