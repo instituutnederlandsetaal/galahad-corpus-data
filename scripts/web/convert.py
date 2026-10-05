@@ -32,14 +32,18 @@ def delete(api: str, uuid: str) -> None:
 def upload(api: str, uuid: str, zip_file: BytesIO) -> None:
     """Upload the files as a zip to the given corpus."""
     mp = MultiPartFile(zip_file.read(), name="file")
-    req = Request(f"{api}/corpora/{uuid}/documents", data=bytes(mp), method="POST")
+    req = Request(
+        f"{api}/corpora/{uuid}/layers/source/documents",
+        data=bytes(mp),
+        method="POST",
+    )
     req.add_header("Content-Type", f"multipart/form-data; boundary={mp.boundary}")
     urlopen(req)
 
 
 def export(api: str, uuid: str) -> BytesIO:
     """Export the corpus as TSV files in a zip."""
-    url = f"{api}/corpora/{uuid}/jobs/sourceLayer/export/convert?format=tsv"
+    url = f"{api}/corpora/{uuid}/layers/source/export/convert?format=tsv"
     with urlopen(url) as res:
         return BytesIO(res.read())
 
@@ -92,7 +96,7 @@ if __name__ == "__main__":
     parser.add_argument("outdir", type=Path, help="Output directory for TSV data")
     args = parser.parse_args()
 
-    args.outdir.mkdir(exist_ok=True)
+    args.outdir.mkdir(exist_ok=True, parents=True)
 
     with Timer("Total"):
         if args.r:
