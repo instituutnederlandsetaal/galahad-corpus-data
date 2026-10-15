@@ -258,6 +258,12 @@ def grouped_annotations(corp: TsvCorpus, root: Path) -> None:
         lambda w: f"{w.token.lower()} {w.pos}",
         lambda w: f"‘{w.lemma}’",
     )
+    TokenGrouper(
+        out / "pos_by_main_pos.txt",
+        corp,
+        lambda w: pos_to_main_pos(w.pos),
+        lambda w: w.pos,
+    )
 
 
 if __name__ == "__main__":
