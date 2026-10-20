@@ -35,7 +35,7 @@ class TsvWord:
 
     @override
     def __str__(self) -> str:
-        return f"{self.token}\t{self.pos}\t{self.lemma}\t{self.group}"
+        return f"{self.token:<20}\t{self.lemma:<20}\t{self.pos}\t{self.group}"
 
     @override
     def __repr__(self) -> str:
