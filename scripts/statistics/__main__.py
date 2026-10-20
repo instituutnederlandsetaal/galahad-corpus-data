@@ -43,7 +43,6 @@ from scripts.statistics.data import TsvCorpus
 from scripts.statistics.histogram import Histogram
 from scripts.statistics.size import CorpusSize
 from scripts.statistics.suspicious import generate_suspicious
-from scripts.statistics.token_filter import TokenFilter
 from scripts.statistics.token_grouper import TokenGrouper
 from scripts.statistics.util import to_main_pos
 
@@ -55,9 +54,6 @@ def generate_stats(
     lexicon: Path | None = None,
 ) -> None:
     """Generate all statistics."""
-    TokenFilter(out / "sluistekens.txt", corpus).report(
-        lambda w: "|" in w.lemma or "|" in w.pos,
-    )
     generate_suspicious(corpus, out, lexicon)
     grouped_annotations(corpus, out)
     CorpusSize(out / "size.txt", corpus, metadata)

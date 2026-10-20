@@ -25,6 +25,7 @@ def generate_suspicious(
     sus_nou_p(corpus, out)
     empty_words(corpus, out)
     sus_punctuation(corpus, out)
+    lemma_weird_chars(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
 
@@ -119,6 +120,18 @@ def sus_punctuation(corpus: TsvCorpus, root: Path) -> None:
     )
     TokenFilter(out / "pc_not_tagged_pc.txt", corpus).filter(
         lambda w: re.fullmatch(PUNCTUATION, w.token) is not None and w.pos != "PC",
+    )
+
+
+def lemma_weird_chars(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious characters in lemmata."""
+    # manual pattern is fine for now. Gives us an explicit idea of what's used
+    patt = r"[^ \-a-zA-Z0-9'+|.ëïüéóàçöøáÖèêüñäíô/âúłżšÉ—ŽČýő]"
+    TokenFilter(root / "lemmata-with-weird-chars.txt", corpus).filter(
+        lambda w: (
+            re.search(patt, w.lemma) is not None
+            and to_main_pos(w.pos) not in {"PC", "RES"}
+        ),
     )
 
 
