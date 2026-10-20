@@ -43,7 +43,7 @@ def roman_to_int(roman: str) -> int:
     return total
 
 
-def pos_to_main_pos(pos: str) -> str:
+def to_main_pos(pos: str) -> str:
     """
     Strip features from POS tag, keeping only the main tag(s).
     Handles compound tags joined by `|` and `+`.
