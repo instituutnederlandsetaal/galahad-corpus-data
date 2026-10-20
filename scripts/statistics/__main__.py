@@ -181,8 +181,13 @@ if __name__ == "__main__":
         type=Path,
         help="Metadata file (optional)",
     )
+    parser.add_argument(
+        "--lexicon",
+        type=Path,
+        help="Lexicon file (optional)",
+    )
     args = parser.parse_args()
 
     corpus = TsvCorpus.load(args.input)
     args.output.mkdir(parents=True, exist_ok=True)
-    generate_stats(corpus, args.output, args.metadata)
+    generate_stats(corpus, args.output, args.metadata, args.lexicon)

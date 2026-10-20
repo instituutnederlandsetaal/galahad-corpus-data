@@ -121,3 +121,55 @@ def sus_punctuation(corpus: TsvCorpus, root: Path) -> None:
         lambda w: re.fullmatch(PUNCTUATION, w.token) is not None and w.pos != "PC",
     )
 
+
+def load_lexicon(lexicon: Path) -> tuple[set[str], dict[str, set[str]]]:
+    # load in lexicon
+    entries: set[tuple[str, str]] = {
+        tuple(line.strip("\n").split("\t")) for line in Path(lexicon).open()
+    }
+    lemmata = {e[0] for e in entries}
+    # dict with pos as key and lemmata sets as values
+    pos_to_lemmata: dict[str, set[str]] = defaultdict(set)
+    for lemma, pos in entries:
+        pos_to_lemmata[pos].add(lemma)
+    # All VRB lemmata are valid NOU-C lemmata
+    pos_to_lemmata["NOU-C"].update(pos_to_lemmata["VRB"])
+    return lemmata, pos_to_lemmata
+
+
+def lexicon_based_checks(corpus: TsvCorpus, root: Path, lexicon: Path) -> None:
+    """Checks based on a lexicon."""
+    out = root / "lexicon"
+    out.mkdir(parents=True, exist_ok=True)
+    lemmata, pos_to_lemmata = load_lexicon(lexicon)
+
+    TokenFilter(out / "unknown_lemmata.txt", corpus).filter(
+        lambda w: (
+            any(lemma not in lemmata for lemma in re.split(r"[|+]", w.lemma))
+            and not any(
+                pos in {"PC", "NOU-P", "RES", "NUM"}
+                for pos in to_main_pos(w.pos).split("+")
+            )
+            and w.lemma != "UNKNOWN"
+            and bool(w.lemma)  # not empty
+        ),
+    )
+    TokenFilter(out / "unknown_lemmata_by_pos.txt", corpus).filter(
+        lambda w: (
+            any(
+                lemma not in pos_to_lemmata.get(pos, set())
+                for lemma, pos in zip(
+                    re.split(r"[|+]", w.lemma),
+                    re.split(r"[|+]", to_main_pos(w.pos)),
+                    strict=True,
+                )
+            )
+            and all(lemma in lemmata for lemma in re.split(r"[|+]", w.lemma))
+            and not any(
+                pos in {"PC", "NOU-P", "RES", "NUM"}
+                for pos in to_main_pos(w.pos).split("+")
+            )
+            and w.lemma != "UNKNOWN"
+            and bool(w.lemma)  # not empty
+        ),
+    )
