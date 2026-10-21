@@ -42,6 +42,12 @@ class TsvWord:
         return self.__str__()
 
 
+    @property
+    def group_token(self) -> str:
+        """Concatenated token string of the group."""
+        return "".join(t.token for t in self.mwe) if self.group else self.token
+
+
 @dataclass
 class TsvSentence:
     """A sentence of TsvWords. Sentences are separated by one blank line."""
