@@ -26,6 +26,7 @@ def generate_suspicious(
     empty_words(corpus, out)
     sus_punctuation(corpus, out)
     lemma_weird_chars(corpus, out)
+    long_abbreviations(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
 
@@ -132,6 +133,20 @@ def lemma_weird_chars(corpus: TsvCorpus, root: Path) -> None:
             re.search(patt, w.lemma) is not None
             and to_main_pos(w.pos) not in {"PC", "RES"}
         ),
+    )
+
+
+def long_abbreviations(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious long abbreviations."""
+    TokenFilter(root / "long_abbreviations.txt", corpus).filter(
+        lambda w: (
+            "WF=abbr" in w.pos
+            and abs(len(w.group_token) - len(w.lemma)) <= 2
+            and len(w.group_token) > 5
+            and "." not in w.group_token
+        ),
+        sort=lambda w: f"{w[0].lemma}{w[0].token}",
+        uniq=True,
     )
 
 
