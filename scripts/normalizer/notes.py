@@ -144,6 +144,20 @@ def _move_xr_to_cit_in_note(root: ET.Element) -> None:
             w.remove(xr)
 
 
+
+def _put_RM_in_note(root: ET.Element) -> None:
+    """Put <w> elements with @pos containing "RM" into a <note>."""
+    parent_map = {c: p for p in root.iter() for c in p}
+    for w in root.findall(".//tei:w", et_ns):
+        if "RM" in w.get("pos", ""):
+            parent = parent_map.get(w)
+            if parent is not None and parent.tag != f"{ns['tei']}note":
+                note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
+                parent.insert(list(parent).index(w), note)
+                parent.remove(w)
+                note.append(w)
+
+
 def place_notes(root: ET.Element) -> None:
     """Place <note>'s to ignore tokens."""
     _normalize_div_type_notes(root)
@@ -151,3 +165,4 @@ def place_notes(root: ET.Element) -> None:
     _put_last_enz_in_note(root)
     _move_xr_to_cit_in_note(root)
     _put_pos_999_in_note(root)
+    _put_RM_in_note(root)
