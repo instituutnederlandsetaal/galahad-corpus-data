@@ -42,11 +42,23 @@ def suspicious_analyses(corpus: TsvCorpus, root: Path) -> None:
         lambda w: f"‘{w.lemma}’",
     ).report(out / "sus_lem_by_tokpos_report.txt", corpus)
     SuspiciousTokenGrouper(
+        out / "sus_lem_by_tok.txt",
+        corpus,
+        lambda w: w.token.lower(),
+        lambda w: f"‘{w.lemma}’",
+    ).report(out / "sus_lem_by_tok_report.txt", corpus)
+    SuspiciousTokenGrouper(
         out / "sus_pos_by_toklem.txt",
         corpus,
         lambda w: f"{w.token.lower()} ‘{w.lemma}’",
         lambda w: w.pos,
     ).report(out / "sus_pos_by_toklem_report.txt", corpus)
+    SuspiciousTokenGrouper(
+        out / "sus_pos_by_tok.txt",
+        corpus,
+        lambda w: w.token.lower(),
+        lambda w: w.pos,
+    ).report(out / "sus_pos_by_tok_report.txt", corpus)
     SuspiciousTokenGrouper(
         out / "sus_tok_by_lempos.txt",
         corpus,
