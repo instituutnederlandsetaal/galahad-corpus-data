@@ -33,6 +33,16 @@ def normalize_root(root: ET.Element) -> None:
 
 def normalize(file: Path) -> None:
     """Normalize the file to valid tei-p5."""
+    # Remove weird characters
+    file_text = file.read_text(encoding="utf-8")
+    file_text = (
+        file_text
+        .replace("\u2011", "-")  # non-breaking hyphen to regular hyphen
+        .replace("\u00ad", "")  # soft hyphens
+        .replace("\u202f", "")  # narrow no-break space
+    )
+    file.write_text(file_text, encoding="utf-8")
+
     tree: ET.ElementTree = ET.parse(file)
     root: ET.Element = tree.getroot()
 
