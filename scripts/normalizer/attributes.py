@@ -146,6 +146,14 @@ def _move_text_in_pb_to_n(root: ET.Element) -> None:
             pb.text = None
 
 
+def _remove_slash_apostrophe_in_lemma(root: ET.Element) -> None:
+    """Remove \' in the @lemma attribute of `<w>` elements."""
+    for w in root.findall(".//tei:w", et_ns):
+        lemma = w.get("lemma")
+        if lemma:
+            w.set("lemma", lemma.replace("\\'", "'"))
+
+
 def normalize_attributes(root: ET.Element) -> None:
     """Run all attribute normalization functions."""
     _normalize_root_xml_id(root)
@@ -157,3 +165,4 @@ def normalize_attributes(root: ET.Element) -> None:
     _fixup_w_xml_id(root)
     _move_interp_value_to_text(root)
     _move_text_in_pb_to_n(root)
+    _remove_slash_apostrophe_in_lemma(root)
