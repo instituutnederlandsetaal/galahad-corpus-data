@@ -129,7 +129,7 @@ class SuspiciousTokenGrouper(TokenGrouper):
 
     def is_suspicious(self, w: TsvWord) -> bool:
         """Whether the token occurs in a suspicious group."""
-        if w.group:
+        if w.group or "WF" in w.pos:
             return False
         key = self.key_mapper(w)
         value = self.value_mapper(w)
