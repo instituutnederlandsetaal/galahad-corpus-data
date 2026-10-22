@@ -68,7 +68,6 @@ def _remove_illegal_attributes(root: ET.Element) -> None:
             "gloss",
             "misAlignment",
             "feest",
-            "lemmaRef",
             "time",
             "valid",
             "originalContent",
