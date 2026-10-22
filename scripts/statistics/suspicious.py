@@ -26,7 +26,7 @@ def generate_suspicious(
     empty_words(corpus, out)
     sus_punctuation(corpus, out)
     lemma_weird_chars(corpus, out)
-    long_abbreviations(corpus, out)
+    sus_abbr(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
 
@@ -136,20 +136,6 @@ def lemma_weird_chars(corpus: TsvCorpus, root: Path) -> None:
     )
 
 
-def long_abbreviations(corpus: TsvCorpus, root: Path) -> None:
-    """Suspicious long abbreviations."""
-    TokenFilter(root / "long_abbreviations.txt", corpus).filter(
-        lambda w: (
-            "WF=abbr" in w.pos
-            and abs(len(w.group_token) - len(w.lemma)) <= 2
-            and len(w.group_token) > 5
-            and "." not in w.group_token
-        ),
-        sort=lambda w: f"{w[0].lemma}{w[0].token}",
-        uniq=True,
-    )
-
-
 def load_lexicon(lexicon: Path) -> tuple[set[str], dict[str, set[str]]]:
     # load in lexicon
     entries: set[tuple[str, str]] = {
@@ -215,4 +201,52 @@ def lexicon_based_checks(corpus: TsvCorpus, root: Path, lexicon: Path) -> None:
             and w.lemma != "UNKNOWN"
             and bool(w.lemma)  # not empty
         ),
+
+def sus_abbr(corpus: TsvCorpus, out: Path) -> None:
+    root = out / "abbr"
+    should_be_abbr(corpus, root)
+    long_abbreviations(corpus, root)
+
+
+def long_abbreviations(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious long abbreviations."""
+    TokenFilter(root / "long_abbreviations.txt", corpus).filter(
+        lambda w: (
+            "WF=abbr" in w.pos
+            and abs(len(w.group_token) - len(w.lemma)) <= 2
+            and len(w.group_token) > 5
+            and "." not in w.group_token
+        ),
+        sort=lambda w: f"{w[0].lemma}{w[0].token}",
+        uniq=True,
+    )
+
+
+def should_be_abbr(corpus: TsvCorpus, root: Path) -> None:
+    """Checks for tokens that should be abbreviations."""
+    # Gather all tokens with pos containing WF=abbr. Disregard + and |
+    abbr_tokens: dict[str, set[tuple(str, str)]] = defaultdict(set)
+    for w in corpus.words:
+        if "WF=abbr" in w.pos and "+" not in w.pos and "|" not in w.pos:
+            abbr_tokens[to_main_pos(w.pos)].add((w.group_token.lower(), w.lemma))
+    TokenFilter(root / "should_be_abbr.txt", corpus).filter(
+        lambda w: (
+            (
+                (
+                    (w.group_token.lower() + ".", w.lemma)
+                    in abbr_tokens.get(to_main_pos(w.pos), set())
+                )
+                or (
+                    (w.group_token.lower().removesuffix("."), w.lemma)
+                    in abbr_tokens.get(to_main_pos(w.pos), set())
+                )
+            )
+            and "WF=abbr" not in w.pos
+            and "WF=trunc" not in w.pos
+            and "type=uncl" not in w.pos
+            and "+" not in w.pos
+            and "|" not in w.pos
+        ),
+        uniq=True,
+        sort=lambda w: w[0].lemma,
     )
