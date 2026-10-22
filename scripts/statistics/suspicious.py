@@ -180,7 +180,22 @@ def lexicon_based_checks(corpus: TsvCorpus, root: Path, lexicon: Path) -> None:
             )
             and w.lemma != "UNKNOWN"
             and bool(w.lemma)  # not empty
+            and not any(c.isupper() for c in w.lemma)
         ),
+        sort=lambda x: f"{x[0].lemma}{x[0].pos}",
+    )
+    TokenFilter(out / "unknown_lemmata_capital.txt", corpus).filter(
+        lambda w: (
+            any(lemma not in lemmata for lemma in re.split(r"[|+]", w.lemma))
+            and not any(
+                pos in {"PC", "NOU-P", "RES", "NUM"}
+                for pos in to_main_pos(w.pos).split("+")
+            )
+            and w.lemma != "UNKNOWN"
+            and bool(w.lemma)  # not empty
+            and any(c.isupper() for c in w.lemma)
+        ),
+        sort=lambda x: f"{x[0].lemma}{x[0].pos}",
     )
     TokenFilter(out / "unknown_lemmata_by_pos.txt", corpus).filter(
         lambda w: (
