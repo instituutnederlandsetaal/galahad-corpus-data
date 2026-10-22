@@ -1,42 +1,9 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
-"""
-Analyse the input corpus, generate statistics, and note any suspicious patterns.
-
-The following files are generated:
-statistics/
-    suspicious/
-        mwe/
-            mwe_dif_lemma.txt # MWEs where the lemmas of the components differ
-            mwe_dif_pos.txt # MWEs where the POS of the components differ
-        nou_p/
-            nou-p_lemma_no_capital.txt # NOU-P tokens without a capital in the lemma
-        pc/
-            words_tagged_pc.txt # tokens tagged as PC but not punctuation
-            pc_not_tagged_pc.txt # punctuation tokens not tagged as PC
-        roman_numerals/
-            wrong_roman_numerals.txt # roman numeral tokens with wrong numerical lemma
-        empty/
-            lemma.txt # tokens with empty lemma
-            pos.txt # tokens with empty POS
-    histogram/
-        token.txt # histogram of tokens (excluding PC)
-        lemma.txt # histogram of lemmas (excluding PC)
-        pos.txt
-        pos_main.txt # POS converted to main POS. NOU-C(num=sg) => NOU-C
-        group.txt # histogram of group IDs
-        pc.txt # histogram of tokens where POS = PC
-        token_char.txt # histogram of characters in tokens
-        lemma_char.txt
-        token_len.txt # histogram of token lengths
-        lemma_len.txt # histogram of lemma lengths
-        sentence_len.txt # histogram of sentence lengths
-    analyses/
-        * # various grouped analyses, e.g., tok_to_lem.txt maps tokens to their lemmas
-    size.txt # token size over various categories
-"""
+"""Analyse the input corpus, generate statistics, and note any suspicious patterns."""
 
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from collections import defaultdict
 from pathlib import Path
 
 from scripts.statistics.data import TsvCorpus
@@ -149,6 +116,9 @@ def histograms(corp: TsvCorpus, root: Path) -> None:
     out = root / "histogram"
     out.mkdir(parents=True, exist_ok=True)
     Histogram(out / "token.txt").write(w.token for w in corp.words if w.pos != "PC")
+    Histogram(out / "abbr.txt").write(
+        f"{w.group_token:<25} ‘{w.lemma}’" for w in corp.words if "WF=abbr" in w.pos
+    )
     Histogram(out / "lemma.txt").write(w.lemma for w in corp.words if w.pos != "PC")
     Histogram(out / "pos.txt").write(w.pos for w in corp.words)
     Histogram(out / "pos_main.txt").write(to_main_pos(w.pos) for w in corp.words)
