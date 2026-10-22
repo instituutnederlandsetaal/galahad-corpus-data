@@ -175,22 +175,77 @@ def _fixup_change_resp(root: ET.Element) -> None:
 
 def _fix_title_for_cit(root: ET.Element) -> None:
     """Give dictionary citations a title based on their lemma and sense-id."""
-    for cit in root.findall(".//tei:cit", et_ns):
-        # create a title based on lemma and entry-id
-        lemma = cit.get("lemma", "")
-        sense_id = cit.get("sense-id", "")
-        dictionary = "MNW" if sense_id.lower().startswith("mnw") else "WNT"
-        title = f"{lemma} - {dictionary} ({sense_id})"
+    cit = root.find(".//tei:cit", et_ns)
+    if cit is None:
+        return
+    lemma = cit.get("lemma", "")
+    sense_id = cit.get("sense-id", "")
+    dictionary = "MNW" if sense_id.lower().startswith("mnw") else "WNT"
+    title = f"{lemma} - {dictionary} ({sense_id})"
 
-        header = root.find(".//tei:teiHeader", et_ns)
-        if header is not None:
-            file_desc = header.find("tei:fileDesc", et_ns)
-            if file_desc is not None:
-                title_stmt = file_desc.find("tei:titleStmt", et_ns)
-                if title_stmt is not None:
-                    title_el = title_stmt.find("tei:title", et_ns)
-                    if title_el is not None:
+    header = root.find(".//tei:teiHeader", et_ns)
+    if header is not None:
+        file_desc = header.find("tei:fileDesc", et_ns)
+        if file_desc is not None:
+            title_stmt = file_desc.find("tei:titleStmt", et_ns)
+            if title_stmt is not None:
+                title_el = title_stmt.find("tei:title", et_ns)
+                if title_el is not None:
+                    # only change title if title is currently digit only
+                    if title_el.text.isdigit():
                         title_el.text = title
+
+
+def _put_agency_first(root: ET.Element) -> None:
+    """If `<publicationStmt>` contains any `model.publicationStmtPart.agency`, make sure it is the first child element."""
+    agency_tags = ["authority", "distributor", "publisher"]
+
+    # first match will do
+    pub_stmt = root.find(".//tei:publicationStmt", et_ns)
+    if pub_stmt is not None:
+        for tag in agency_tags:
+            agency = pub_stmt.find(f"tei:{tag}", et_ns)
+            if agency is not None:
+                pub_stmt.remove(agency)
+                pub_stmt.insert(0, agency)
+                break
+
+
+
+def _add_desc_to_non_text_interp(root: ET.Element) -> None:
+    """Wrap all children of an `<interp>` in `<desc>` if the `<interp>` contains anything other than `<desc>` or plaintext."""
+    for interp in root.findall(".//tei:interp", et_ns):
+        child_tags: list[str] = [child.tag for child in interp]
+        # skip if all children are <desc> or plaintext
+        if len(child_tags) == 0 or all(tag == f"{ns['tei']}desc" for tag in child_tags):
+            continue
+        # wrap all children in <desc>, note any text
+        desc = ET.Element(f"{ns['tei']}desc")
+        desc.text = interp.text
+        interp.text = None
+        for child in list(interp):
+            desc.append(child)
+            interp.remove(child)
+        interp.append(desc)
+
+
+def _swap_x_for_ref(root: ET.Element) -> None:
+    """Swap `<x @nr>` and `<XREF3 @ref>` elements for `<ref @n>` elements."""
+    for x in root.findall(".//tei:x", et_ns):
+        x.tag = f"{ns['tei']}ref"
+        nr = x.get("nr")
+        if nr is None:
+            raise ValueError("<x> element missing 'nr' attribute")
+        x.set("n", nr)
+        del x.attrib["nr"]
+    # same for <XREF3 @ref> elements
+    for xref in root.findall(".//tei:XREF3", et_ns):
+        xref.tag = f"{ns['tei']}ref"
+        ref = xref.get("ref")
+        if ref is None:
+            raise ValueError("<XREF3> element missing 'ref' attribute")
+        xref.set("n", ref)
+        del xref.attrib["ref"]
 
 
 def normalize_tei_header(root: ET.Element) -> None:
@@ -202,6 +257,12 @@ def normalize_tei_header(root: ET.Element) -> None:
     _move_source_desc_p_to_bibl(root)
     _move_bibl_scope_xref_attrs(root)
     _remove_couranten_source_desc_text(root)
+    _add_desc_to_non_text_interp(root)
+    _swap_x_for_ref(root)
+    # important order:
+    # will only fix title if it is currently digit only
+    _fix_title_for_cit(root)
+    # will add text to digit-only titles, so the former would no longer run
     _fixup_titles(root)
     _fixup_change_resp(root)
-    _fix_title_for_cit(root)
+    _put_agency_first(root)

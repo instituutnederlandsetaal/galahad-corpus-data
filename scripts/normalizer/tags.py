@@ -77,6 +77,24 @@ def _remove_w_from_interp_grp(root: ET.Element) -> None:
                 interp.remove(w)
 
 
+def _remove_reg_with_orig(root: ET.Element) -> None:
+    """Read out the text in @orig and swap the `<reg>` with that text."""
+    parent_map = {c: p for p in root.iter() for c in p}
+    for reg in root.findall(".//tei:reg", et_ns):
+        orig = reg.get("orig")
+        if orig is not None:
+            parent = parent_map.get(reg)
+            if parent is not None:
+                index = list(parent).index(reg)
+                tail = reg.tail
+                parent.remove(reg)
+                if index == 0:
+                    parent.text = (parent.text or "") + orig + (tail or "")
+                else:
+                    prev = parent[index - 1]
+                    prev.tail = (prev.tail or "") + orig + (tail or "")
+
+
 def remove_invalid_tags(root: ET.Element) -> None:
     """Run all tag removing functions."""
     _remove_empty_i_and_b(root)
@@ -85,3 +103,4 @@ def remove_invalid_tags(root: ET.Element) -> None:
     _remove_fs_in_empty_pos_w(root)
     _remove_empty_interp_grp(root)
     _remove_w_from_interp_grp(root)
+    _remove_reg_with_orig(root)

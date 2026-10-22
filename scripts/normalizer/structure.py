@@ -76,7 +76,7 @@ def _fix_date_and_inter_grp_in_cit(root: ET.Element) -> None:
         # next, add a interpGrp and interp for each attribute of cit
         for attr in ["lemma", "pos", "sense-id", "modern-lemma", "entry-id"]:
             if attr in cit.attrib:
-                attr_to_interp(cit, attr, ab)
+                _attr_to_interp(cit, attr, ab)
 
         # remove partition
         del cit.attrib["partition"]
@@ -88,7 +88,7 @@ def _fix_date_and_inter_grp_in_cit(root: ET.Element) -> None:
                 del w.attrib["sense-id"]
 
 
-def attr_to_interp(cit: ET.Element, attr: str, ab: ET.Element) -> None:
+def _attr_to_interp(cit: ET.Element, attr: str, ab: ET.Element) -> None:
     """Move an attribute of cit to an interp in an interpGrp in the `<ab>`."""
     interp_grp = ET.SubElement(ab, f"{ns['tei']}interpGrp", type=attr)
     interp = ET.SubElement(interp_grp, f"{ns['tei']}interp")
@@ -149,9 +149,22 @@ def _create_interp_grp_for_dictionary_xr(root: ET.Element) -> None:
                 del ref.attrib["citaatId"]
 
 
+def _remove_s_containing_l(root: ET.Element) -> None:
+    """Remove `<s>` elements containing `<l>` elements. The `<l>` elements should become children of the parent of `<s>`."""
+    parent_map = {c: p for p in root.iter() for c in p}
+    for s in root.findall(".//tei:s", et_ns):
+        l = s.find("tei:l", et_ns)
+        if l is not None:
+            parent = parent_map.get(s)
+            if parent is not None:
+                parent.extend(list(s))
+                parent.remove(s)
+
+
 def fix_structural_issues(root: ET.Element) -> None:
     """Fix structural issues in the TEI document."""
     _move_cit_to_text_body(root)
     _put_p_in_div(root)
     _fix_date_and_inter_grp_in_cit(root)
     _create_interp_grp_for_dictionary_xr(root)
+    _remove_s_containing_l(root)

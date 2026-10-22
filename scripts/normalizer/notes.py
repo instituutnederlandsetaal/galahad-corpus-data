@@ -144,6 +144,28 @@ def _move_xr_to_cit_in_note(root: ET.Element) -> None:
             w.remove(xr)
 
 
+def _put_plaintext_in_note(root: ET.Element) -> None:
+    # The MNL set contains <s> and <l> tags at the beginning and the end of the doc
+    # that have been added for context. The words themselves are not tagged with <w>
+    # and should be in a note.
+    # An extra complication is that the tagging can start halfway in a sentence, eg:
+    # <s> het begint <w>hier</w> <w>pas</w> </s>
+    parent_map = {c: p for p in root.iter() for c in p}
+    for s_or_l in root.findall(".//tei:s", et_ns) + root.findall(".//tei:l", et_ns):
+        if s_or_l.text and s_or_l.text.strip():
+            note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
+            s_or_l.insert(0, note)
+            note.text = s_or_l.text
+            s_or_l.text = None
+        children = list(s_or_l)
+        for child in children:
+            # if plaintext and not blank
+            if child.tail and child.tail.strip():
+                note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
+                s_or_l.insert(children.index(child) + 1, note)
+                note.text = child.tail
+                child.tail = None
+
 
 def _put_RM_in_note(root: ET.Element) -> None:
     """Put <w> elements with @pos containing "RM" into a <note>."""
@@ -165,4 +187,5 @@ def place_notes(root: ET.Element) -> None:
     _put_last_enz_in_note(root)
     _move_xr_to_cit_in_note(root)
     _put_pos_999_in_note(root)
+    _put_plaintext_in_note(root)
     _put_RM_in_note(root)
