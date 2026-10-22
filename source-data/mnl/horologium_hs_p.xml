@@ -1,2279 +1,902 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INT_8fd79010-6644-4644-a200-c6e1f188af3f">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>        
-            <title>Horologium Aeternae Sapientiae</title>        
-            <respStmt>
-               <resp>linguistic annotation by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
-               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
-               <orgName xml:lang="en">Dutch Language Institute</orgName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI merged by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
-               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
-               <orgName xml:lang="en">Dutch Language Institute</orgName>
-            </respStmt>
-            <respStmt>
-               <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
-               <persName>
-                  <email>jesse</email>
-               </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>        
-            <publisher>!Needs to be filled in!</publisher>
-            <idno type="sourceID">Horologium Aeternae Sapientiae</idno>
-            <idno type="GaLAHaDPersistentIdentifier">f834f426-5d93-4928-8c92-3b9182672221_tei</idno>
-         </publicationStmt>
-         <notesStmt>        
-            <note> Uit pragmatische overwegingen is voor de hier gepresenteerde tekst gebruik gemaakt van een samenvoeging van de twee (volgens dezelfde editieprincipes samengestelde) edities van Van de Wijnpersse; een voordeel hierbij was dat op die manier ook de proloog en het tweede gedeelte van cap. 5 uit Boek I (waarvan de tekst in het Parijse handschrift ontbreekt) aangeboden konden worden. Bij de hier gebruikte paginering verwijst het cijfer 1 na de accolade naar Van de Wijnpersse 1926, het cijfer 2 naar de editie uit 1938. De cursiveringen in de edities (toevoegingen en veranderingen op rasuur) zijn in de hier gepresenteerde tekst niet gehandhaafd. In de editie Van de Wijnpersse 1926 werden alle woorden van het handschrift, ook die die geëxpungeerd of doorstreept werden, afgedrukt; deze woorden werden hier weggelaten wanneer er al een gecorrigeerde vorm voor in het handschrift werd ingelast. </note>        
-            <note resp="GaLAHaD" type="corpusName">MNL-Samples</note>
-            <note resp="GaLAHaD" type="sourceCollection">!No source name defined!</note>
-            <note resp="GaLAHaD" type="sourceCollectionURL">!No source URL defined!</note>
-         </notesStmt>
-         <sourceDesc>        
-            <listBibl xml:id="inlMetadata">          
-               <bibl>            
-                  <interpGrp type="sourceID">              
-                     <interp>mnw_horologium_hs_p</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pid">              
-                     <interp>INT_8fd79010-6644-4644-a200-c6e1f188af3f</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel1">              
-                     <interp> 1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse:  <hi rend="italic"> Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). </hi>  Groningen Batavia, 1938 (56-187). </interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel3">              
-                     <interp>Een verzameling van 336 Middelnederlandse literaire teksten uit de periode 1250-1500, in TEI gecodeerd (oorspronkelijk gepubliceerd op de cd-rom Middelnederlands)</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel1">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel2">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel3">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel2">              
-                     <interp>1</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel3">              
-                     <interp>1</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel1">              
-                     <interp n="7c34c1ea-011b-11e4-b0ff-51bcbd7c379f">A.G.M. van de Wijnpersse</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel1">              
-                     <interp>boek</interp>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel2">              
-                     <interp>cd-rom</interp>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel3">              
-                     <interp>digitale uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel1">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel2">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel3">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel2">              
-                     <interp>'s-Gravenhage</interp>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel3">              
-                     <interp>Leiden</interp>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel2">              
-                     <interp>SDU Uitgevers</interp>              
-                     <interp>INL</interp>              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel3">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="isbnLevel2">              
-                     <interp>9075566905</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel1_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel1_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel2_from">              
-                     <interp>1998</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel2_to">              
-                     <interp>1998</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel3_from">              
-                     <interp>2017</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel3_to">              
-                     <interp>2017</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel1_from">              
-                     <interp>1340</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel1_to">              
-                     <interp>1360</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel2_from">              
-                     <interp>1200</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel2_to">              
-                     <interp>1820</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel3_from">              
-                     <interp>1250</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel3_to">              
-                     <interp>1500</interp>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel1_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel1_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel2_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel2_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel3_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel3_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_placeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_provinceLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_countryLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_regionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_kloekecodeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_placeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_provinceLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_countryLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_regionLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_kloekecodeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_placeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_provinceLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_countryLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_regionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_kloekecodeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_placeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_provinceLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_countryLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_regionLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_kloekecodeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="ingestTime">              
-                     <interp>2018-07-05T17:12</interp>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel1">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel2">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel3">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="settingLocation">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="settingPerson">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="settingOrganization">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="ipr">              
-                     <interp>extern</interp>              
-                  </interpGrp>            
-                  <interpGrp type="copyrightHolder">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="copyrightOwner">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="corpusProvenance">              
-                     <interp>Corpus-Middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="processingMethod">              
-                     <interp>born digital</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subgenreLevel1">              
-                     <interp>religious</interp>              
-                     <interp>theology / ethics</interp>              
-                  </interpGrp>            
-                  <interpGrp type="authorLevel1">              
-                     <interp>Hendrick Suso</interp>              
-                  </interpGrp>            
-                  <interpGrp type="genreLevel1">              
-                     <interp>prose</interp>              
-                  </interpGrp>            
-                  <interpGrp type="titleLevel1">              
-                     <interp>Horologium Aeternae Sapientiae</interp>              
-                  </interpGrp>            
-                  <interpGrp type="fictionalityLevel1">              
-                     <interp>non-fiction</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witness_year_from">              
-                     <interp>1340</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witness_year_to">              
-                     <interp>1360</interp>              
-                  </interpGrp>            
-                  <interpGrp type="datering">              
-                     <interp>1340-1360</interp>              
-                  </interpGrp>            
-                  <interpGrp type="decade">              
-                     <interp>1350</interp>              
-                  </interpGrp>            
-                  <interpGrp type="genre">              
-                     <interp>prose</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subgenre">              
-                     <interp>religious</interp>              
-                     <interp>theology / ethics</interp>              
-                  </interpGrp>            
-                  <interpGrp type="title">              
-                     <interp>Horologium Aeternae Sapientiae</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitle">              
-                     <interp>1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse: Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). Groningen Batavia, 1938 (56-187).</interp>              
-                  </interpGrp>            
-                  <interpGrp type="author">              
-                     <interp>Hendrick Suso</interp>              
-                  </interpGrp>            
-               </bibl>          
-            </listBibl>        
-            <listBibl xml:id="original-metadata-cdrom-version">          
-               <bibl>            
-                  <interpGrp type="TITEL">              
-                     <interp> Horologium Aeternae Sapientiae </interp>              
-                  </interpGrp>            
-                  <interpGrp type="TITEL">              
-                     <interp> Oerloy der ewigher wijsheit </interp>              
-                  </interpGrp>            
-                  <interpGrp type="author">              
-                     <interp> Henricus Suso </interp>              
-                  </interpGrp>            
-                  <interpGrp type="AARD">              
-                     <interp> Proza </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRON">              
-                     <interp> Parijs, Bibliothèque de l'Arsenal, 8224 </interp>              
-                  </interpGrp>            
-                  <interpGrp type="DATUM">              
-                     <interp> 1340-1360 </interp>              
-                  </interpGrp>            
-                  <interpGrp type="OMVANG">              
-                     <interp> 66061 woorden </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRON.OPM">              
-                     <interp> Handschrift van 5+158 bladen, 2 kolommen per bladzijde, 28 regels per kolom. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="EDITIE">              
-                     <interp> 1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse:  <hi rend="italic"> Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). </hi>  Groningen Batavia, 1938 (56-187). </interp>              
-                  </interpGrp>            
-                  <interpGrp type="STATUS">              
-                     <interp> Kritisch </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 654 (ander hs.) </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 655 (ander hs.) </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 868.3 (ander hs.) </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 940.31 (ander hs.) </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 1250. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="EDITIE.OPM">              
-                     <interp> Uit pragmatische overwegingen is voor de hier gepresenteerde tekst gebruik gemaakt van een samenvoeging van de twee (volgens dezelfde editieprincipes samengestelde) edities van Van de Wijnpersse; een voordeel hierbij was dat op die manier ook de proloog en het tweede gedeelte van cap. 5 uit Boek I (waarvan de tekst in het Parijse handschrift ontbreekt) aangeboden konden worden. Bij de hier gebruikte paginering verwijst het cijfer 1 na de accolade naar Van de Wijnpersse 1926, het cijfer 2 naar de editie uit 1938. De cursiveringen in de edities (toevoegingen en veranderingen op rasuur) zijn in de hier gepresenteerde tekst niet gehandhaafd. In de editie Van de Wijnpersse 1926 werden alle woorden van het handschrift, ook die die geëxpungeerd of doorstreept werden, afgedrukt; deze woorden werden hier weggelaten wanneer er al een gecorrigeerde vorm voor in het handschrift werd ingelast. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONNEN">              
-                     <interp> Parijs, Bibliothèque de l'Arsenal, 8224 bevat van het Horologium Boek I en Boek II, cap. 1-5; de Proloog en het tweede gedeelte van Boek I, cap. 5, die beide ontbreken in het Parijse handschrift, zijn te vinden in Gouda, Gemeentearchief, Librije 297a. </interp>              
-                  </interpGrp>            
-               </bibl>          
-            </listBibl>        
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <appInfo resp="GaLAHaD">
-            <application ident="hug-tdn-all-enhanced"
-                         version="1.0.0"
-                         xml:id="hug-tdn-all-enhanced">
-               <label>POS-tagger and lemmatiser</label>
-               <ptr target="https://github.com/INL/galahad-huggingface-models/tree/master/models/galahad/tagger/pos_model_tdn_all_enhanced"/>
-            </application>
-         </appInfo>
-         <editorialDecl resp="GaLAHaD">
-            <interpretation xml:id="A0001">
-               <ab subtype="POS-tagging_lemmatisation" type="linguisticAnnotation">
-                  <interpGrp type="annotationStyle">
-                     <interp>inline</interp>
-                  </interpGrp>
-                  <interpGrp type="Documentation">
-                     <interp/>
-                  </interpGrp>
-                  <interpGrp type="annotationSet">
-                     <interp>TDN-Core</interp>
-                  </interpGrp>
-                  <interpGrp type="annotationDescription">
-                     <interp>The file was automatically annotated within the platform GaLAHaD, which is a central hub for enriching historical Dutch.</interp>
-                  </interpGrp>
-                  <interpGrp type="annotationFormat">
-                     <interp>TEI xml</interp>
-                  </interpGrp>
-               </ab>
-               <ab subtype="POS-tagging_lemmatisationProvenance1"
-                   type="linguisticAnnotation">
-                  <interpGrp type="annotationMode">
-                     <interp>automatically annotated</interp>
-                  </interpGrp>
-                  <interpGrp type="processor">
-                     <interp sameAs="#hug-tdn-all-enhanced"/>
-                  </interpGrp>
-                  <date from="2026-02-25" to="2026-02-25"/>
-               </ab>
-            </interpretation>
-         </editorialDecl>
-         <appInfo resp="LAnCeLoT">
-            <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
-               <label>tool for manual verification of linguistic annotations</label>
-               <ptr target="https://portal.clarin.ivdnt.org/lancelot"/>
-            </application>
-         </appInfo>
-         <editorialDecl resp="LAnCeLoT">
-            <interpretation>
-               <ab subtype="POS-tagging_lemmatisationProvenance2"
-                   type="linguisticAnnotation">
-                  <interpGrp type="annotationMode">
-                     <interp>manually verified</interp>
-                  </interpGrp>
-                  <interpGrp type="tool">
-                     <interp sameAs="#LAnCeLoT"/>
-                  </interpGrp>
-                  <interpGrp type="user">
-                     <interp>jesse</interp>
-                  </interpGrp>
-                  <date from="2026-02-25" to="2026-10-22"/>
-               </ab>
-            </interpretation>
-         </editorialDecl>
-      </encodingDesc>        
-      <profileDesc>
-         <langUsage>
-            <language ident="nl">Dutch<interpGrp type="dominantLanguage">
-                  <interp>true</interp>
-               </interpGrp>
-            </language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>    
-   <text>    
-      <body>      
-         <pb n="1,111"/>      
-         <div type="chapter">        
-            <head type="chapter"> 
-               <milestone n="G1r" unit="fol"/> 
-               <milestone n="openi344" unit="interpolation"/> 
-            </head>        
-            <p> 
-               <s> 
-                  <milestone n="G4r" unit="fol"/> vanden wisen wive thetuita die inghinc totten coninc in eenre vreemder personen alse haerre kinder ende boghede <pb n="1,114"/> des conincs moet tot goedertierenheit <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.pre.0000067">(</pc> Tobie V <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000068">)</pc> ende die enghel die ghesent was tot tobias <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000069">:</pc> alse hem tobias vraghede wie hi ware <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000070">,</pc> antwoorde hi dat hi ware ananias <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000071">,</pc> des groten azarias sone <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.floating.0000072">-</pc> welke <w cert="1.0"
-                     lemma="dat"
-                     pos="PD(type=d-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.874">dat</w> 
-                  <w cert="1.0"
-                     lemma="niet"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.875">niet</w> 
-                  <w cert="1.0"
-                     lemma="al"
-                     pos="PD(type=indef,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.876">al</w> 
-                  <w cert="1.0"
-                     lemma="ne"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.877">en</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.878">sijn</w> 
-                  <w cert="1.0"
-                     lemma="na+de"
-                     pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.879">nader</w> 
-                  <w cert="1.0"
-                     lemma="letter"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.880">litteren</w> 
-                  <w cert="1.0"
-                     lemma="maar"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.881">mer</w> 
-                  <w cert="1.0"
-                     lemma="na+de"
-                     pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.882">naden</w> 
-                  <w cert="1.0"
-                     lemma="zin"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.883">sinne</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.884">sijn</w> 
-                  <w cert="1.0"
-                     lemma="zij"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.885">si</w> 
-                  <w cert="1.0"
-                     lemma="waar"
-                     pos="AA(degree=pos,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.886">waer</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000073">.</pc> 
-               </s> 
-               <milestone n="G4v" unit="fol"/> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="alzo"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.887">Also</w> 
-                  <w cert="1.0"
-                     lemma="antwoorden"
-                     pos="VRB(finiteness=fin,tense=past)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.888">antwoorde</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.889">die</w> 
-                  <w cert="1.0"
-                     lemma="hoog"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.890">hoghe</w> 
-                  <w cert="1.0"
-                     lemma="leraar"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.891">leraer</w> 
-                  <w cert="1.0"
-                     lemma="Sint-Paulus"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.892">sinte<join n="mw_1773917383"/>
-                  </w> 
-                  <w cert="1.0"
-                     lemma="Sint-Paulus"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.893">pauwel<join n="mw_1773917383"/>
-                  </w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.894">die</w> 
-                  <w cert="1.0"
-                     lemma="gelijkheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.895">ghelijcheit</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.896">sijnre</w> 
-                  <w cert="1.0"
-                     lemma="discipel"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.897">discipulen</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000074">,</pc> 
-                  <w cert="1.0"
-                     lemma="toen"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.898">doe</w> 
-                  <w cert="1.0"
-                     lemma="hij+zij"
-                     pos="PD(type=pers,position=free)+PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.899">hise</w> 
-                  <w cert="1.0"
-                     lemma="beschouwen"
-                     pos="VRB(finiteness=fin,tense=past)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.900">bescoude</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.901">ende</w> 
-                  <w cert="1.0"
-                     lemma="zeggen"
-                     pos="VRB(finiteness=fin,tense=past)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.902">seide</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000075">:</pc> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.903">Ic</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.904">bin</w> 
-                  <w cert="1.0"
-                     lemma="Paulus"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.905">pauli</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000076">,</pc> 
-                  <w cert="1.0"
-                     lemma="maar"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.906">mar</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.907">ic</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.908">bin</w> 
-                  <w cert="1.0"
-                     lemma="Apollo"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.909">apollo</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000077">;</pc> 
-                  <w cert="1.0"
-                     lemma="ne"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.910">en</w> 
-                  <w cert="1.0"
-                     lemma="zijn+gij"
-                     pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.911">sidi</w> 
-                  <w cert="1.0"
-                     lemma="niet"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.912">niet</w> 
-                  <w cert="1.0"
-                     lemma="mens"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.913">menschen</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000078">?</pc> 
-               </s> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.914">Ende</w> 
-                  <w cert="1.0"
-                     lemma="kort"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.915">cort</w> 
-                  <w cert="1.0"
-                     lemma="daarna"
-                     pos="ADV(type=pron)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.916">daerna</w> 
-                  <w cert="1.0"
-                     lemma="spreken"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.917">spreect</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.918">hi</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000079">:</pc> 
-                  <w cert="1.0"
-                     lemma="broeder"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.919">broeders</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000080">,</pc> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.920">dit</w> 
-                  <w cert="1.0"
-                     lemma="hebben"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.921">heb</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.922">ic</w> 
-                  <w cert="1.0"
-                     lemma="overfigureren"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.923">overghefiguriert</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.924">in</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.925">mi</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.926">ende</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.927">in</w> 
-                  <w cert="1.0"
-                     lemma="Apollo"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.928">apollo</w> 
-                  <w cert="1.0"
-                     lemma="om"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.929">om</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.930">iu</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000081">,</pc> 
-                  <w cert="1.0"
-                     lemma="opdat"
-                     pos="CONJ(type=sub)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.931">opdat</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.932">ghi</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.933">in</w> 
-                  <w cert="1.0"
-                     lemma="wij"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.934">ons</w> 
-                  <w cert="1.0"
-                     lemma="leren"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.935">leert</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000082">.</pc> 
-               </s> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="maar"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.936">Mar</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.937">die</w> 
-                  <w cert="1.0"
-                     lemma="heimelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.938">heymelike</w> 
-                  <w cert="1.0"
-                     lemma="verborgenheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.939">verborghentheit</w> 
-                  <w cert="1.0"
-                     lemma="deze"
-                     pos="PD(type=d-p,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.940">deser</w> 
-                  <w cert="1.0"
-                     lemma="gefigureerd"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.941">ghefigurierder</w> 
-                  <w cert="1.0"
-                     lemma="spraak"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.942">sprake</w> 
-                  <w cert="1.0"
-                     lemma="mogen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.943">mach</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.944">die</w> 
-                  <w cert="1.0"
-                     lemma="vlijtig"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.945">vlitighe</w> 
-                  <w cert="1.0"
-                     lemma="lezer"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.946">leser</w> 
-                  <w cert="1.0"
-                     lemma="lichtelijk"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.947">lichtelike</w> 
-                  <w cert="1.0"
-                     lemma="merken"
-                     pos="VRB(finiteness=inf)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.948">merken</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.949">in</w> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.950">dien</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.951">dat</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.952">hi</w> 
-                  <w cert="1.0"
-                     lemma="hem"
-                     pos="PD(type=refl,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.953">hem</w> 
-                  <w cert="1.0"
-                     lemma="pijnen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.954">pijnt</w> 
-                  <w cert="1.0"
-                     lemma="daartoe"
-                     pos="ADV(type=pron)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.955">daertoe</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.956">te</w> 
-                  <w cert="1.0"
-                     lemma="doen"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.957">doen</w> 
-                  <w cert="1.0"
-                     lemma="ernstig"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.958">naernstighe</w> 
-                  <w cert="1.0"
-                     lemma="zorgvuldigheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.959">sorchvoudicheit</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000083">.</pc> 
-               </s> 
-            </p>        
-            <p> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.960">Ic</w> 
-                  <w cert="1.0"
-                     lemma="aanbeden"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.961">aenbede</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.962">ende</w> 
-                  <w cert="1.0"
-                     lemma="bidden"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.963">bidde</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.964">sine</w> 
-                  <w cert="1.0"
-                     lemma="ongemeten"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.965">onghemetene</w> 
-                  <w cert="1.0"
-                     lemma="goedheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.966">goetheit</w> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.967">die</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.968">mi</w> 
-                  <w cert="1.0"
-                     lemma="dwingen"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.969">ghedwonghen</w> 
-                  <w cert="1.0"
-                     lemma="hebben"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.970">heeft</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.971">mit</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.972">sijnre</w> 
-                  <w cert="1.0"
-                     lemma="min"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.973">minnen</w> 
-                  <w cert="1.0"
-                     lemma="aannemen"
-                     pos="VRB(finiteness=inf)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.974">aen<join n="mw_1774970407"/>
-                  </w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.975">te</w> 
-                  <w cert="1.0"
-                     lemma="aannemen"
-                     pos="VRB(finiteness=inf)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.976">nemen<join n="mw_1774970407"/>
-                  </w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.977">dit</w> 
-                  <w cert="1.0"
-                     lemma="werk"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.978">werc</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000084">,</pc> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.979">in</w> 
-                  <w cert="1.0"
-                     lemma="wie"
-                     pos="PD(type=w-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.980">wes</w> 
-                  <w cert="1.0"
-                     lemma="goedheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.981">goetheit</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.982">ic</w> 
-                  <w cert="1.0"
-                     lemma="betrouwen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.983">betrouwe</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000085">,</pc> 
-                  <w cert="1.0"
-                     lemma="want"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.984">want</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.985">hi</w> 
-                  <w cert="1.0"
-                     lemma="wel"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.986">wel</w> 
-                  <w cert="1.0"
-                     lemma="kennen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.987">kent</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.988">dat</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.989">dit</w> 
-                  <w cert="1.0"
-                     lemma="werk"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.990">werc</w> 
-                  <w cert="1.0"
-                     lemma="bovengaan"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.991">bovengaet</w> 
-                  <w cert="1.0"
-                     lemma="mijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.992">mine</w> 
-                  <w cert="1.0"
-                     lemma="kracht"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.993">cracht</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000086">:</pc> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.994">dat</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.995">hi</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.996">in</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.997">den</w> 
-                  <w cert="1.0"
-                     lemma="godsdienstige"
-                     pos="NOU-C(number=pl)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.998">goddienstighen</w> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.999">die</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1000">dit</w> 
-                  <w cert="1.0"
-                     lemma="lezen"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1001">lesen</w> 
-                  <w cert="1.0"
-                     lemma="willen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1002">willen</w> 
-                  <w cert="1.0"
-                     lemma="mijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1003">mijn</w> 
-                  <w cert="1.0"
-                     lemma="gebrek"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1004">ghebrec</w> 
-                  <w cert="1.0"
-                     lemma="vervullen"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1005">vervulle</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000087">,</pc> 
-                  <w cert="1.0"
-                     lemma="alzo"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1006">also</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1007">dat</w> 
-                  <w cert="1.0"
-                     lemma="een"
-                     pos="PD(type=indef,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1008">een</w> 
-                  <w cert="1.0"
-                     lemma="iegelijk"
-                     pos="PD(type=indef,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1009">yghelic</w> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1010">die</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1011">dit</w> 
-                  <w cert="1.0"
-                     lemma="tegenwoordig"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1012">teghenwoordighe</w> 
-                  <w cert="1.0"
-                     lemma="werkje"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1013">wercsken</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1014">mit</w> 
-                  <w cert="1.0"
-                     lemma="rein"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1015">reynre</w> 
-                  <milestone n="G5r" unit="fol"/> 
-                  <w cert="1.0"
-                     lemma="aandacht"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1016">aendacht</w> 
-                  <w cert="1.0"
-                     lemma="overlezen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1017">overleset</w> 
-                  <w cert="1.0"
-                     lemma="of"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1018">of</w> 
-                  <w cert="1.0"
-                     lemma="horen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1019">horet</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000088">,</pc> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1020">dat</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1021">hi</w> 
-                  <w cert="1.0"
-                     lemma="een"
-                     pos="PD(type=indef,subtype=art,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1022">enen</w> 
-                  <w cert="1.0"
-                     lemma="dronk"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1023">dronc</w> 
-                  <w cert="1.0"
-                     lemma="van"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1024">van</w> 
-                  <w cert="1.0"
-                     lemma="innigheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1025">ynnicheden</w> 
-                  <w cert="1.0"
-                     lemma="of"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1026">ofte</w> 
-                  <w cert="1.0"
-                     lemma="enig"
-                     pos="PD(type=indef,subtype=oth,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1027">enighe</w> 
-                  <w cert="1.0"
-                     lemma="nieuw"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1028">niwe</w> 
-                  <w cert="1.0"
-                     lemma="goddelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1029">godlike</w> 
-                  <w cert="1.0"
-                     lemma="gratie"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1030">gracie</w> 
-                  <w cert="1.0"
-                     lemma="moeten"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1031">moet</w> 
-                  <w cert="1.0"
-                     lemma="verdienen"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1032">verdienen</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1033">te</w> 
-                  <w cert="1.0"
-                     lemma="verkrijgen"
-                     pos="VRB(finiteness=inf)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1034">vercrighene</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000089">.</pc> 
-               </s> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="maar"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1035">Mar</w> 
-                  <w cert="1.0"
-                     lemma="het"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1036">het</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1037">is</w> 
-                  <w cert="1.0"
-                     lemma="nut"
-                     pos="AA(degree=pos,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1038">nutte</w> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1039">den</w> 
-                  <w cert="1.0"
-                     lemma="gene"
-                     pos="PD(type=d-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1040">ghenen</w> 
-                  <w cert="1.0"
-                     lemma="die+het"
-                     pos="PD(type=d-p,position=free)+PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1041">diet</w> 
-                  <w cert="1.0"
-                     lemma="lezen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1042">leest</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000090">,</pc> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1043">dat</w> 
-                  <w cert="1.0"
-                     lemma="hij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1044">hi</w> 
-                  <w cert="1.0"
-                     lemma="al"
-                     pos="PD(type=indef,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1045">al</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1046">dit</w> 
-                  <w cert="1.0"
-                     lemma="ernstelijk"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1047">naernstelike</w> 
-                  <w cert="1.0"
-                     lemma="pijnen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1048">pine</w> 
-                  <w cert="1.0"
-                     lemma="over"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1049">over</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1050">te</w> 
-                  <w cert="1.0"
-                     lemma="lezen"
-                     pos="VRB(finiteness=inf)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1051">lesen</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1052">ende</w> 
-                  <w cert="1.0"
-                     lemma="niet"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1053">niet</w> 
-                  <w cert="1.0"
-                     lemma="ne"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1054">en</w> 
-                  <w cert="1.0"
-                     lemma="pijnen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1055">pine</w> 
-                  <w cert="1.0"
-                     lemma="delen"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1056">ghedeilt</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1057">te</w> 
-                  <w cert="1.0"
-                     lemma="smaken"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1058">smaken</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000091">,</pc> 
-                  <w cert="1.0"
-                     lemma="als"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1059">alse</w> 
-                  <w cert="1.0"
-                     lemma="over"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1060">over</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1061">te</w> 
-                  <w cert="1.0"
-                     lemma="gissen"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1062">ghissen</w> 
-                  <w cert="1.0"
-                     lemma="nu"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1063">nu</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1064">dit</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1065">ende</w> 
-                  <w cert="1.0"
-                     lemma="nu"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1066">nu</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="PD(type=d-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1067">dat</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000092">.</pc> 
-               </s> 
-            </p>        
-            <p> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="hierom"
-                     pos="ADV(type=pron)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1068">Hierom</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000093">,</pc> 
-                  <w cert="1.0"
-                     lemma="want"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1069">want</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1070">ic</w> 
-                  <w cert="1.0"
-                     lemma="bekennen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1071">bekenne</w> 
-                  <w cert="1.0"
-                     lemma="mijn"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1072">mijn</w> 
-                  <w cert="1.0"
-                     lemma="onvolkomenheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1073">onvolcomenheit</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000094">,</pc> 
-                  <w cert="1.0"
-                     lemma="beide"
-                     pos="PD(type=indef,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1074">beide</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1075">der</w> 
-                  <w cert="1.0"
-                     lemma="kunst"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1076">const</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1077">ende</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1078">des</w> 
-                  <w cert="1.0"
-                     lemma="leven"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1079">levens</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000095">:</pc> 
-                  <w cert="1.0"
-                     lemma="zo"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1080">so</w> 
-                  <w cert="1.0"
-                     lemma="hebben"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1081">hebbe</w> 
-                  <w cert="1.0"
-                     lemma="ik"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1082">ic</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1083">iu</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000096">,</pc> 
-                  <w cert="1.0"
-                     lemma="minnelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1084">minlike</w> 
-                  <w cert="1.0"
-                     lemma="vader"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1085">vader</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1086">der</w> 
-                  <w cert="1.0"
-                     lemma="kind"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1087">kinder</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000097">,</pc> 
-                  <w cert="1.0"
-                     lemma="Hugo"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1088">Hugo</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000098">,</pc> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1089">die</w> 
-                  <w cert="1.0"
-                     lemma="een"
-                     pos="PD(type=indef,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1090">een</w> 
-                  <w cert="1.0"
-                     lemma="eerzaam"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1091">eersaem</w> 
-                  <w cert="1.0"
-                     lemma="meester"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1092">meister</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1093">sijt</w> 
-                  <w cert="1.0"
-                     lemma="van"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1094">van</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1095">der</w> 
-                  <w cert="1.0"
-                     lemma="prediker"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1096">prediker</w> 
-                  <w cert="1.0"
-                     lemma="oordeel"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1097">oerdel</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000099">,</pc> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1098">dit</w> 
-                  <w cert="1.0"
-                     lemma="werk"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1099">werc</w> 
-                  <w cert="1.0"
-                     lemma="overzenden"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1100">overghesent</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000100">,</pc> 
-                  <w cert="1.0"
-                     lemma="die"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1101">die</w> 
-                  <w cert="1.0"
-                     lemma="in"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1102">in</w> 
-                  <w cert="1.0"
-                     lemma="autoriteit"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1103">auctoriteiten</w> 
-                  <w cert="1.0"
-                     lemma="voorgaan"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1104">voorgaet</w> 
-                  <w cert="1.0"
-                     lemma="ander"
-                     pos="PD(type=indef,subtype=oth,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1105">andere</w> 
-                  <w cert="1.0"
-                     lemma="mens"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1106">menschen</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1107">ende</w> 
-                  <w cert="1.0"
-                     lemma="schijnen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1108">schijnt</w> 
-                  <w cert="1.0"
-                     lemma="met+de"
-                     pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1109">mitter</w> 
-                  <w cert="1.0"
-                     lemma="eer"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1110">ere</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1111">der</w> 
-                  <w cert="1.0"
-                     lemma="meesterschap"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1112">meisterscap</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1113">der</w> 
-                  <w cert="1.0"
-                     lemma="goddelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1114">godliker</w> 
-                  <w cert="1.0"
-                     lemma="kunst"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1115">konst</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000101">.</pc> 
-               </s> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1116">Ende</w> 
-                  <w cert="1.0"
-                     lemma="dat"
-                     pos="PD(type=d-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1117">dat</w> 
-                  <w cert="1.0"
-                     lemma="nog"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1118">noch</w> 
-                  <w cert="1.0"
-                     lemma="meer"
-                     pos="PD(type=indef,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1119">mere</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1120">is</w> 
-                  <w cert="1.0"
-                     lemma="dan"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1121">dan</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1122">dit</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000102">:</pc> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1123">ghi</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1124">sijt</w> 
-                  <w cert="1.0"
-                     lemma="sieren"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1125">ghesciert</w> 
-                  <w cert="1.0"
-                     lemma="met+dat"
-                     pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1126">mitten</w> 
-                  <w cert="1.0"
-                     lemma="licht"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1127">lichte</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1128">der</w> 
-                  <w cert="1.0"
-                     lemma="eeuwig"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1129">ewigher</w> 
-                  <w cert="1.0"
-                     lemma="wijsheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1130">wijsheit</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1131">ende</w> 
-                  <pb n="1,115"/> 
-                  <w cert="1.0"
-                     lemma="begaven"
-                     pos="VRB(finiteness=pastpart)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1132">begavet</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1133">met</w> 
-                  <w cert="1.0"
-                     lemma="geestelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1134">gheesteliken</w> 
-                  <w cert="1.0"
-                     lemma="gave"
-                     pos="NOU-C(number=pl)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1135">gaven</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000103">,</pc> 
-                  <w cert="1.0"
-                     lemma="als"
-                     pos="CONJ(type=sub)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1136">alse</w> 
-                  <w cert="1.0"
-                     lemma="uw"
-                     pos="PD(type=poss,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1137">uwe</w> 
-                  <w cert="1.0"
-                     lemma="vermanend"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1138">vermanende</w> 
-                  <w cert="1.0"
-                     lemma="troostelijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1139">troestelike</w> 
-                  <w cert="1.0"
-                     lemma="brief"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1140">brieve</w> 
-                  <w cert="1.0"
-                     lemma="genoeg"
-                     pos="ADV(type=reg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1141">ghenoech</w> 
-                  <w cert="1.0"
-                     lemma="verklaren"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1142">verclaren</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000104">,</pc> 
-                  <w cert="1.0"
-                     lemma="in+die"
-                     pos="ADP(type=pre)+PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1143">inden</w> 
-                  <w cert="1.0"
-                     lemma="welk"
-                     pos="PD(type=w-p,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1144">welken</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1145">ghi</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1146">mit</w> 
-                  <w cert="1.0"
-                     lemma="groot"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1147">groter</w>  
-                  <w cert="1.0"
-                     lemma="zorgvuldigheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1148">sorchvoudicheit</w>  
-                  <milestone n="G5v" unit="fol"/> 
-                  <w cert="1.0"
-                     lemma="verwekken"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1150">verwecket</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1151">die</w> 
-                  <w cert="1.0"
-                     lemma="gemind"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1152">gheminde</w> 
-                  <w cert="1.0"
-                     lemma="zoon"
-                     pos="NOU-C(number=pl)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1153">sonen</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1154">mit</w> 
-                  <w cert="1.0"
-                     lemma="vaderlijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1155">vaderliker</w> 
-                  <w cert="1.0"
-                     lemma="vermaning"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1156">vermaninghen</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1157">tot</w> 
-                  <w cert="1.0"
-                     lemma="vrede"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1158">vrede</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1159">ende</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1160">tot</w> 
-                  <w cert="1.0"
-                     lemma="broederlijk"
-                     pos="AA(degree=pos,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1161">broederliker</w> 
-                  <w cert="1.0"
-                     lemma="caritaat"
-                     pos="NOU-C(number=sg)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1162">karitate</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1163">ende</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1164">tot</w> 
-                  <w cert="1.0"
-                     lemma="hardheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1165">hartheit</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1166">der</w> 
-                  <w cert="1.0"
-                     lemma="discipline"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1167">disciplinen</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1168">ende</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1169">tot</w> 
-                  <w cert="1.0"
-                     lemma="brand"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1170">brande</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1171">der</w> 
-                  <w cert="1.0"
-                     lemma="innigheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1172">ynnicheit</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1173">ende</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1174">tot</w> 
-                  <w cert="1.0"
-                     lemma="gelijkvormigheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1175">ghelijcformicheit</w> 
-                  <w cert="1.0"
-                     lemma="Jezus"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1176">ihesu</w> 
-                  <w cert="1.0"
-                     lemma="Christus"
-                     pos="NOU-P"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1177">cristi</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1178">ende</w> 
-                  <w cert="1.0"
-                     lemma="tot"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1179">tot</w> 
-                  <w cert="1.0"
-                     lemma="volkomenheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1180">volcomenheit</w> 
-                  <w cert="1.0"
-                     lemma="al"
-                     pos="PD(type=indef,subtype=oth,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1181">alre</w> 
-                  <w cert="1.0"
-                     lemma="deugd"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1182">doghede</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000105">.</pc> 
-               </s> 
-               <s> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1183">Ende</w> 
-                  <w cert="1.0"
-                     lemma="dit"
-                     pos="PD(type=d-p,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1184">dit</w> 
-                  <w cert="1.0"
-                     lemma="ne"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1185">en</w> 
-                  <w cert="1.0"
-                     lemma="zijn"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1186">is</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1187">iu</w> 
-                  <w cert="1.0"
-                     lemma="niet"
-                     pos="ADV(type=reg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1188">niet</w> 
-                  <w cert="1.0"
-                     lemma="genoeg"
-                     pos="PD(type=indef,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1189">ghenoech</w> 
-                  <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000106">,</pc> 
-                  <w cert="1.0"
-                     lemma="maar"
-                     pos="CONJ(type=coor)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1190">mer</w> 
-                  <w cert="1.0"
-                     lemma="gij"
-                     pos="PD(type=pers,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1191">ghi</w> 
-                  <w cert="1.0"
-                     lemma="bezorgen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1192">besorghet</w> 
-                  <w cert="1.0"
-                     lemma="de"
-                     pos="PD(type=d-p,subtype=art,position=prenom)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1193">die</w> 
-                  <w cert="1.0"
-                     lemma="zaligheid"
-                     pos="NOU-C(number=sg)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1194">salicheit</w> 
-                  <w cert="1.0"
-                     lemma="van"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1195">van</w> 
-                  <w cert="1.0"
-                     lemma="veel"
-                     pos="PD(type=indef,subtype=oth,position=prenom)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1196">vele</w> 
-                  <w cert="1.0"
-                     lemma="mens"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1197">menschen</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1198">ende</w> 
-                  <w cert="1.0"
-                     lemma="pijnen"
-                     pos="VRB(finiteness=fin,tense=pres)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1199">pijnt</w> 
-                  <w cert="1.0"
-                     lemma="u"
-                     pos="PD(type=refl,position=free)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1200">iu</w> 
-                  <w cert="1.0"
-                     lemma="te"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1201">te</w> 
-                  <w cert="1.0"
-                     lemma="verwerven"
-                     pos="VRB(finiteness=inf)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1202">verwerven</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1203">mit</w> 
-                  <w cert="1.0"
-                     lemma="woord"
-                     pos="NOU-C(number=pl)"
-                     resp="roland"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1204">woorden</w> 
-                  <w cert="1.0"
-                     lemma="en"
-                     pos="CONJ(type=coor)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1205">ende</w> 
-                  <w cert="1.0"
-                     lemma="met"
-                     pos="ADP(type=pre)"
-                     resp="thomas"
-                     xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1206">mit</w> exemplen <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000107">,</pc> dat die onsalighe volghers deser werelt laten dese vliende ende valsche werelt ende comen totter warer ende ewigher wijsheit <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000108">.</pc> 
-               </s> 
-            </p>        
-            <p> 
-               <s> Daerom eersame vader <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000109">,</pc> doet hiertoe iuwe gheleerde hant ende ondersceidet mit ynlike smake alst hiertoe behoerlic is <pc pos="PC"
-                      xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000110">.</pc> 
-               </s> 
-               <s> Vermeret ende verminret ende doet als die godlike wijsheit ingheestet tot haerre glorien </s> 
-            </p>        
-         </div>      
-      </body>    
-   </text>  
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INT_8fd79010-6644-4644-a200-c6e1f188af3f">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Horologium Aeternae Sapientiae</title>
+        <respStmt>
+          <resp>linguistic annotation by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
+          <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+          <orgName xml:lang="en">Dutch Language Institute</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI merged by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
+          <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+          <orgName xml:lang="en">Dutch Language Institute</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>!Needs to be filled in!</publisher>
+        <idno type="sourceID">Horologium Aeternae Sapientiae</idno>
+        <idno type="GaLAHaDPersistentIdentifier">f834f426-5d93-4928-8c92-3b9182672221_tei</idno>
+      </publicationStmt>
+      <notesStmt>
+        <note> Uit pragmatische overwegingen is voor de hier gepresenteerde tekst gebruik gemaakt van een samenvoeging van de twee (volgens dezelfde editieprincipes samengestelde) edities van Van de Wijnpersse; een voordeel hierbij was dat op die manier ook de proloog en het tweede gedeelte van cap. 5 uit Boek I (waarvan de tekst in het Parijse handschrift ontbreekt) aangeboden konden worden. Bij de hier gebruikte paginering verwijst het cijfer 1 na de accolade naar Van de Wijnpersse 1926, het cijfer 2 naar de editie uit 1938. De cursiveringen in de edities (toevoegingen en veranderingen op rasuur) zijn in de hier gepresenteerde tekst niet gehandhaafd. In de editie Van de Wijnpersse 1926 werden alle woorden van het handschrift, ook die die geëxpungeerd of doorstreept werden, afgedrukt; deze woorden werden hier weggelaten wanneer er al een gecorrigeerde vorm voor in het handschrift werd ingelast. </note>
+        <note resp="GaLAHaD" type="corpusName">MNL-Samples</note>
+        <note resp="GaLAHaD" type="sourceCollection">!No source name defined!</note>
+        <note resp="GaLAHaD" type="sourceCollectionURL">!No source URL defined!</note>
+      </notesStmt>
+      <sourceDesc>
+        <listBibl xml:id="inlMetadata">
+          <bibl>
+            <interpGrp type="sourceID">
+              <interp>mnw_horologium_hs_p</interp>
+            </interpGrp>
+            <interpGrp type="pid">
+              <interp>INT_8fd79010-6644-4644-a200-c6e1f188af3f</interp>
+            </interpGrp>
+            <interpGrp type="subtitleLevel1">
+              <interp> 1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse:  <hi rend="italic"> Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). </hi>  Groningen Batavia, 1938 (56-187). </interp>
+            </interpGrp>
+            <interpGrp type="subtitleLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="subtitleLevel3">
+              <interp>Een verzameling van 336 Middelnederlandse literaire teksten uit de periode 1250-1500, in TEI gecodeerd (oorspronkelijk gepubliceerd op de cd-rom Middelnederlands)</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel1">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel2">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel3">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="editionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="editionLevel2">
+              <interp>1</interp>
+            </interpGrp>
+            <interpGrp type="editionLevel3">
+              <interp>1</interp>
+            </interpGrp>
+            <interpGrp type="editorLevel1">
+              <interp n="7c34c1ea-011b-11e4-b0ff-51bcbd7c379f">A.G.M. van de Wijnpersse</interp>
+            </interpGrp>
+            <interpGrp type="editorLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="editorLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="mediumLevel1">
+              <interp>boek</interp>
+            </interpGrp>
+            <interpGrp type="mediumLevel2">
+              <interp>cd-rom</interp>
+            </interpGrp>
+            <interpGrp type="mediumLevel3">
+              <interp>digitale uitgave</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel1">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel2">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel3">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="placePublicationLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="placePublicationLevel2">
+              <interp>'s-Gravenhage</interp>
+            </interpGrp>
+            <interpGrp type="placePublicationLevel3">
+              <interp>Leiden</interp>
+            </interpGrp>
+            <interpGrp type="publisherLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="publisherLevel2">
+              <interp>SDU Uitgevers</interp>
+              <interp>INL</interp>
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="publisherLevel3">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="isbnLevel2">
+              <interp>9075566905</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel1_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="pubYearLevel1_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="pubYearLevel2_from">
+              <interp>1998</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel2_to">
+              <interp>1998</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel3_from">
+              <interp>2017</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel3_to">
+              <interp>2017</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel1_from">
+              <interp>1340</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel1_to">
+              <interp>1360</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel2_from">
+              <interp>1200</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel2_to">
+              <interp>1820</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel3_from">
+              <interp>1250</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel3_to">
+              <interp>1500</interp>
+            </interpGrp>
+            <interpGrp type="textYearLevel1_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel1_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel2_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel2_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel3_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel3_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_placeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_provinceLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_countryLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_regionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_kloekecodeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_placeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_provinceLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_countryLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_regionLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_kloekecodeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_placeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_provinceLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_countryLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_regionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_kloekecodeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_placeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_provinceLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_countryLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_regionLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_kloekecodeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="ingestTime">
+              <interp>2018-07-05T17:12</interp>
+            </interpGrp>
+            <interpGrp type="factualityLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="factualityLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="factualityLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel1">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel2">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel3">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="settingLocation">
+              <interp />
+            </interpGrp>
+            <interpGrp type="settingPerson">
+              <interp />
+            </interpGrp>
+            <interpGrp type="settingOrganization">
+              <interp />
+            </interpGrp>
+            <interpGrp type="ipr">
+              <interp>extern</interp>
+            </interpGrp>
+            <interpGrp type="copyrightHolder">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="copyrightOwner">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="corpusProvenance">
+              <interp>Corpus-Middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="processingMethod">
+              <interp>born digital</interp>
+            </interpGrp>
+            <interpGrp type="subgenreLevel1">
+              <interp>religious</interp>
+              <interp>theology / ethics</interp>
+            </interpGrp>
+            <interpGrp type="authorLevel1">
+              <interp>Hendrick Suso</interp>
+            </interpGrp>
+            <interpGrp type="genreLevel1">
+              <interp>prose</interp>
+            </interpGrp>
+            <interpGrp type="titleLevel1">
+              <interp>Horologium Aeternae Sapientiae</interp>
+            </interpGrp>
+            <interpGrp type="fictionalityLevel1">
+              <interp>non-fiction</interp>
+            </interpGrp>
+            <interpGrp type="witness_year_from">
+              <interp>1340</interp>
+            </interpGrp>
+            <interpGrp type="witness_year_to">
+              <interp>1360</interp>
+            </interpGrp>
+            <interpGrp type="datering">
+              <interp>1340-1360</interp>
+            </interpGrp>
+            <interpGrp type="decade">
+              <interp>1350</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+              <interp>prose</interp>
+            </interpGrp>
+            <interpGrp type="subgenre">
+              <interp>religious</interp>
+              <interp>theology / ethics</interp>
+            </interpGrp>
+            <interpGrp type="title">
+              <interp>Horologium Aeternae Sapientiae</interp>
+            </interpGrp>
+            <interpGrp type="subtitle">
+              <interp>1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse: Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). Groningen Batavia, 1938 (56-187).</interp>
+            </interpGrp>
+            <interpGrp type="author">
+              <interp>Hendrick Suso</interp>
+            </interpGrp>
+          </bibl>
+        </listBibl>
+        <listBibl xml:id="original-metadata-cdrom-version">
+          <bibl>
+            <interpGrp type="TITEL">
+              <interp> Horologium Aeternae Sapientiae </interp>
+            </interpGrp>
+            <interpGrp type="TITEL">
+              <interp> Oerloy der ewigher wijsheit </interp>
+            </interpGrp>
+            <interpGrp type="author">
+              <interp> Henricus Suso </interp>
+            </interpGrp>
+            <interpGrp type="AARD">
+              <interp> Proza </interp>
+            </interpGrp>
+            <interpGrp type="BRON">
+              <interp> Parijs, Bibliothèque de l'Arsenal, 8224 </interp>
+            </interpGrp>
+            <interpGrp type="DATUM">
+              <interp> 1340-1360 </interp>
+            </interpGrp>
+            <interpGrp type="OMVANG">
+              <interp> 66061 woorden </interp>
+            </interpGrp>
+            <interpGrp type="BRON.OPM">
+              <interp> Handschrift van 5+158 bladen, 2 kolommen per bladzijde, 28 regels per kolom. </interp>
+            </interpGrp>
+            <interpGrp type="EDITIE">
+              <interp> 1. A.G.M. van de Wijnpersse: De Dietse vertaling van Suso's Horologium Aeternae Sapientiae. Groningen - Den Haag, 1926 (118-174 en 179-201). 2. A.G.M. van de Wijnpersse:  <hi rend="italic"> Oerloy der ewigher wijsheit (Horologium Sapientiae door Henricus Suso O.P.). </hi>  Groningen Batavia, 1938 (56-187). </interp>
+            </interpGrp>
+            <interpGrp type="STATUS">
+              <interp> Kritisch </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 654 (ander hs.) </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 655 (ander hs.) </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 868.3 (ander hs.) </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 940.31 (ander hs.) </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 1250. </interp>
+            </interpGrp>
+            <interpGrp type="EDITIE.OPM">
+              <interp> Uit pragmatische overwegingen is voor de hier gepresenteerde tekst gebruik gemaakt van een samenvoeging van de twee (volgens dezelfde editieprincipes samengestelde) edities van Van de Wijnpersse; een voordeel hierbij was dat op die manier ook de proloog en het tweede gedeelte van cap. 5 uit Boek I (waarvan de tekst in het Parijse handschrift ontbreekt) aangeboden konden worden. Bij de hier gebruikte paginering verwijst het cijfer 1 na de accolade naar Van de Wijnpersse 1926, het cijfer 2 naar de editie uit 1938. De cursiveringen in de edities (toevoegingen en veranderingen op rasuur) zijn in de hier gepresenteerde tekst niet gehandhaafd. In de editie Van de Wijnpersse 1926 werden alle woorden van het handschrift, ook die die geëxpungeerd of doorstreept werden, afgedrukt; deze woorden werden hier weggelaten wanneer er al een gecorrigeerde vorm voor in het handschrift werd ingelast. </interp>
+            </interpGrp>
+            <interpGrp type="BRONNEN">
+              <interp> Parijs, Bibliothèque de l'Arsenal, 8224 bevat van het Horologium Boek I en Boek II, cap. 1-5; de Proloog en het tweede gedeelte van Boek I, cap. 5, die beide ontbreken in het Parijse handschrift, zijn te vinden in Gouda, Gemeentearchief, Librije 297a. </interp>
+            </interpGrp>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="GaLAHaD">
+        <application ident="hug-tdn-all-enhanced" version="1.0.0" xml:id="hug-tdn-all-enhanced">
+          <label>POS-tagger and lemmatiser</label>
+          <ptr target="https://github.com/INL/galahad-huggingface-models/tree/master/models/galahad/tagger/pos_model_tdn_all_enhanced" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="GaLAHaD">
+        <interpretation xml:id="A0001">
+          <ab subtype="POS-tagging_lemmatisation" type="linguisticAnnotation">
+            <interpGrp type="annotationStyle">
+              <interp>inline</interp>
+            </interpGrp>
+            <interpGrp type="Documentation">
+              <interp />
+            </interpGrp>
+            <interpGrp type="annotationSet">
+              <interp>TDN-Core</interp>
+            </interpGrp>
+            <interpGrp type="annotationDescription">
+              <interp>The file was automatically annotated within the platform GaLAHaD, which is a central hub for enriching historical Dutch.</interp>
+            </interpGrp>
+            <interpGrp type="annotationFormat">
+              <interp>TEI xml</interp>
+            </interpGrp>
+          </ab>
+          <ab subtype="POS-tagging_lemmatisationProvenance1" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>automatically annotated</interp>
+            </interpGrp>
+            <interpGrp type="processor">
+              <interp sameAs="#hug-tdn-all-enhanced" />
+            </interpGrp>
+            <date from="2026-02-25" to="2026-02-25" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2026-02-25" to="2026-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="nl">Dutch<interpGrp type="dominantLanguage">
+            <interp>true</interp>
+          </interpGrp>
+        </language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1,111" />
+      <div type="chapter">
+        <head type="chapter">
+          <milestone n="G1r" unit="fol" />
+          <milestone n="openi344" unit="interpolation" />
+        </head>
+        <p>
+          <s>
+            <milestone n="G4r" unit="fol" /> vanden wisen wive thetuita die inghinc totten coninc in eenre vreemder personen alse haerre kinder ende boghede <pb n="1,114" /> des conincs moet tot goedertierenheit <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.pre.0000067">(</pc> Tobie V <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000068">)</pc> ende die enghel die ghesent was tot tobias <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000069">:</pc> alse hem tobias vraghede wie hi ware <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000070">,</pc> antwoorde hi dat hi ware ananias <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000071">,</pc> des groten azarias sone <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.floating.0000072">-</pc> welke <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.874">dat</w>
+            <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.875">niet</w>
+            <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.876">al</w>
+            <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.877">en</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.878">sijn</w>
+            <w cert="1.0" lemma="na+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.879">nader</w>
+            <w cert="1.0" lemma="letter" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.880">litteren</w>
+            <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.881">mer</w>
+            <w cert="1.0" lemma="na+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.882">naden</w>
+            <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.883">sinne</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.884">sijn</w>
+            <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.885">si</w>
+            <w cert="1.0" lemma="waar" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.886">waer</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000073">.</pc>
+          </s>
+          <milestone n="G4v" unit="fol" />
+          <s>
+            <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.887">Also</w>
+            <w cert="1.0" lemma="antwoorden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.888">antwoorde</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.889">die</w>
+            <w cert="1.0" lemma="hoog" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.890">hoghe</w>
+            <w cert="1.0" lemma="leraar" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.891">leraer</w>
+            <w cert="1.0" lemma="Sint-Paulus" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.892">sinte<join n="mw_1773917383" />
+            </w>
+            <w cert="1.0" lemma="Sint-Paulus" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.893">pauwel<join n="mw_1773917383" />
+            </w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.894">die</w>
+            <w cert="1.0" lemma="gelijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.895">ghelijcheit</w>
+            <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.896">sijnre</w>
+            <w cert="1.0" lemma="discipel" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.897">discipulen</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000074">,</pc>
+            <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.898">doe</w>
+            <w cert="1.0" lemma="hij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.899">hise</w>
+            <w cert="1.0" lemma="beschouwen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.900">bescoude</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.901">ende</w>
+            <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.902">seide</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000075">:</pc>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.903">Ic</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.904">bin</w>
+            <w cert="1.0" lemma="Paulus" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.905">pauli</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000076">,</pc>
+            <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.906">mar</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.907">ic</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.908">bin</w>
+            <w cert="1.0" lemma="Apollo" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.909">apollo</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000077">;</pc>
+            <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.910">en</w>
+            <w cert="1.0" lemma="zijn+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.911">sidi</w>
+            <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.912">niet</w>
+            <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.913">menschen</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000078">?</pc>
+          </s>
+          <s>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.914">Ende</w>
+            <w cert="1.0" lemma="kort" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.915">cort</w>
+            <w cert="1.0" lemma="daarna" pos="ADV(type=pron)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.916">daerna</w>
+            <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.917">spreect</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.918">hi</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000079">:</pc>
+            <w cert="1.0" lemma="broeder" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.919">broeders</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000080">,</pc>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.920">dit</w>
+            <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.921">heb</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.922">ic</w>
+            <w cert="1.0" lemma="overfigureren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.923">overghefiguriert</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.924">in</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.925">mi</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.926">ende</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.927">in</w>
+            <w cert="1.0" lemma="Apollo" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.928">apollo</w>
+            <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.929">om</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.930">iu</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000081">,</pc>
+            <w cert="1.0" lemma="opdat" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.931">opdat</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.932">ghi</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.933">in</w>
+            <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.934">ons</w>
+            <w cert="1.0" lemma="leren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.935">leert</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000082">.</pc>
+          </s>
+          <s>
+            <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.936">Mar</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.937">die</w>
+            <w cert="1.0" lemma="heimelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.938">heymelike</w>
+            <w cert="1.0" lemma="verborgenheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.939">verborghentheit</w>
+            <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.940">deser</w>
+            <w cert="1.0" lemma="gefigureerd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.941">ghefigurierder</w>
+            <w cert="1.0" lemma="spraak" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.942">sprake</w>
+            <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.943">mach</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.944">die</w>
+            <w cert="1.0" lemma="vlijtig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.945">vlitighe</w>
+            <w cert="1.0" lemma="lezer" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.946">leser</w>
+            <w cert="1.0" lemma="lichtelijk" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.947">lichtelike</w>
+            <w cert="1.0" lemma="merken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.948">merken</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.949">in</w>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.950">dien</w>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.951">dat</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.952">hi</w>
+            <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.953">hem</w>
+            <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.954">pijnt</w>
+            <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.955">daertoe</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.956">te</w>
+            <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.957">doen</w>
+            <w cert="1.0" lemma="ernstig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.958">naernstighe</w>
+            <w cert="1.0" lemma="zorgvuldigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.959">sorchvoudicheit</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000083">.</pc>
+          </s>
+        </p>
+        <p>
+          <s>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.960">Ic</w>
+            <w cert="1.0" lemma="aanbeden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.961">aenbede</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.962">ende</w>
+            <w cert="1.0" lemma="bidden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.963">bidde</w>
+            <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.964">sine</w>
+            <w cert="1.0" lemma="ongemeten" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.965">onghemetene</w>
+            <w cert="1.0" lemma="goedheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.966">goetheit</w>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.967">die</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.968">mi</w>
+            <w cert="1.0" lemma="dwingen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.969">ghedwonghen</w>
+            <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.970">heeft</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.971">mit</w>
+            <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.972">sijnre</w>
+            <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.973">minnen</w>
+            <w cert="1.0" lemma="aannemen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.974">aen<join n="mw_1774970407" />
+            </w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.975">te</w>
+            <w cert="1.0" lemma="aannemen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.976">nemen<join n="mw_1774970407" />
+            </w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.977">dit</w>
+            <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.978">werc</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000084">,</pc>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.979">in</w>
+            <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.980">wes</w>
+            <w cert="1.0" lemma="goedheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.981">goetheit</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.982">ic</w>
+            <w cert="1.0" lemma="betrouwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.983">betrouwe</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000085">,</pc>
+            <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.984">want</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.985">hi</w>
+            <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.986">wel</w>
+            <w cert="1.0" lemma="kennen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.987">kent</w>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.988">dat</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.989">dit</w>
+            <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.990">werc</w>
+            <w cert="1.0" lemma="bovengaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.991">bovengaet</w>
+            <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.992">mine</w>
+            <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.993">cracht</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000086">:</pc>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.994">dat</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.995">hi</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.996">in</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.997">den</w>
+            <w cert="1.0" lemma="godsdienstige" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.998">goddienstighen</w>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.999">die</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1000">dit</w>
+            <w cert="1.0" lemma="lezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1001">lesen</w>
+            <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1002">willen</w>
+            <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1003">mijn</w>
+            <w cert="1.0" lemma="gebrek" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1004">ghebrec</w>
+            <w cert="1.0" lemma="vervullen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1005">vervulle</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000087">,</pc>
+            <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1006">also</w>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1007">dat</w>
+            <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1008">een</w>
+            <w cert="1.0" lemma="iegelijk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1009">yghelic</w>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1010">die</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1011">dit</w>
+            <w cert="1.0" lemma="tegenwoordig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1012">teghenwoordighe</w>
+            <w cert="1.0" lemma="werkje" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1013">wercsken</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1014">mit</w>
+            <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1015">reynre</w>
+            <milestone n="G5r" unit="fol" />
+            <w cert="1.0" lemma="aandacht" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1016">aendacht</w>
+            <w cert="1.0" lemma="overlezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1017">overleset</w>
+            <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1018">of</w>
+            <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1019">horet</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000088">,</pc>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1020">dat</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1021">hi</w>
+            <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1022">enen</w>
+            <w cert="1.0" lemma="dronk" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1023">dronc</w>
+            <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1024">van</w>
+            <w cert="1.0" lemma="innigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1025">ynnicheden</w>
+            <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1026">ofte</w>
+            <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1027">enighe</w>
+            <w cert="1.0" lemma="nieuw" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1028">niwe</w>
+            <w cert="1.0" lemma="goddelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1029">godlike</w>
+            <w cert="1.0" lemma="gratie" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1030">gracie</w>
+            <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1031">moet</w>
+            <w cert="1.0" lemma="verdienen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1032">verdienen</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1033">te</w>
+            <w cert="1.0" lemma="verkrijgen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1034">vercrighene</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000089">.</pc>
+          </s>
+          <s>
+            <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1035">Mar</w>
+            <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1036">het</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1037">is</w>
+            <w cert="1.0" lemma="nut" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1038">nutte</w>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1039">den</w>
+            <w cert="1.0" lemma="gene" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1040">ghenen</w>
+            <w cert="1.0" lemma="die+het" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1041">diet</w>
+            <w cert="1.0" lemma="lezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1042">leest</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000090">,</pc>
+            <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1043">dat</w>
+            <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1044">hi</w>
+            <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1045">al</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1046">dit</w>
+            <w cert="1.0" lemma="ernstelijk" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1047">naernstelike</w>
+            <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1048">pine</w>
+            <w cert="1.0" lemma="over" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1049">over</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1050">te</w>
+            <w cert="1.0" lemma="lezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1051">lesen</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1052">ende</w>
+            <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1053">niet</w>
+            <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1054">en</w>
+            <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1055">pine</w>
+            <w cert="1.0" lemma="delen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1056">ghedeilt</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1057">te</w>
+            <w cert="1.0" lemma="smaken" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1058">smaken</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000091">,</pc>
+            <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1059">alse</w>
+            <w cert="1.0" lemma="over" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1060">over</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1061">te</w>
+            <w cert="1.0" lemma="gissen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1062">ghissen</w>
+            <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1063">nu</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1064">dit</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1065">ende</w>
+            <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1066">nu</w>
+            <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1067">dat</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000092">.</pc>
+          </s>
+        </p>
+        <p>
+          <s>
+            <w cert="1.0" lemma="hierom" pos="ADV(type=pron)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1068">Hierom</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000093">,</pc>
+            <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1069">want</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1070">ic</w>
+            <w cert="1.0" lemma="bekennen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1071">bekenne</w>
+            <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1072">mijn</w>
+            <w cert="1.0" lemma="onvolkomenheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1073">onvolcomenheit</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000094">,</pc>
+            <w cert="1.0" lemma="beide" pos="PD(type=indef,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1074">beide</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1075">der</w>
+            <w cert="1.0" lemma="kunst" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1076">const</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1077">ende</w>
+            <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1078">des</w>
+            <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1079">levens</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000095">:</pc>
+            <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1080">so</w>
+            <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1081">hebbe</w>
+            <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1082">ic</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1083">iu</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000096">,</pc>
+            <w cert="1.0" lemma="minnelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1084">minlike</w>
+            <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1085">vader</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1086">der</w>
+            <w cert="1.0" lemma="kind" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1087">kinder</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000097">,</pc>
+            <w cert="1.0" lemma="Hugo" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1088">Hugo</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000098">,</pc>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1089">die</w>
+            <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1090">een</w>
+            <w cert="1.0" lemma="eerzaam" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1091">eersaem</w>
+            <w cert="1.0" lemma="meester" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1092">meister</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1093">sijt</w>
+            <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1094">van</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1095">der</w>
+            <w cert="1.0" lemma="prediker" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1096">prediker</w>
+            <w cert="1.0" lemma="oordeel" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1097">oerdel</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000099">,</pc>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1098">dit</w>
+            <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1099">werc</w>
+            <w cert="1.0" lemma="overzenden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1100">overghesent</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000100">,</pc>
+            <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1101">die</w>
+            <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1102">in</w>
+            <w cert="1.0" lemma="autoriteit" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1103">auctoriteiten</w>
+            <w cert="1.0" lemma="voorgaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1104">voorgaet</w>
+            <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1105">andere</w>
+            <w cert="1.0" lemma="mens" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1106">menschen</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1107">ende</w>
+            <w cert="1.0" lemma="schijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1108">schijnt</w>
+            <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1109">mitter</w>
+            <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1110">ere</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1111">der</w>
+            <w cert="1.0" lemma="meesterschap" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1112">meisterscap</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1113">der</w>
+            <w cert="1.0" lemma="goddelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1114">godliker</w>
+            <w cert="1.0" lemma="kunst" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1115">konst</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000101">.</pc>
+          </s>
+          <s>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1116">Ende</w>
+            <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1117">dat</w>
+            <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1118">noch</w>
+            <w cert="1.0" lemma="meer" pos="PD(type=indef,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1119">mere</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1120">is</w>
+            <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1121">dan</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1122">dit</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000102">:</pc>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1123">ghi</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1124">sijt</w>
+            <w cert="1.0" lemma="sieren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1125">ghesciert</w>
+            <w cert="1.0" lemma="met+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1126">mitten</w>
+            <w cert="1.0" lemma="licht" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1127">lichte</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1128">der</w>
+            <w cert="1.0" lemma="eeuwig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1129">ewigher</w>
+            <w cert="1.0" lemma="wijsheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1130">wijsheit</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1131">ende</w>
+            <pb n="1,115" />
+            <w cert="1.0" lemma="begaven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1132">begavet</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1133">met</w>
+            <w cert="1.0" lemma="geestelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1134">gheesteliken</w>
+            <w cert="1.0" lemma="gave" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1135">gaven</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000103">,</pc>
+            <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1136">alse</w>
+            <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1137">uwe</w>
+            <w cert="1.0" lemma="vermanend" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1138">vermanende</w>
+            <w cert="1.0" lemma="troostelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1139">troestelike</w>
+            <w cert="1.0" lemma="brief" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1140">brieve</w>
+            <w cert="1.0" lemma="genoeg" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1141">ghenoech</w>
+            <w cert="1.0" lemma="verklaren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1142">verclaren</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000104">,</pc>
+            <w cert="1.0" lemma="in+die" pos="ADP(type=pre)+PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1143">inden</w>
+            <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1144">welken</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1145">ghi</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1146">mit</w>
+            <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1147">groter</w>
+            <w cert="1.0" lemma="zorgvuldigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1148">sorchvoudicheit</w>
+            <milestone n="G5v" unit="fol" />
+            <w cert="1.0" lemma="verwekken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1150">verwecket</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1151">die</w>
+            <w cert="1.0" lemma="gemind" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1152">gheminde</w>
+            <w cert="1.0" lemma="zoon" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1153">sonen</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1154">mit</w>
+            <w cert="1.0" lemma="vaderlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1155">vaderliker</w>
+            <w cert="1.0" lemma="vermaning" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1156">vermaninghen</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1157">tot</w>
+            <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1158">vrede</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1159">ende</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1160">tot</w>
+            <w cert="1.0" lemma="broederlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1161">broederliker</w>
+            <w cert="1.0" lemma="caritaat" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1162">karitate</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1163">ende</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1164">tot</w>
+            <w cert="1.0" lemma="hardheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1165">hartheit</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1166">der</w>
+            <w cert="1.0" lemma="discipline" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1167">disciplinen</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1168">ende</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1169">tot</w>
+            <w cert="1.0" lemma="brand" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1170">brande</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1171">der</w>
+            <w cert="1.0" lemma="innigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1172">ynnicheit</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1173">ende</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1174">tot</w>
+            <w cert="1.0" lemma="gelijkvormigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1175">ghelijcformicheit</w>
+            <w cert="1.0" lemma="Jezus" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1176">ihesu</w>
+            <w cert="1.0" lemma="Christus" pos="NOU-P" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1177">cristi</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1178">ende</w>
+            <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1179">tot</w>
+            <w cert="1.0" lemma="volkomenheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1180">volcomenheit</w>
+            <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1181">alre</w>
+            <w cert="1.0" lemma="deugd" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1182">doghede</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000105">.</pc>
+          </s>
+          <s>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1183">Ende</w>
+            <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1184">dit</w>
+            <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1185">en</w>
+            <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1186">is</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1187">iu</w>
+            <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1188">niet</w>
+            <w cert="1.0" lemma="genoeg" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1189">ghenoech</w>
+            <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000106">,</pc>
+            <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1190">mer</w>
+            <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1191">ghi</w>
+            <w cert="1.0" lemma="bezorgen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1192">besorghet</w>
+            <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1193">die</w>
+            <w cert="1.0" lemma="zaligheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1194">salicheit</w>
+            <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1195">van</w>
+            <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1196">vele</w>
+            <w cert="1.0" lemma="mens" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1197">menschen</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1198">ende</w>
+            <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1199">pijnt</w>
+            <w cert="1.0" lemma="u" pos="PD(type=refl,position=free)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1200">iu</w>
+            <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1201">te</w>
+            <w cert="1.0" lemma="verwerven" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1202">verwerven</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1203">mit</w>
+            <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1204">woorden</w>
+            <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1205">ende</w>
+            <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.w.1206">mit</w> exemplen <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000107">,</pc> dat die onsalighe volghers deser werelt laten dese vliende ende valsche werelt ende comen totter warer ende ewigher wijsheit <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000108">.</pc>
+          </s>
+        </p>
+        <p>
+          <s> Daerom eersame vader <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000109">,</pc> doet hiertoe iuwe gheleerde hant ende ondersceidet mit ynlike smake alst hiertoe behoerlic is <pc pos="PC" xml:id="INT_4a28f943-58a0-436b-9481-f5829b655120.pc.post.0000110">.</pc>
+          </s>
+          <s> Vermeret ende verminret ende doet als die godlike wijsheit ingheestet tot haerre glorien </s>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

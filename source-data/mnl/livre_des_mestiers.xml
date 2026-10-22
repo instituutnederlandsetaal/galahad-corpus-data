@@ -1,2266 +1,929 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INT_70c47cf0-5215-4565-b2b6-d1d7aff01911">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>        
-            <title>Livre des mestiers</title>        
-            <respStmt>
-               <resp>linguistic annotation by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
-               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
-               <orgName xml:lang="en">Dutch Language Institute</orgName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI merged by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
-               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
-               <orgName xml:lang="en">Dutch Language Institute</orgName>
-            </respStmt>
-            <respStmt>
-               <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
-               <persName>
-                  <email>jesse</email>
-               </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>        
-            <publisher>!Needs to be filled in!</publisher>
-            <idno type="sourceID">Livre des mestiers</idno>
-            <idno type="GaLAHaDPersistentIdentifier">bba8ad44-ff6b-4780-9f9e-2109e9f95d88_tei</idno>
-         </publicationStmt>
-         <notesStmt>        
-            <note> Bij de hier gepresenteerde tekst moest afgezien worden van een weergave in twee kolommen; om de band tussen de Oudfranse en de Middelnederlandse tekst toch tot uiting te brengen, werd er voor gekozen de Oudfranse tekst steeds, cursief, onder de corresponderende Middelnederlandse passage te plaatsen; omdat deze lay-out verschilt van de editie kon de foliëring niet gehandhaafd worden. </note>        
-            <note resp="GaLAHaD" type="corpusName">MNL-Samples</note>
-            <note resp="GaLAHaD" type="sourceCollection">!No source name defined!</note>
-            <note resp="GaLAHaD" type="sourceCollectionURL">!No source URL defined!</note>
-         </notesStmt>
-         <sourceDesc>        
-            <listBibl xml:id="inlMetadata">          
-               <bibl>            
-                  <interpGrp type="sourceID">              
-                     <interp>mnw_livre_des_mestiers</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pid">              
-                     <interp>INT_70c47cf0-5215-4565-b2b6-d1d7aff01911</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel1">              
-                     <interp>J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931.</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="subtitleLevel3">              
-                     <interp>Een verzameling van 336 Middelnederlandse literaire teksten uit de periode 1250-1500, in TEI gecodeerd (oorspronkelijk gepubliceerd op de cd-rom Middelnederlands)</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel1">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel2">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="categoryLevel3">              
-                     <interp>uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel2">              
-                     <interp>1</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editionLevel3">              
-                     <interp>1</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel1">              
-                     <interp n="7c081172-011b-11e4-b0ff-51bcbd7c379f">J. Gessler</interp>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="editorLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel1">              
-                     <interp>boek</interp>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel2">              
-                     <interp>cd-rom</interp>              
-                  </interpGrp>            
-                  <interpGrp type="mediumLevel3">              
-                     <interp>digitale uitgave</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel1">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel2">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="resourceURILevel3">              
-                     <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel2">              
-                     <interp>'s-Gravenhage</interp>              
-                  </interpGrp>            
-                  <interpGrp type="placePublicationLevel3">              
-                     <interp>Leiden</interp>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel2">              
-                     <interp>SDU Uitgevers</interp>              
-                     <interp>INL</interp>              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="publisherLevel3">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="isbnLevel2">              
-                     <interp>9075566905</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel1_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel1_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel2_from">              
-                     <interp>1998</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel2_to">              
-                     <interp>1998</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel3_from">              
-                     <interp>2017</interp>              
-                  </interpGrp>            
-                  <interpGrp type="pubYearLevel3_to">              
-                     <interp>2017</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel1_from">              
-                     <interp>1350</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel1_to">              
-                     <interp>1400</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel2_from">              
-                     <interp>1200</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel2_to">              
-                     <interp>1820</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel3_from">              
-                     <interp>1250</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witnessYearLevel3_to">              
-                     <interp>1500</interp>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel1_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel1_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel2_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel2_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel3_from">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textYearLevel3_to">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_placeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_provinceLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_countryLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_regionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_kloekecodeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_placeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_provinceLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_countryLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_regionLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="witnessLocalization_kloekecodeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_placeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_provinceLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_countryLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_regionLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_kloekecodeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_placeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_provinceLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_countryLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_regionLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="textLocalization_kloekecodeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="ingestTime">              
-                     <interp>2018-07-05T17:12</interp>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="factualityLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="statusTextLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="sourceLanguageLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel1">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel2">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="primaryLanguageLevel3">              
-                     <interp>odt</interp>              
-                  </interpGrp>            
-                  <interpGrp type="settingLocation">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="settingPerson">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="settingOrganization">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="ipr">              
-                     <interp>extern</interp>              
-                  </interpGrp>            
-                  <interpGrp type="copyrightHolder">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="copyrightOwner">              
-                     <interp>INT</interp>              
-                  </interpGrp>            
-                  <interpGrp type="corpusProvenance">              
-                     <interp>Corpus-Middelnederlands</interp>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_pageLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel1">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel2">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="biblScope_volumeLevel3">              
-                     <interp/>              
-                  </interpGrp>            
-                  <interpGrp type="processingMethod">              
-                     <interp>born digital</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subgenreLevel1">              
-                     <interp>secular</interp>              
-                     <interp>artes</interp>              
-                     <interp>linguistics</interp>              
-                  </interpGrp>            
-                  <interpGrp type="authorLevel1">              
-                     <interp>unknown</interp>              
-                  </interpGrp>            
-                  <interpGrp type="genreLevel1">              
-                     <interp>prose</interp>              
-                  </interpGrp>            
-                  <interpGrp type="titleLevel1">              
-                     <interp>Livre des mestiers</interp>              
-                  </interpGrp>            
-                  <interpGrp type="fictionalityLevel1">              
-                     <interp>non-fiction</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witness_year_from">              
-                     <interp>1350</interp>              
-                  </interpGrp>            
-                  <interpGrp type="witness_year_to">              
-                     <interp>1400</interp>              
-                  </interpGrp>            
-                  <interpGrp type="datering">              
-                     <interp>1350-1400</interp>              
-                  </interpGrp>            
-                  <interpGrp type="decade">              
-                     <interp>1370</interp>              
-                  </interpGrp>            
-                  <interpGrp type="genre">              
-                     <interp>prose</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subgenre">              
-                     <interp>secular</interp>              
-                     <interp>artes</interp>              
-                     <interp>linguistics</interp>              
-                  </interpGrp>            
-                  <interpGrp type="title">              
-                     <interp>Livre des mestiers</interp>              
-                  </interpGrp>            
-                  <interpGrp type="subtitle">              
-                     <interp>J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931.</interp>              
-                  </interpGrp>            
-                  <interpGrp type="author">              
-                     <interp>unknown</interp>              
-                  </interpGrp>            
-               </bibl>          
-            </listBibl>        
-            <listBibl xml:id="original-metadata-cdrom-version">          
-               <bibl>            
-                  <interpGrp type="TITEL">              
-                     <interp> Livre des mestiers </interp>              
-                  </interpGrp>            
-                  <interpGrp type="TITEL">              
-                     <interp> Gespreksboekje Frans - Nederlands </interp>              
-                  </interpGrp>            
-                  <interpGrp type="author">              
-                     <interp> Onbekend </interp>              
-                  </interpGrp>            
-                  <interpGrp type="AARD">              
-                     <interp> Proza </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRON">              
-                     <interp> Parijs, Bibliothèque Nationale, néerl. 16 </interp>              
-                  </interpGrp>            
-                  <interpGrp type="DATUM">              
-                     <interp> 1350-1400 </interp>              
-                  </interpGrp>            
-                  <interpGrp type="OMVANG">              
-                     <interp> 15389 woorden </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRON.OPM">              
-                     <interp> Handschrift van 24 bladen, 2 kolommen per bladzijde, 38 regels per kolom. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="EDITIE">              
-                     <interp> J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="STATUS">              
-                     <interp> Kritisch </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONMNW">              
-                     <interp> 849 (andere editie) </interp>              
-                  </interpGrp>            
-                  <interpGrp type="EDITIE.OPM">              
-                     <interp> Bij de hier gepresenteerde tekst moest afgezien worden van een weergave in twee kolommen; om de band tussen de Oudfranse en de Middelnederlandse tekst toch tot uiting te brengen, werd er voor gekozen de Oudfranse tekst steeds, cursief, onder de corresponderende Middelnederlandse passage te plaatsen; omdat deze lay-out verschilt van de editie kon de foliëring niet gehandhaafd worden. </interp>              
-                  </interpGrp>            
-                  <interpGrp type="BRONNEN">              
-                     <interp> Parijs, Bibliothèque Nationale, néerl. 16 </interp>              
-                  </interpGrp>            
-               </bibl>          
-            </listBibl>        
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <appInfo resp="GaLAHaD">
-            <application ident="hug-tdn-all-enhanced"
-                         version="1.0.0"
-                         xml:id="hug-tdn-all-enhanced">
-               <label>POS-tagger and lemmatiser</label>
-               <ptr target="https://github.com/INL/galahad-huggingface-models/tree/master/models/galahad/tagger/pos_model_tdn_all_enhanced"/>
-            </application>
-         </appInfo>
-         <editorialDecl resp="GaLAHaD">
-            <interpretation xml:id="A0001">
-               <ab subtype="POS-tagging_lemmatisation" type="linguisticAnnotation">
-                  <interpGrp type="annotationStyle">
-                     <interp>inline</interp>
-                  </interpGrp>
-                  <interpGrp type="Documentation">
-                     <interp/>
-                  </interpGrp>
-                  <interpGrp type="annotationSet">
-                     <interp>TDN-Core</interp>
-                  </interpGrp>
-                  <interpGrp type="annotationDescription">
-                     <interp>The file was automatically annotated within the platform GaLAHaD, which is a central hub for enriching historical Dutch.</interp>
-                  </interpGrp>
-                  <interpGrp type="annotationFormat">
-                     <interp>TEI xml</interp>
-                  </interpGrp>
-               </ab>
-               <ab subtype="POS-tagging_lemmatisationProvenance1"
-                   type="linguisticAnnotation">
-                  <interpGrp type="annotationMode">
-                     <interp>automatically annotated</interp>
-                  </interpGrp>
-                  <interpGrp type="processor">
-                     <interp sameAs="#hug-tdn-all-enhanced"/>
-                  </interpGrp>
-                  <date from="2026-02-25" to="2026-02-25"/>
-               </ab>
-            </interpretation>
-         </editorialDecl>
-         <appInfo resp="LAnCeLoT">
-            <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
-               <label>tool for manual verification of linguistic annotations</label>
-               <ptr target="https://portal.clarin.ivdnt.org/lancelot"/>
-            </application>
-         </appInfo>
-         <editorialDecl resp="LAnCeLoT">
-            <interpretation>
-               <ab subtype="POS-tagging_lemmatisationProvenance2"
-                   type="linguisticAnnotation">
-                  <interpGrp type="annotationMode">
-                     <interp>manually verified</interp>
-                  </interpGrp>
-                  <interpGrp type="tool">
-                     <interp sameAs="#LAnCeLoT"/>
-                  </interpGrp>
-                  <interpGrp type="user">
-                     <interp>jesse</interp>
-                  </interpGrp>
-                  <date from="2026-02-25" to="2026-10-22"/>
-               </ab>
-            </interpretation>
-         </editorialDecl>
-      </encodingDesc>        
-      <profileDesc>
-         <langUsage>
-            <language ident="nl">Dutch<interpGrp type="dominantLanguage">
-                  <interp>true</interp>
-               </interpGrp>
-            </language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>    
-   <text>    
-      <body>      
-         <pb n="5"/>      
-         <pb n="16"/>      
-         <pb n="23"/>      
-         <pb n="25"/>      
-         <pb n="32"/>      
-         <pb n="35"/>      
-         <p> 
-            <s> yvres <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003212">;</pc> il soloit estre brouteur le milleur de le ville <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003213">,</pc> et s'avoit boine brouette <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003214">;</pc> mais elle gist en wages pour un tonnel de hopembier <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003215">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> Ysoreid <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003216">,</pc> die besiecte <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003217">,</pc> es ghevonnest beziect <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003218">:</pc> hi woend ten zieken lieden <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003219">,</pc> ende ne dar nemmeer habiteren onder die ghesonde lieden <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003220">,</pc> omme de vreesen diere af mochte <w cert="1.0"
-                  lemma="komen"
-                  pos="VRB(finiteness=inf)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13139">comen</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003221">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="naardat"
-                  pos="CONJ(type=sub)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13140">Naer<join n="mw_1781707042"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="naardat"
-                  pos="CONJ(type=sub)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13141">dat<join n="mw_1781707042"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="wij"
-                  pos="PD(type=pers,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13142">wi</w> 
-               <w cert="1.0"
-                  lemma="lezen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13143">lesen</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003222">,</pc> 
-               <w cert="1.0"
-                  lemma="kunnen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13144">can</w> 
-               <w cert="1.0"
-                  lemma="hij"
-                  pos="PD(type=pers,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13145">hi</w> 
-               <w cert="1.0"
-                  lemma="wezen"
-                  pos="VRB(finiteness=inf)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13146">wesen</w> 
-               <w cert="1.0"
-                  lemma="verduldig"
-                  pos="AA(degree=pos,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13147">verduldich</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003223">,</pc> 
-               <w cert="1.0"
-                  lemma="hij"
-                  pos="PD(type=pers,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13148">hi</w> 
-               <w cert="1.0"
-                  lemma="zullen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13149">sal</w> 
-               <w cert="1.0"
-                  lemma="hebben"
-                  pos="VRB(finiteness=inf)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13150">hebben</w> 
-               <w cert="1.0"
-                  lemma="hemelrijk"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13151">hemelrike</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003224">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> 
-               <w cert="1.0"
-                  lemma="ysoreis"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13152">Ysoreis</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003225">,</pc> 
-               <w cert="1.0"
-                  lemma="le"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13153">le</w> 
-               <w cert="1.0"
-                  lemma="mesel"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13154">mesel</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003226">,</pc> 
-               <w cert="1.0"
-                  lemma="est"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13155">est</w> 
-               <w cert="1.0"
-                  lemma="jugiés"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13156">jugiés</w> 
-               <w cert="1.0"
-                  lemma="comme"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13157">comme</w> 
-               <w cert="1.0"
-                  lemma="meseaus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13158">meseaus</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003227">:</pc> 
-               <w cert="1.0"
-                  lemma="il"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13159">il</w> 
-               <w cert="1.0"
-                  lemma="demuere"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13160">demuere</w> 
-               <w cert="1.0"
-                  lemma="a"
-                  pos="RES(type=for)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13161">a</w> 
-               <w cert="1.0"
-                  lemma="le"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13162">le</w> 
-               <w cert="1.0"
-                  lemma="maladerie"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13163">maladerie</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003228">,</pc> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13164">et</w> 
-               <w cert="1.0"
-                  lemma="n'oise"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13165">n'oise</w> 
-               <w cert="1.0"
-                  lemma="mais"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13166">mais</w> 
-               <w cert="1.0"
-                  lemma="habiter"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13167">habiter</w> 
-               <w cert="1.0"
-                  lemma="entre"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13168">entre</w> 
-               <w cert="1.0"
-                  lemma="les"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13169">les</w> 
-               <w cert="1.0"
-                  lemma="saines"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13170">saines</w> 
-               <w cert="1.0"
-                  lemma="gens"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13171">gens</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003229">,</pc> 
-               <w cert="1.0"
-                  lemma="pour"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13172">pour</w> 
-               <w cert="1.0"
-                  lemma="les"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13173">les</w> 
-               <w cert="1.0"
-                  lemma="perils"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13174">perils</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13175">qui</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13176">en</w> 
-               <w cert="1.0"
-                  lemma="porroient"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13177">porroient</w> 
-               <w cert="1.0"
-                  lemma="venir"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13178">venir</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003230">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="selonc"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13179">Selonc</w> 
-               <w cert="1.0"
-                  lemma="che"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13180">che</w> 
-               <w cert="1.0"
-                  lemma="que"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13181">que</w> 
-               <w cert="1.0"
-                  lemma="nous"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13182">nous</w> 
-               <w cert="1.0"
-                  lemma="lisons"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13183">lisons</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003231">,</pc> 
-               <w cert="1.0"
-                  lemma="s'il"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13184">s'il</w> 
-               <w cert="1.0"
-                  lemma="sceit"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13185">sceit</w> 
-               <w cert="1.0"
-                  lemma="estre"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13186">estre</w> 
-               <w cert="1.0"
-                  lemma="pacient"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13187">pacient</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003232">,</pc> 
-               <w cert="1.0"
-                  lemma="il"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13188">il</w> 
-               <w cert="1.0"
-                  lemma="aura"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13189">aura</w> 
-               <w cert="1.0"
-                  lemma="paradis"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13190">paradis</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003233">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> 
-               <w cert="1.0"
-                  lemma="Isaak"
-                  pos="NOU-P"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13191">Ysaac</w> 
-               <w cert="1.0"
-                  lemma="van+de"
-                  pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13192">vander</w> 
-               <w cert="1.0"
-                  lemma="meers"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13193">Meersch</w> 
-               <w cert="1.0"
-                  lemma="zeggen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13194">seigt</w> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="CONJ(type=sub)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13195">dat</w> 
-               <w cert="1.0"
-                  lemma="Onze-Heer"
-                  pos="NOU-P"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13196">Onse<join n="mw_1782120609"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="Onze-Heer"
-                  pos="NOU-P"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13197">Heere<join n="mw_1782120609"/>
-               </w> 
-               <pb n="47"/> 
-               <w cert="1.0"
-                  lemma="laten"
-                  pos="VRB(finiteness=fin,tense=past)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13198">liet</w> 
-               <w cert="1.0"
-                  lemma="hierbeneden"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13199">hier<join n="mw_1782381529"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="hierbeneden"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13200">beneden<join n="mw_1782381529"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="PD(type=poss,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13201">sine</w> 
-               <w cert="1.0"
-                  lemma="macht"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13202">macht</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13203">in</w> 
-               <w cert="1.0"
-                  lemma="woerd"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13204">woerden</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003234">,</pc> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13205">in</w> 
-               <w cert="1.0"
-                  lemma="kruid"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13206">cruden</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13207">ende</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13208">in</w> 
-               <w cert="1.0"
-                  lemma="gesteente"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13209">ghesteenten</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003235">;</pc> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13210">ende</w> 
-               <w cert="1.0"
-                  lemma="van"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13211">van</w> 
-               <w cert="1.0"
-                  lemma="al"
-                  pos="PD(type=indef,subtype=oth,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13212">allen</w> 
-               <w cert="1.0"
-                  lemma="woord"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13213">woorden</w> 
-               <w cert="1.0"
-                  lemma="die"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13214">die</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13215">sijn</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13216">in</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13217">die</w> 
-               <w cert="1.0"
-                  lemma="wereld"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13218">weerelt</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003236">,</pc> 
-               <w cert="1.0"
-                  lemma="zijn+het"
-                  pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13219">sijn't</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13220">de</w> 
-               <w cert="1.0"
-                  lemma="best"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13221">beste</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003237">,</pc> 
-               <w cert="1.0"
-                  lemma="degene"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13222">dieghone</w> 
-               <w cert="1.0"
-                  lemma="daarmede"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13223">daer<join n="mw_1781792938"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="men"
-                  pos="PD(type=pers,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13224">men</w> 
-               <w cert="1.0"
-                  lemma="daarmede"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13225">mede<join n="mw_1781792938"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="aanbeden"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13226">aenbeet</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13227">ende</w> 
-               <w cert="1.0"
-                  lemma="geven"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13228">gheeft</w> 
-               <w cert="1.0"
-                  lemma="lof"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13229">lof</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="PD(type=poss,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13230">sinen</w> 
-               <w cert="1.0"
-                  lemma="Schepper"
-                  pos="NOU-P"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13231">Sceppere</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003238">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13232">Die</w> 
-               <w cert="1.0"
-                  lemma="waardig"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13233">weerdichste</w> 
-               <w cert="1.0"
-                  lemma="kruid"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13234">cruden</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003239">,</pc> 
-               <w cert="1.0"
-                  lemma="die"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13235">die</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13236">sijn</w> 
-               <w cert="1.0"
-                  lemma="degene"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13237">dieghone</w> 
-               <w cert="1.0"
-                  lemma="daarbij"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13238">daer<join n="mw_1775036160"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13239">die</w> 
-               <w cert="1.0"
-                  lemma="mens"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13240">mensche</w> 
-               <w cert="1.0"
-                  lemma="daarbij"
-                  pos="ADV(type=pron)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13241">bi<join n="mw_1775036160"/>
-               </w> 
-               <w cert="1.0"
-                  lemma="leven"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13242">leeft</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003240">,</pc> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13243">ende</w> 
-               <w cert="1.0"
-                  lemma="dat+zijn"
-                  pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13244">dat's</w> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13245">t</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003241">'</pc> 
-               <w cert="1.0"
-                  lemma="koren"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13246">coren</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003242">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13247">Die</w> 
-               <w cert="1.0"
-                  lemma="precieus"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13248">precieuste</w> 
-               <w cert="1.0"
-                  lemma="steen"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13249">steen</w> 
-               <w cert="1.0"
-                  lemma="die"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13250">die</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13251">es</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003243">,</pc> 
-               <w cert="1.0"
-                  lemma="dat+zijn"
-                  pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13252">dat's</w> 
-               <w cert="1.0"
-                  lemma="degene"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13253">dieghene</w> 
-               <w cert="1.0"
-                  lemma="die"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13254">die</w> 
-               <w cert="1.0"
-                  lemma="malen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13255">maeld</w> 
-               <w cert="1.0"
-                  lemma="dat+koren"
-                  pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13256">t'coren</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003244">,</pc> 
-               <w cert="1.0"
-                  lemma="want"
-                  pos="CONJ(type=coor)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13257">want</w> 
-               <w cert="1.0"
-                  lemma="al"
-                  pos="PD(type=indef,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13258">al</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13259">die</w> 
-               <w cert="1.0"
-                  lemma="wereld"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13260">weerlt</w> 
-               <w cert="1.0"
-                  lemma="hebben"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13261">heeft</w> 
-               <w cert="1.0"
-                  lemma="noot"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13262">noot</w> 
-               <w cert="1.0"
-                  lemma="van"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13263">van</w> 
-               <w cert="1.0"
-                  lemma="hij"
-                  pos="PD(type=pers,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13264">hem</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13265">ende</w> 
-               <w cert="1.0"
-                  lemma="te+al"
-                  pos="ADP(type=pre)+PD(type=indef,subtype=oth,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13266">t'allen</w> 
-               <w cert="1.0"
-                  lemma="lieden"
-                  pos="NOU-C(number=pl)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13267">lieden</w> 
-               <w cert="1.0"
-                  lemma="dienen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13268">dient</w> 
-               <w cert="1.0"
-                  lemma="hij"
-                  pos="PD(type=pers,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13269">hi</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003245">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> 
-               <w cert="1.0"
-                  lemma="ysaac"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13270">Ysaac</w> 
-               <w cert="1.0"
-                  lemma="du"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13271">du</w> 
-               <w cert="1.0"
-                  lemma="pré"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13272">Pré</w> 
-               <w cert="1.0"
-                  lemma="dist"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13273">dist</w> 
-               <w cert="1.0"
-                  lemma="que"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13274">que</w> 
-               <w cert="1.0"
-                  lemma="nostre"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13275">Nostre</w> 
-               <w cert="1.0"
-                  lemma="singneur"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13276">Singneur</w> 
-               <w cert="1.0"
-                  lemma="laissa"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13277">laissa</w> 
-               <w cert="1.0"
-                  lemma="cha"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13278">cha</w> 
-               <w cert="1.0"
-                  lemma="jus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13279">jus</w> 
-               <w cert="1.0"
-                  lemma="ses"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13280">ses</w> 
-               <w cert="1.0"
-                  lemma="vertus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13281">vertus</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13282">en</w> 
-               <w cert="1.0"
-                  lemma="paroles"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13283">paroles</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003246">,</pc> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13284">en</w> 
-               <w cert="1.0"
-                  lemma="herbes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13285">herbes</w> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13286">et</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13287">en</w> 
-               <w cert="1.0"
-                  lemma="pierres"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13288">pierres</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003247">;</pc> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13289">et</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13290">de</w> 
-               <w cert="1.0"
-                  lemma="toutes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13291">toutes</w> 
-               <w cert="1.0"
-                  lemma="les"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13292">les</w> 
-               <w cert="1.0"
-                  lemma="paroles"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13293">paroles</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13294">qui</w> 
-               <w cert="1.0"
-                  lemma="soyent"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13295">soyent</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13296">en</w> 
-               <w cert="1.0"
-                  lemma="monde"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13297">monde</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003248">,</pc> 
-               <w cert="1.0"
-                  lemma="sont"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13298">sont</w> 
-               <w cert="1.0"
-                  lemma="che"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13299">che</w> 
-               <w cert="1.0"
-                  lemma="les"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13300">les</w> 
-               <w cert="1.0"
-                  lemma="milleures"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13301">milleures</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003249">,</pc> 
-               <w cert="1.0"
-                  lemma="chelles"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13302">chelles</w> 
-               <w cert="1.0"
-                  lemma="dont"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13303">dont</w> 
-               <w cert="1.0"
-                  lemma="on"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13304">on</w> 
-               <w cert="1.0"
-                  lemma="aeure"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13305">aeure</w> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13306">et</w> 
-               <w cert="1.0"
-                  lemma="rend"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13307">rend</w> 
-               <w cert="1.0"
-                  lemma="graces"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13308">graces</w> 
-               <w cert="1.0"
-                  lemma="a"
-                  pos="RES(type=for)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13309">a</w> 
-               <w cert="1.0"
-                  lemma="son"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13310">son</w> 
-               <w cert="1.0"
-                  lemma="creatour"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13311">Creatour</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003250">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="les"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13312">Les</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13313">plus</w> 
-               <w cert="1.0"
-                  lemma="dignes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13314">dignes</w> 
-               <w cert="1.0"
-                  lemma="hierbes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13315">hierbes</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13316">qui</w> 
-               <w cert="1.0"
-                  lemma="soient"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13317">soient</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003251">,</pc> 
-               <w cert="1.0"
-                  lemma="sont"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13318">sont</w> 
-               <w cert="1.0"
-                  lemma="chelles"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13319">chelles</w> 
-               <w cert="1.0"
-                  lemma="dont"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13320">dont</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13321">li</w> 
-               <w cert="1.0"
-                  lemma="cristiens"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13322">cristiens</w> 
-               <w cert="1.0"
-                  lemma="vit"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13323">vit</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003252">,</pc> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13324">et</w> 
-               <w cert="1.0"
-                  lemma="ch'est"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13325">ch'est</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13326">li</w> 
-               <w cert="1.0"
-                  lemma="fourmens"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13327">fourmens</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003253">.</pc> 
-            </s> 
-            <s> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13328">La</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13329">plus</w> 
-               <w cert="1.0"
-                  lemma="precieuse"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13330">precieuse</w> 
-               <w cert="1.0"
-                  lemma="pierre"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13331">pierre</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13332">qui</w> 
-               <w cert="1.0"
-                  lemma="soit"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13333">soit</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003254">,</pc> 
-               <w cert="1.0"
-                  lemma="ch'est"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13334">ch'est</w> 
-               <w cert="1.0"
-                  lemma="celle"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13335">celle</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13336">qui</w> 
-               <w cert="1.0"
-                  lemma="mieult"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13337">mieult</w> 
-               <w cert="1.0"
-                  lemma="le"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13338">le</w> 
-               <w cert="1.0"
-                  lemma="fourment"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13339">fourment</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003255">,</pc> 
-               <w cert="1.0"
-                  lemma="car"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13340">car</w> 
-               <w cert="1.0"
-                  lemma="tous"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13341">tous</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13342">li</w> 
-               <w cert="1.0"
-                  lemma="mondes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13343">mondes</w> 
-               <w cert="1.0"
-                  lemma="ha"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13344">ha</w> 
-               <w cert="1.0"
-                  lemma="besoing"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13345">besoing</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13346">de</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13347">li</w> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13348">et</w> 
-               <w cert="1.0"
-                  lemma="a"
-                  pos="RES(type=for)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13349">a</w> 
-               <w cert="1.0"
-                  lemma="toutes"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13350">toutes</w> 
-               <w cert="1.0"
-                  lemma="gens"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13351">gens</w> 
-               <w cert="1.0"
-                  lemma="siert"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13352">siert</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003256">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> 
-               <w cert="1.0"
-                  lemma="Iwein"
-                  pos="NOU-P"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13353">Yeuwain</w> 
-               <w cert="1.0"
-                  lemma="van+dat"
-                  pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13354">vanden</w> 
-               <w cert="1.0"
-                  lemma="veld"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13355">Velde</w> 
-               <w cert="1.0"
-                  lemma="togen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13356">tooght</w> 
-               <w cert="1.0"
-                  lemma="wij"
-                  pos="PD(type=pers,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13357">ons</w> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="CONJ(type=sub)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13358">dat</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13359">de</w> 
-               <w cert="1.0"
-                  lemma="hond"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13360">hond</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13361">es</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13362">die</w> 
-               <w cert="1.0"
-                  lemma="bekennelijk"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13363">bekenlicste</w> 
-               <w cert="1.0"
-                  lemma="beest"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13364">beeste</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13365">ende</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13366">die</w> 
-               <w cert="1.0"
-                  lemma="loyaal"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13367">loyalste</w> 
-               <w cert="1.0"
-                  lemma="van+de"
-                  pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13368">vander</w> 
-               <w cert="1.0"
-                  lemma="wereld"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13369">weerelt</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003257">,</pc> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13370">ende</w> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="CONJ(type=sub)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13371">dat</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13372">die</w> 
-               <w cert="1.0"
-                  lemma="mier"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13373">miere</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13374">es</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13375">die</w> 
-               <w cert="1.0"
-                  lemma="naarriekend"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13376">naerriekenste</w> 
-               <w cert="1.0"
-                  lemma="beest"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13377">beeste</w> 
-               <w cert="1.0"
-                  lemma="die"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13378">die</w> 
-               <w cert="1.0"
-                  lemma="zijn"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13379">zij</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13380">in</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13381">die</w> 
-               <w cert="1.0"
-                  lemma="wereld"
-                  pos="NOU-C(number=sg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13382">weerelt</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003258">,</pc> 
-               <w cert="1.0"
-                  lemma="als"
-                  pos="CONJ(type=sub)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13383">als</w> 
-               <w cert="1.0"
-                  lemma="van"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13384">van</w> 
-               <w cert="1.0"
-                  lemma="haar"
-                  pos="PD(type=poss,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13385">hare</w> 
-               <w cert="1.0"
-                  lemma="kleinheid"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13386">cleenhede</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003259">,</pc> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="CONJ(type=coor)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13387">ende</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13388">die</w> 
-               <w cert="1.0"
-                  lemma="vroed"
-                  pos="AA(degree=sup,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13389">vroetste</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003260">,</pc> 
-               <w cert="1.0"
-                  lemma="want"
-                  pos="CONJ(type=coor)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13390">want</w> 
-               <w cert="1.0"
-                  lemma="zo"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13391">zo</w> 
-               <w cert="1.0"
-                  lemma="vergaderen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13392">vergadert</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13393">in</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13394">den</w> 
-               <w cert="1.0"
-                  lemma="zomer"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13395">zomer</w> 
-               <w cert="1.0"
-                  lemma="datgene"
-                  pos="PD(type=d-p,position=free)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13396">tghone</w> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="PD(type=d-p,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13397">dat</w> 
-               <w cert="1.0"
-                  lemma="zo"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13398">soe</w> 
-               <w cert="1.0"
-                  lemma="verteren"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13399">verteerd</w> 
-               <w cert="1.0"
-                  lemma="in"
-                  pos="ADP(type=pre)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13400">in</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13401">den</w> 
-               <w cert="1.0"
-                  lemma="winter"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13402">winter</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003261">;</pc> 
-               <w cert="1.0"
-                  lemma="dat"
-                  pos="PD(type=d-p,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13403">dat</w> 
-               <w cert="1.0"
-                  lemma="ne"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13404">ne</w> 
-               <w cert="1.0"
-                  lemma="doen"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13405">doet</w> 
-               <w cert="1.0"
-                  lemma="niet"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13406">niet</w> 
-               <w cert="1.0"
-                  lemma="de"
-                  pos="PD(type=d-p,subtype=art,position=prenom)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13407">die</w> 
-               <w cert="1.0"
-                  lemma="krekel"
-                  pos="NOU-C(number=sg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13408">crekele</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003262">:</pc> 
-               <w cert="1.0"
-                  lemma="het"
-                  pos="PD(type=pers,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13409">het</w> 
-               <w cert="1.0"
-                  lemma="ne"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13410">ne</w> 
-               <w cert="1.0"
-                  lemma="voorzien"
-                  pos="VRB(finiteness=fin,tense=pres)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13411">vorsiet</w> 
-               <w cert="1.0"
-                  lemma="hij"
-                  pos="PD(type=pers,position=free)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13412">hem</w> 
-               <w cert="1.0"
-                  lemma="niet"
-                  pos="ADV(type=reg)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13413">niet</w> 
-               <w cert="1.0"
-                  lemma="alzo"
-                  pos="ADV(type=reg)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13414">also</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003263">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> 
-               <w cert="1.0"
-                  lemma="yeuwain"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13415">Yeuwain</w> 
-               <w cert="1.0"
-                  lemma="du"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13416">du</w> 
-               <w cert="1.0"
-                  lemma="camp"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13417">Camp</w> 
-               <w cert="1.0"
-                  lemma="nous"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13418">nous</w> 
-               <w cert="1.0"
-                  lemma="moustre"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13419">moustre</w> 
-               <w cert="1.0"
-                  lemma="que"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13420">que</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13421">li</w> 
-               <w cert="1.0"
-                  lemma="chiens"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13422">chiens</w> 
-               <w cert="1.0"
-                  lemma="est"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13423">est</w> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13424">la</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13425">plus</w> 
-               <w cert="1.0"
-                  lemma="connissable"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13426">connissable</w> 
-               <w cert="1.0"
-                  lemma="bieste"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13427">bieste</w> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13428">et</w> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13429">la</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13430">plus</w> 
-               <w cert="1.0"
-                  lemma="loyalle"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13431">loyalle</w> 
-               <w cert="1.0"
-                  lemma="du"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13432">du</w> 
-               <w cert="1.0"
-                  lemma="monde"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13433">monde</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003264">,</pc> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13434">et</w> 
-               <w cert="1.0"
-                  lemma="que"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13435">que</w> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13436">la</w> 
-               <w cert="1.0"
-                  lemma="formis"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13437">formis</w> 
-               <w cert="1.0"
-                  lemma="est"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13438">est</w> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13439">la</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13440">plus</w> 
-               <w cert="1.0"
-                  lemma="flairans"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13441">flairans</w> 
-               <w cert="1.0"
-                  lemma="bieste"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13442">bieste</w> 
-               <w cert="1.0"
-                  lemma="qui"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13443">qui</w> 
-               <w cert="1.0"
-                  lemma="soit"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13444">soit</w> 
-               <w cert="1.0"
-                  lemma="ou"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13445">ou</w> 
-               <w cert="1.0"
-                  lemma="monde"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13446">monde</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003265">,</pc> 
-               <w cert="1.0"
-                  lemma="tant"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13447">tant</w> 
-               <w cert="1.0"
-                  lemma="qu'a"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13448">qu'a</w> 
-               <w cert="1.0"
-                  lemma="sa"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13449">sa</w> 
-               <w cert="1.0"
-                  lemma="petiteche"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13450">petiteche</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003266">,</pc> 
-               <w cert="1.0"
-                  lemma="et"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13451">et</w> 
-               <w cert="1.0"
-                  lemma="la"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13452">la</w> 
-               <w cert="1.0"
-                  lemma="plus"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13453">plus</w> 
-               <w cert="1.0"
-                  lemma="sage"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13454">sage</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003267">,</pc> 
-               <w cert="1.0"
-                  lemma="car"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13455">car</w> 
-               <w cert="1.0"
-                  lemma="elle"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13456">elle</w> 
-               <w cert="1.0"
-                  lemma="assamble"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13457">assamble</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13458">en</w> 
-               <w cert="1.0"
-                  lemma="esté"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13459">esté</w> 
-               <w cert="1.0"
-                  lemma="chou"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13460">chou</w> 
-               <w cert="1.0"
-                  lemma="qu'elle"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13461">qu'elle</w> 
-               <w cert="1.0"
-                  lemma="despend"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13462">despend</w> 
-               <w cert="1.0"
-                  lemma="en"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13463">en</w> 
-               <w cert="1.0"
-                  lemma="yver"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13464">yver</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003268">;</pc> 
-               <w cert="1.0"
-                  lemma="che"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13465">che</w> 
-               <w cert="1.0"
-                  lemma="ne"
-                  pos="RES(type=for)"
-                  resp="roland"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13466">ne</w> 
-               <w cert="1.0"
-                  lemma="fait"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13467">fait</w> 
-               <w cert="1.0"
-                  lemma="mie"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13468">mie</w> 
-               <w cert="1.0"
-                  lemma="li"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13469">li</w> 
-               <w cert="1.0"
-                  lemma="crinchons"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13470">crinchons</w> 
-               <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003269">:</pc> 
-               <w cert="1.0"
-                  lemma="il"
-                  pos="RES(type=for)"
-                  resp="thomas"
-                  xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13471">il</w> ne se pourvoit mie ainsi <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003270">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> Ysabiaus van Roesselare vercoopt perkement <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003271">,</pc> ende soe vercocht's mi een vel dat flueerde <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003272">;</pc> sodat ic ne mach er niet wel in scriven <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003273">.</pc> 
-            </s> 
-            <s> Men moettet ponsen <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003274">;</pc> het wort er of te slichter <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003275">.</pc> 
-            </s> 
-         </p>      
-         <p> 
-            <s> Ysabiaus de Rolers vend parkemin <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003276">,</pc> et elle m'en vendi une piel qui flua <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003277">;</pc> si </s> 
-         </p>      
-      </body>    
-   </text>  
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INT_70c47cf0-5215-4565-b2b6-d1d7aff01911">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Livre des mestiers</title>
+        <respStmt>
+          <resp>linguistic annotation by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
+          <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+          <orgName xml:lang="en">Dutch Language Institute</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI merged by GaLAHaD (https://portal.clarin.ivdnt.org/galahad)</resp>
+          <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+          <orgName xml:lang="en">Dutch Language Institute</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>!Needs to be filled in!</publisher>
+        <idno type="sourceID">Livre des mestiers</idno>
+        <idno type="GaLAHaDPersistentIdentifier">bba8ad44-ff6b-4780-9f9e-2109e9f95d88_tei</idno>
+      </publicationStmt>
+      <notesStmt>
+        <note> Bij de hier gepresenteerde tekst moest afgezien worden van een weergave in twee kolommen; om de band tussen de Oudfranse en de Middelnederlandse tekst toch tot uiting te brengen, werd er voor gekozen de Oudfranse tekst steeds, cursief, onder de corresponderende Middelnederlandse passage te plaatsen; omdat deze lay-out verschilt van de editie kon de foliëring niet gehandhaafd worden. </note>
+        <note resp="GaLAHaD" type="corpusName">MNL-Samples</note>
+        <note resp="GaLAHaD" type="sourceCollection">!No source name defined!</note>
+        <note resp="GaLAHaD" type="sourceCollectionURL">!No source URL defined!</note>
+      </notesStmt>
+      <sourceDesc>
+        <listBibl xml:id="inlMetadata">
+          <bibl>
+            <interpGrp type="sourceID">
+              <interp>mnw_livre_des_mestiers</interp>
+            </interpGrp>
+            <interpGrp type="pid">
+              <interp>INT_70c47cf0-5215-4565-b2b6-d1d7aff01911</interp>
+            </interpGrp>
+            <interpGrp type="subtitleLevel1">
+              <interp>J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931.</interp>
+            </interpGrp>
+            <interpGrp type="subtitleLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="subtitleLevel3">
+              <interp>Een verzameling van 336 Middelnederlandse literaire teksten uit de periode 1250-1500, in TEI gecodeerd (oorspronkelijk gepubliceerd op de cd-rom Middelnederlands)</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel1">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel2">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="categoryLevel3">
+              <interp>uitgave</interp>
+            </interpGrp>
+            <interpGrp type="editionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="editionLevel2">
+              <interp>1</interp>
+            </interpGrp>
+            <interpGrp type="editionLevel3">
+              <interp>1</interp>
+            </interpGrp>
+            <interpGrp type="editorLevel1">
+              <interp n="7c081172-011b-11e4-b0ff-51bcbd7c379f">J. Gessler</interp>
+            </interpGrp>
+            <interpGrp type="editorLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="editorLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="mediumLevel1">
+              <interp>boek</interp>
+            </interpGrp>
+            <interpGrp type="mediumLevel2">
+              <interp>cd-rom</interp>
+            </interpGrp>
+            <interpGrp type="mediumLevel3">
+              <interp>digitale uitgave</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel1">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel2">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="resourceURILevel3">
+              <interp>https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="placePublicationLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="placePublicationLevel2">
+              <interp>'s-Gravenhage</interp>
+            </interpGrp>
+            <interpGrp type="placePublicationLevel3">
+              <interp>Leiden</interp>
+            </interpGrp>
+            <interpGrp type="publisherLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="publisherLevel2">
+              <interp>SDU Uitgevers</interp>
+              <interp>INL</interp>
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="publisherLevel3">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="isbnLevel2">
+              <interp>9075566905</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel1_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="pubYearLevel1_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="pubYearLevel2_from">
+              <interp>1998</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel2_to">
+              <interp>1998</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel3_from">
+              <interp>2017</interp>
+            </interpGrp>
+            <interpGrp type="pubYearLevel3_to">
+              <interp>2017</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel1_from">
+              <interp>1350</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel1_to">
+              <interp>1400</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel2_from">
+              <interp>1200</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel2_to">
+              <interp>1820</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel3_from">
+              <interp>1250</interp>
+            </interpGrp>
+            <interpGrp type="witnessYearLevel3_to">
+              <interp>1500</interp>
+            </interpGrp>
+            <interpGrp type="textYearLevel1_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel1_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel2_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel2_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel3_from">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textYearLevel3_to">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_placeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_provinceLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_countryLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_regionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_kloekecodeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_placeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_provinceLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_countryLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_regionLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="witnessLocalization_kloekecodeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_placeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_provinceLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_countryLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_regionLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_kloekecodeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_placeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_provinceLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_countryLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_regionLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="textLocalization_kloekecodeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="ingestTime">
+              <interp>2018-07-05T17:12</interp>
+            </interpGrp>
+            <interpGrp type="factualityLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="factualityLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="factualityLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="statusTextLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="sourceLanguageLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel1">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel2">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="primaryLanguageLevel3">
+              <interp>odt</interp>
+            </interpGrp>
+            <interpGrp type="settingLocation">
+              <interp />
+            </interpGrp>
+            <interpGrp type="settingPerson">
+              <interp />
+            </interpGrp>
+            <interpGrp type="settingOrganization">
+              <interp />
+            </interpGrp>
+            <interpGrp type="ipr">
+              <interp>extern</interp>
+            </interpGrp>
+            <interpGrp type="copyrightHolder">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="copyrightOwner">
+              <interp>INT</interp>
+            </interpGrp>
+            <interpGrp type="corpusProvenance">
+              <interp>Corpus-Middelnederlands</interp>
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_pageLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel1">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel2">
+              <interp />
+            </interpGrp>
+            <interpGrp type="biblScope_volumeLevel3">
+              <interp />
+            </interpGrp>
+            <interpGrp type="processingMethod">
+              <interp>born digital</interp>
+            </interpGrp>
+            <interpGrp type="subgenreLevel1">
+              <interp>secular</interp>
+              <interp>artes</interp>
+              <interp>linguistics</interp>
+            </interpGrp>
+            <interpGrp type="authorLevel1">
+              <interp>unknown</interp>
+            </interpGrp>
+            <interpGrp type="genreLevel1">
+              <interp>prose</interp>
+            </interpGrp>
+            <interpGrp type="titleLevel1">
+              <interp>Livre des mestiers</interp>
+            </interpGrp>
+            <interpGrp type="fictionalityLevel1">
+              <interp>non-fiction</interp>
+            </interpGrp>
+            <interpGrp type="witness_year_from">
+              <interp>1350</interp>
+            </interpGrp>
+            <interpGrp type="witness_year_to">
+              <interp>1400</interp>
+            </interpGrp>
+            <interpGrp type="datering">
+              <interp>1350-1400</interp>
+            </interpGrp>
+            <interpGrp type="decade">
+              <interp>1370</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+              <interp>prose</interp>
+            </interpGrp>
+            <interpGrp type="subgenre">
+              <interp>secular</interp>
+              <interp>artes</interp>
+              <interp>linguistics</interp>
+            </interpGrp>
+            <interpGrp type="title">
+              <interp>Livre des mestiers</interp>
+            </interpGrp>
+            <interpGrp type="subtitle">
+              <interp>J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931.</interp>
+            </interpGrp>
+            <interpGrp type="author">
+              <interp>unknown</interp>
+            </interpGrp>
+          </bibl>
+        </listBibl>
+        <listBibl xml:id="original-metadata-cdrom-version">
+          <bibl>
+            <interpGrp type="TITEL">
+              <interp> Livre des mestiers </interp>
+            </interpGrp>
+            <interpGrp type="TITEL">
+              <interp> Gespreksboekje Frans - Nederlands </interp>
+            </interpGrp>
+            <interpGrp type="author">
+              <interp> Onbekend </interp>
+            </interpGrp>
+            <interpGrp type="AARD">
+              <interp> Proza </interp>
+            </interpGrp>
+            <interpGrp type="BRON">
+              <interp> Parijs, Bibliothèque Nationale, néerl. 16 </interp>
+            </interpGrp>
+            <interpGrp type="DATUM">
+              <interp> 1350-1400 </interp>
+            </interpGrp>
+            <interpGrp type="OMVANG">
+              <interp> 15389 woorden </interp>
+            </interpGrp>
+            <interpGrp type="BRON.OPM">
+              <interp> Handschrift van 24 bladen, 2 kolommen per bladzijde, 38 regels per kolom. </interp>
+            </interpGrp>
+            <interpGrp type="EDITIE">
+              <interp> J. Gessler (ed.): Het Brugsche Livre des mestiers en zijn navolgingen. I. M Le Livre des Mestiers - De Bouc vanden Ambachten. Brugge, 1931. </interp>
+            </interpGrp>
+            <interpGrp type="STATUS">
+              <interp> Kritisch </interp>
+            </interpGrp>
+            <interpGrp type="BRONMNW">
+              <interp> 849 (andere editie) </interp>
+            </interpGrp>
+            <interpGrp type="EDITIE.OPM">
+              <interp> Bij de hier gepresenteerde tekst moest afgezien worden van een weergave in twee kolommen; om de band tussen de Oudfranse en de Middelnederlandse tekst toch tot uiting te brengen, werd er voor gekozen de Oudfranse tekst steeds, cursief, onder de corresponderende Middelnederlandse passage te plaatsen; omdat deze lay-out verschilt van de editie kon de foliëring niet gehandhaafd worden. </interp>
+            </interpGrp>
+            <interpGrp type="BRONNEN">
+              <interp> Parijs, Bibliothèque Nationale, néerl. 16 </interp>
+            </interpGrp>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="GaLAHaD">
+        <application ident="hug-tdn-all-enhanced" version="1.0.0" xml:id="hug-tdn-all-enhanced">
+          <label>POS-tagger and lemmatiser</label>
+          <ptr target="https://github.com/INL/galahad-huggingface-models/tree/master/models/galahad/tagger/pos_model_tdn_all_enhanced" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="GaLAHaD">
+        <interpretation xml:id="A0001">
+          <ab subtype="POS-tagging_lemmatisation" type="linguisticAnnotation">
+            <interpGrp type="annotationStyle">
+              <interp>inline</interp>
+            </interpGrp>
+            <interpGrp type="Documentation">
+              <interp />
+            </interpGrp>
+            <interpGrp type="annotationSet">
+              <interp>TDN-Core</interp>
+            </interpGrp>
+            <interpGrp type="annotationDescription">
+              <interp>The file was automatically annotated within the platform GaLAHaD, which is a central hub for enriching historical Dutch.</interp>
+            </interpGrp>
+            <interpGrp type="annotationFormat">
+              <interp>TEI xml</interp>
+            </interpGrp>
+          </ab>
+          <ab subtype="POS-tagging_lemmatisationProvenance1" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>automatically annotated</interp>
+            </interpGrp>
+            <interpGrp type="processor">
+              <interp sameAs="#hug-tdn-all-enhanced" />
+            </interpGrp>
+            <date from="2026-02-25" to="2026-02-25" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2026-02-25" to="2026-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="nl">Dutch<interpGrp type="dominantLanguage">
+            <interp>true</interp>
+          </interpGrp>
+        </language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="5" />
+      <pb n="16" />
+      <pb n="23" />
+      <pb n="25" />
+      <pb n="32" />
+      <pb n="35" />
+      <p>
+        <s> yvres <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003212">;</pc> il soloit estre brouteur le milleur de le ville <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003213">,</pc> et s'avoit boine brouette <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003214">;</pc> mais elle gist en wages pour un tonnel de hopembier <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003215">.</pc>
+        </s>
+      </p>
+      <p>
+        <s> Ysoreid <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003216">,</pc> die besiecte <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003217">,</pc> es ghevonnest beziect <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003218">:</pc> hi woend ten zieken lieden <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003219">,</pc> ende ne dar nemmeer habiteren onder die ghesonde lieden <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003220">,</pc> omme de vreesen diere af mochte <w cert="1.0" lemma="komen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13139">comen</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003221">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="naardat" pos="CONJ(type=sub)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13140">Naer<join n="mw_1781707042" />
+          </w>
+          <w cert="1.0" lemma="naardat" pos="CONJ(type=sub)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13141">dat<join n="mw_1781707042" />
+          </w>
+          <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13142">wi</w>
+          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13143">lesen</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003222">,</pc>
+          <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13144">can</w>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13145">hi</w>
+          <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13146">wesen</w>
+          <w cert="1.0" lemma="verduldig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13147">verduldich</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003223">,</pc>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13148">hi</w>
+          <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13149">sal</w>
+          <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13150">hebben</w>
+          <w cert="1.0" lemma="hemelrijk" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13151">hemelrike</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003224">.</pc>
+        </s>
+      </p>
+      <p>
+        <s>
+          <w cert="1.0" lemma="ysoreis" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13152">Ysoreis</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003225">,</pc>
+          <w cert="1.0" lemma="le" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13153">le</w>
+          <w cert="1.0" lemma="mesel" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13154">mesel</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003226">,</pc>
+          <w cert="1.0" lemma="est" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13155">est</w>
+          <w cert="1.0" lemma="jugiés" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13156">jugiés</w>
+          <w cert="1.0" lemma="comme" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13157">comme</w>
+          <w cert="1.0" lemma="meseaus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13158">meseaus</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003227">:</pc>
+          <w cert="1.0" lemma="il" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13159">il</w>
+          <w cert="1.0" lemma="demuere" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13160">demuere</w>
+          <w cert="1.0" lemma="a" pos="RES(type=for)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13161">a</w>
+          <w cert="1.0" lemma="le" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13162">le</w>
+          <w cert="1.0" lemma="maladerie" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13163">maladerie</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003228">,</pc>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13164">et</w>
+          <w cert="1.0" lemma="n'oise" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13165">n'oise</w>
+          <w cert="1.0" lemma="mais" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13166">mais</w>
+          <w cert="1.0" lemma="habiter" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13167">habiter</w>
+          <w cert="1.0" lemma="entre" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13168">entre</w>
+          <w cert="1.0" lemma="les" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13169">les</w>
+          <w cert="1.0" lemma="saines" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13170">saines</w>
+          <w cert="1.0" lemma="gens" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13171">gens</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003229">,</pc>
+          <w cert="1.0" lemma="pour" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13172">pour</w>
+          <w cert="1.0" lemma="les" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13173">les</w>
+          <w cert="1.0" lemma="perils" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13174">perils</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13175">qui</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13176">en</w>
+          <w cert="1.0" lemma="porroient" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13177">porroient</w>
+          <w cert="1.0" lemma="venir" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13178">venir</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003230">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="selonc" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13179">Selonc</w>
+          <w cert="1.0" lemma="che" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13180">che</w>
+          <w cert="1.0" lemma="que" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13181">que</w>
+          <w cert="1.0" lemma="nous" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13182">nous</w>
+          <w cert="1.0" lemma="lisons" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13183">lisons</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003231">,</pc>
+          <w cert="1.0" lemma="s'il" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13184">s'il</w>
+          <w cert="1.0" lemma="sceit" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13185">sceit</w>
+          <w cert="1.0" lemma="estre" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13186">estre</w>
+          <w cert="1.0" lemma="pacient" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13187">pacient</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003232">,</pc>
+          <w cert="1.0" lemma="il" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13188">il</w>
+          <w cert="1.0" lemma="aura" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13189">aura</w>
+          <w cert="1.0" lemma="paradis" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13190">paradis</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003233">.</pc>
+        </s>
+      </p>
+      <p>
+        <s>
+          <w cert="1.0" lemma="Isaak" pos="NOU-P" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13191">Ysaac</w>
+          <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13192">vander</w>
+          <w cert="1.0" lemma="meers" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13193">Meersch</w>
+          <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13194">seigt</w>
+          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13195">dat</w>
+          <w cert="1.0" lemma="Onze-Heer" pos="NOU-P" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13196">Onse<join n="mw_1782120609" />
+          </w>
+          <w cert="1.0" lemma="Onze-Heer" pos="NOU-P" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13197">Heere<join n="mw_1782120609" />
+          </w>
+          <pb n="47" />
+          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13198">liet</w>
+          <w cert="1.0" lemma="hierbeneden" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13199">hier<join n="mw_1782381529" />
+          </w>
+          <w cert="1.0" lemma="hierbeneden" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13200">beneden<join n="mw_1782381529" />
+          </w>
+          <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13201">sine</w>
+          <w cert="1.0" lemma="macht" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13202">macht</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13203">in</w>
+          <w cert="1.0" lemma="woerd" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13204">woerden</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003234">,</pc>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13205">in</w>
+          <w cert="1.0" lemma="kruid" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13206">cruden</w>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13207">ende</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13208">in</w>
+          <w cert="1.0" lemma="gesteente" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13209">ghesteenten</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003235">;</pc>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13210">ende</w>
+          <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13211">van</w>
+          <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13212">allen</w>
+          <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13213">woorden</w>
+          <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13214">die</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13215">sijn</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13216">in</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13217">die</w>
+          <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13218">weerelt</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003236">,</pc>
+          <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13219">sijn't</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13220">de</w>
+          <w cert="1.0" lemma="best" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13221">beste</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003237">,</pc>
+          <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13222">dieghone</w>
+          <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13223">daer<join n="mw_1781792938" />
+          </w>
+          <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13224">men</w>
+          <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13225">mede<join n="mw_1781792938" />
+          </w>
+          <w cert="1.0" lemma="aanbeden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13226">aenbeet</w>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13227">ende</w>
+          <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13228">gheeft</w>
+          <w cert="1.0" lemma="lof" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13229">lof</w>
+          <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13230">sinen</w>
+          <w cert="1.0" lemma="Schepper" pos="NOU-P" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13231">Sceppere</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003238">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13232">Die</w>
+          <w cert="1.0" lemma="waardig" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13233">weerdichste</w>
+          <w cert="1.0" lemma="kruid" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13234">cruden</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003239">,</pc>
+          <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13235">die</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13236">sijn</w>
+          <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13237">dieghone</w>
+          <w cert="1.0" lemma="daarbij" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13238">daer<join n="mw_1775036160" />
+          </w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13239">die</w>
+          <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13240">mensche</w>
+          <w cert="1.0" lemma="daarbij" pos="ADV(type=pron)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13241">bi<join n="mw_1775036160" />
+          </w>
+          <w cert="1.0" lemma="leven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13242">leeft</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003240">,</pc>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13243">ende</w>
+          <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13244">dat's</w>
+          <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13245">t</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003241">'</pc>
+          <w cert="1.0" lemma="koren" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13246">coren</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003242">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13247">Die</w>
+          <w cert="1.0" lemma="precieus" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13248">precieuste</w>
+          <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13249">steen</w>
+          <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13250">die</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13251">es</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003243">,</pc>
+          <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13252">dat's</w>
+          <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13253">dieghene</w>
+          <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13254">die</w>
+          <w cert="1.0" lemma="malen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13255">maeld</w>
+          <w cert="1.0" lemma="dat+koren" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13256">t'coren</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003244">,</pc>
+          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13257">want</w>
+          <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13258">al</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13259">die</w>
+          <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13260">weerlt</w>
+          <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13261">heeft</w>
+          <w cert="1.0" lemma="noot" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13262">noot</w>
+          <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13263">van</w>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13264">hem</w>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13265">ende</w>
+          <w cert="1.0" lemma="te+al" pos="ADP(type=pre)+PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13266">t'allen</w>
+          <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13267">lieden</w>
+          <w cert="1.0" lemma="dienen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13268">dient</w>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13269">hi</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003245">.</pc>
+        </s>
+      </p>
+      <p>
+        <s>
+          <w cert="1.0" lemma="ysaac" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13270">Ysaac</w>
+          <w cert="1.0" lemma="du" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13271">du</w>
+          <w cert="1.0" lemma="pré" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13272">Pré</w>
+          <w cert="1.0" lemma="dist" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13273">dist</w>
+          <w cert="1.0" lemma="que" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13274">que</w>
+          <w cert="1.0" lemma="nostre" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13275">Nostre</w>
+          <w cert="1.0" lemma="singneur" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13276">Singneur</w>
+          <w cert="1.0" lemma="laissa" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13277">laissa</w>
+          <w cert="1.0" lemma="cha" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13278">cha</w>
+          <w cert="1.0" lemma="jus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13279">jus</w>
+          <w cert="1.0" lemma="ses" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13280">ses</w>
+          <w cert="1.0" lemma="vertus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13281">vertus</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13282">en</w>
+          <w cert="1.0" lemma="paroles" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13283">paroles</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003246">,</pc>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13284">en</w>
+          <w cert="1.0" lemma="herbes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13285">herbes</w>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13286">et</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13287">en</w>
+          <w cert="1.0" lemma="pierres" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13288">pierres</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003247">;</pc>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13289">et</w>
+          <w cert="1.0" lemma="de" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13290">de</w>
+          <w cert="1.0" lemma="toutes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13291">toutes</w>
+          <w cert="1.0" lemma="les" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13292">les</w>
+          <w cert="1.0" lemma="paroles" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13293">paroles</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13294">qui</w>
+          <w cert="1.0" lemma="soyent" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13295">soyent</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13296">en</w>
+          <w cert="1.0" lemma="monde" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13297">monde</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003248">,</pc>
+          <w cert="1.0" lemma="sont" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13298">sont</w>
+          <w cert="1.0" lemma="che" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13299">che</w>
+          <w cert="1.0" lemma="les" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13300">les</w>
+          <w cert="1.0" lemma="milleures" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13301">milleures</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003249">,</pc>
+          <w cert="1.0" lemma="chelles" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13302">chelles</w>
+          <w cert="1.0" lemma="dont" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13303">dont</w>
+          <w cert="1.0" lemma="on" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13304">on</w>
+          <w cert="1.0" lemma="aeure" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13305">aeure</w>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13306">et</w>
+          <w cert="1.0" lemma="rend" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13307">rend</w>
+          <w cert="1.0" lemma="graces" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13308">graces</w>
+          <w cert="1.0" lemma="a" pos="RES(type=for)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13309">a</w>
+          <w cert="1.0" lemma="son" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13310">son</w>
+          <w cert="1.0" lemma="creatour" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13311">Creatour</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003250">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="les" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13312">Les</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13313">plus</w>
+          <w cert="1.0" lemma="dignes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13314">dignes</w>
+          <w cert="1.0" lemma="hierbes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13315">hierbes</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13316">qui</w>
+          <w cert="1.0" lemma="soient" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13317">soient</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003251">,</pc>
+          <w cert="1.0" lemma="sont" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13318">sont</w>
+          <w cert="1.0" lemma="chelles" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13319">chelles</w>
+          <w cert="1.0" lemma="dont" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13320">dont</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13321">li</w>
+          <w cert="1.0" lemma="cristiens" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13322">cristiens</w>
+          <w cert="1.0" lemma="vit" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13323">vit</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003252">,</pc>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13324">et</w>
+          <w cert="1.0" lemma="ch'est" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13325">ch'est</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13326">li</w>
+          <w cert="1.0" lemma="fourmens" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13327">fourmens</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003253">.</pc>
+        </s>
+        <s>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13328">La</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13329">plus</w>
+          <w cert="1.0" lemma="precieuse" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13330">precieuse</w>
+          <w cert="1.0" lemma="pierre" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13331">pierre</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13332">qui</w>
+          <w cert="1.0" lemma="soit" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13333">soit</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003254">,</pc>
+          <w cert="1.0" lemma="ch'est" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13334">ch'est</w>
+          <w cert="1.0" lemma="celle" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13335">celle</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13336">qui</w>
+          <w cert="1.0" lemma="mieult" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13337">mieult</w>
+          <w cert="1.0" lemma="le" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13338">le</w>
+          <w cert="1.0" lemma="fourment" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13339">fourment</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003255">,</pc>
+          <w cert="1.0" lemma="car" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13340">car</w>
+          <w cert="1.0" lemma="tous" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13341">tous</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13342">li</w>
+          <w cert="1.0" lemma="mondes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13343">mondes</w>
+          <w cert="1.0" lemma="ha" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13344">ha</w>
+          <w cert="1.0" lemma="besoing" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13345">besoing</w>
+          <w cert="1.0" lemma="de" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13346">de</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13347">li</w>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13348">et</w>
+          <w cert="1.0" lemma="a" pos="RES(type=for)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13349">a</w>
+          <w cert="1.0" lemma="toutes" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13350">toutes</w>
+          <w cert="1.0" lemma="gens" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13351">gens</w>
+          <w cert="1.0" lemma="siert" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13352">siert</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003256">.</pc>
+        </s>
+      </p>
+      <p>
+        <s>
+          <w cert="1.0" lemma="Iwein" pos="NOU-P" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13353">Yeuwain</w>
+          <w cert="1.0" lemma="van+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13354">vanden</w>
+          <w cert="1.0" lemma="veld" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13355">Velde</w>
+          <w cert="1.0" lemma="togen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13356">tooght</w>
+          <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13357">ons</w>
+          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13358">dat</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13359">de</w>
+          <w cert="1.0" lemma="hond" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13360">hond</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13361">es</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13362">die</w>
+          <w cert="1.0" lemma="bekennelijk" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13363">bekenlicste</w>
+          <w cert="1.0" lemma="beest" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13364">beeste</w>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13365">ende</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13366">die</w>
+          <w cert="1.0" lemma="loyaal" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13367">loyalste</w>
+          <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13368">vander</w>
+          <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13369">weerelt</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003257">,</pc>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13370">ende</w>
+          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13371">dat</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13372">die</w>
+          <w cert="1.0" lemma="mier" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13373">miere</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13374">es</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13375">die</w>
+          <w cert="1.0" lemma="naarriekend" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13376">naerriekenste</w>
+          <w cert="1.0" lemma="beest" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13377">beeste</w>
+          <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13378">die</w>
+          <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13379">zij</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13380">in</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13381">die</w>
+          <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13382">weerelt</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003258">,</pc>
+          <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13383">als</w>
+          <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13384">van</w>
+          <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13385">hare</w>
+          <w cert="1.0" lemma="kleinheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13386">cleenhede</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003259">,</pc>
+          <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13387">ende</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13388">die</w>
+          <w cert="1.0" lemma="vroed" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13389">vroetste</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003260">,</pc>
+          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13390">want</w>
+          <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13391">zo</w>
+          <w cert="1.0" lemma="vergaderen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13392">vergadert</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13393">in</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13394">den</w>
+          <w cert="1.0" lemma="zomer" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13395">zomer</w>
+          <w cert="1.0" lemma="datgene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13396">tghone</w>
+          <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13397">dat</w>
+          <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13398">soe</w>
+          <w cert="1.0" lemma="verteren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13399">verteerd</w>
+          <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13400">in</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13401">den</w>
+          <w cert="1.0" lemma="winter" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13402">winter</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003261">;</pc>
+          <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13403">dat</w>
+          <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13404">ne</w>
+          <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13405">doet</w>
+          <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13406">niet</w>
+          <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13407">die</w>
+          <w cert="1.0" lemma="krekel" pos="NOU-C(number=sg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13408">crekele</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003262">:</pc>
+          <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13409">het</w>
+          <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13410">ne</w>
+          <w cert="1.0" lemma="voorzien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13411">vorsiet</w>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13412">hem</w>
+          <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13413">niet</w>
+          <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13414">also</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003263">.</pc>
+        </s>
+      </p>
+      <p>
+        <s>
+          <w cert="1.0" lemma="yeuwain" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13415">Yeuwain</w>
+          <w cert="1.0" lemma="du" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13416">du</w>
+          <w cert="1.0" lemma="camp" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13417">Camp</w>
+          <w cert="1.0" lemma="nous" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13418">nous</w>
+          <w cert="1.0" lemma="moustre" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13419">moustre</w>
+          <w cert="1.0" lemma="que" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13420">que</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13421">li</w>
+          <w cert="1.0" lemma="chiens" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13422">chiens</w>
+          <w cert="1.0" lemma="est" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13423">est</w>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13424">la</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13425">plus</w>
+          <w cert="1.0" lemma="connissable" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13426">connissable</w>
+          <w cert="1.0" lemma="bieste" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13427">bieste</w>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13428">et</w>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13429">la</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13430">plus</w>
+          <w cert="1.0" lemma="loyalle" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13431">loyalle</w>
+          <w cert="1.0" lemma="du" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13432">du</w>
+          <w cert="1.0" lemma="monde" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13433">monde</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003264">,</pc>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13434">et</w>
+          <w cert="1.0" lemma="que" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13435">que</w>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13436">la</w>
+          <w cert="1.0" lemma="formis" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13437">formis</w>
+          <w cert="1.0" lemma="est" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13438">est</w>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13439">la</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13440">plus</w>
+          <w cert="1.0" lemma="flairans" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13441">flairans</w>
+          <w cert="1.0" lemma="bieste" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13442">bieste</w>
+          <w cert="1.0" lemma="qui" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13443">qui</w>
+          <w cert="1.0" lemma="soit" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13444">soit</w>
+          <w cert="1.0" lemma="ou" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13445">ou</w>
+          <w cert="1.0" lemma="monde" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13446">monde</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003265">,</pc>
+          <w cert="1.0" lemma="tant" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13447">tant</w>
+          <w cert="1.0" lemma="qu'a" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13448">qu'a</w>
+          <w cert="1.0" lemma="sa" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13449">sa</w>
+          <w cert="1.0" lemma="petiteche" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13450">petiteche</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003266">,</pc>
+          <w cert="1.0" lemma="et" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13451">et</w>
+          <w cert="1.0" lemma="la" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13452">la</w>
+          <w cert="1.0" lemma="plus" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13453">plus</w>
+          <w cert="1.0" lemma="sage" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13454">sage</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003267">,</pc>
+          <w cert="1.0" lemma="car" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13455">car</w>
+          <w cert="1.0" lemma="elle" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13456">elle</w>
+          <w cert="1.0" lemma="assamble" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13457">assamble</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13458">en</w>
+          <w cert="1.0" lemma="esté" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13459">esté</w>
+          <w cert="1.0" lemma="chou" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13460">chou</w>
+          <w cert="1.0" lemma="qu'elle" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13461">qu'elle</w>
+          <w cert="1.0" lemma="despend" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13462">despend</w>
+          <w cert="1.0" lemma="en" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13463">en</w>
+          <w cert="1.0" lemma="yver" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13464">yver</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003268">;</pc>
+          <w cert="1.0" lemma="che" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13465">che</w>
+          <w cert="1.0" lemma="ne" pos="RES(type=for)" resp="roland" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13466">ne</w>
+          <w cert="1.0" lemma="fait" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13467">fait</w>
+          <w cert="1.0" lemma="mie" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13468">mie</w>
+          <w cert="1.0" lemma="li" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13469">li</w>
+          <w cert="1.0" lemma="crinchons" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13470">crinchons</w>
+          <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003269">:</pc>
+          <w cert="1.0" lemma="il" pos="RES(type=for)" resp="thomas" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.w.13471">il</w> ne se pourvoit mie ainsi <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003270">.</pc>
+        </s>
+      </p>
+      <p>
+        <s> Ysabiaus van Roesselare vercoopt perkement <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003271">,</pc> ende soe vercocht's mi een vel dat flueerde <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003272">;</pc> sodat ic ne mach er niet wel in scriven <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003273">.</pc>
+        </s>
+        <s> Men moettet ponsen <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003274">;</pc> het wort er of te slichter <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003275">.</pc>
+        </s>
+      </p>
+      <p>
+        <s> Ysabiaus de Rolers vend parkemin <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003276">,</pc> et elle m'en vendi une piel qui flua <pc pos="PC" xml:id="c357171c-dc72-4a06-8cb9-524b5db735d2.pc.post.0003277">;</pc> si </s>
+      </p>
+    </body>
+  </text>
 </TEI>
