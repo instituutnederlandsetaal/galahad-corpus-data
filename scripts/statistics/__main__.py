@@ -32,6 +32,12 @@ def grouped_annotations(corp: TsvCorpus, root: Path) -> None:
     out = root / "analyses"
     out.mkdir(parents=True, exist_ok=True)
     TokenGrouper(
+        out / "lemmainpos_by_grouptok.txt",
+        corp,
+        lambda w: w.group_token.lower(),
+        lambda w: f"‘{w.lemma}’ {to_main_pos(w.pos)}",
+    )
+    TokenGrouper(
         out / "lem_by_tok.txt",
         corp,
         lambda w: w.token.lower(),
@@ -60,6 +66,12 @@ def grouped_annotations(corp: TsvCorpus, root: Path) -> None:
         corp,
         lambda w: f"‘{w.lemma}’",
         lambda w: w.pos,
+    )
+    TokenGrouper(
+        out / "main_pos_by_lem.txt",
+        corp,
+        lambda w: f"‘{w.lemma}’",
+        lambda w: to_main_pos(w.pos),
     )
     TokenGrouper(
         out / "tokpos_by_lem.txt",
