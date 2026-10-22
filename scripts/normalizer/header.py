@@ -211,6 +211,15 @@ def _put_agency_first(root: ET.Element) -> None:
                 break
 
 
+def _remove_date_from_pos_tagging_lancelot(root: ET.Element) -> None:
+    """Remove `<date>` from <ab subtype="POS-tagging_lemmatisationProvenance2"> elements."""
+    for ab in root.findall(
+        './/tei:ab[@subtype="POS-tagging_lemmatisationProvenance2"]',
+        et_ns,
+    ):
+        for date in ab.findall("tei:date", et_ns):
+            ab.remove(date)
+
 
 def _add_desc_to_non_text_interp(root: ET.Element) -> None:
     """Wrap all children of an `<interp>` in `<desc>` if the `<interp>` contains anything other than `<desc>` or plaintext."""
@@ -266,3 +275,4 @@ def normalize_tei_header(root: ET.Element) -> None:
     _fixup_titles(root)
     _fixup_change_resp(root)
     _put_agency_first(root)
+    _remove_date_from_pos_tagging_lancelot(root)
