@@ -21,18 +21,28 @@ class TokenFilter:
         self,
         condition: Callable[[TsvWord], bool],
         comment: Callable[[TsvWord], str] | None = None,
+        sort: Callable[[tuple[TsvWord, str]], any] | None = None,
+        uniq: bool = False,
     ) -> None:
         """Filter tokens based on a given condition and write to output."""
         with self.out.open("w") as f:
             for d in self.corpus.dirs:
                 written_header = False
+                conditioned_words: list[tuple[TsvWord, str]] = []
                 for w in d.words:
                     if condition(w):
                         if not written_header:
                             written_header = True
                             f.write(f"\n{d.name:-^40}\n")
+
                         cmt: str = ("\t " + comment(w)) if comment else ""
-                        f.write(f"{w}{cmt}\n")
+                        conditioned_words.append((w, cmt))
+                if uniq:
+                    conditioned_words = list(set(conditioned_words))
+                if sort:
+                    conditioned_words.sort(key=sort)
+                for w, cmt in conditioned_words:
+                    f.write(f"{w}{cmt}\n")
 
     def report(self, condition: Callable[[TsvWord], bool]) -> None:
         """
