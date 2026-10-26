@@ -156,9 +156,11 @@ def _remove_s_containing_l(root: ET.Element) -> None:
         l = s.find("tei:l", et_ns)
         if l is not None:
             parent = parent_map.get(s)
-            if parent is not None:
-                parent.extend(list(s))
-                parent.remove(s)
+            idx = list(parent).index(s)
+            for child in list(s):
+                parent.insert(idx, child)
+                idx += 1
+            parent.remove(s)
 
 
 def fix_structural_issues(root: ET.Element) -> None:
