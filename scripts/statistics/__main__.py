@@ -3,7 +3,6 @@
 """Analyse the input corpus, generate statistics, and note any suspicious patterns."""
 
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
-from collections import defaultdict
 from pathlib import Path
 
 from scripts.statistics.data import TsvCorpus
@@ -21,9 +20,13 @@ def generate_stats(
     lexicon: Path | None = None,
 ) -> None:
     """Generate all statistics."""
+    print("Suspicious analyses...")
     generate_suspicious(corpus, out, lexicon)
+    print("Grouped annotations...")
     grouped_annotations(corpus, out)
+    print("Corpus size...")
     CorpusSize(out / "size.txt", corpus, metadata)
+    print("Histograms...")
     histograms(corpus, out)
 
 
