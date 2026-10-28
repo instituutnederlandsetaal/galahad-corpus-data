@@ -257,6 +257,19 @@ def _swap_x_for_ref(root: ET.Element) -> None:
         del xref.attrib["ref"]
 
 
+def _remove_w_from_interp_grp(root: ET.Element) -> None:
+    """Remove `<w>` elements from `<interpGrp>` elements."""
+    # transform <interpGrp> <interp> <w> text </w> </interp> </interpGrp>
+    # to <interpGrp> <interp>text</interp> </interpGrp>
+    for interp_grp in root.findall(".//tei:interpGrp", et_ns):
+        for interp in interp_grp.findall("tei:interp", et_ns):
+            w = interp.find("tei:w", et_ns)
+            if w is not None:
+                text = "".join(w.itertext()).strip()
+                interp.text = text
+                interp.remove(w)
+
+
 def normalize_tei_header(root: ET.Element) -> None:
     """Run all `<teiHeader>` fixes."""
     _move_source_desc(root)
@@ -266,6 +279,7 @@ def normalize_tei_header(root: ET.Element) -> None:
     _move_source_desc_p_to_bibl(root)
     _move_bibl_scope_xref_attrs(root)
     _remove_couranten_source_desc_text(root)
+    _remove_w_from_interp_grp(root)
     _add_desc_to_non_text_interp(root)
     _swap_x_for_ref(root)
     # important order:
