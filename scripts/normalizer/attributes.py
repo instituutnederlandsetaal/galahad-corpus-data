@@ -90,6 +90,13 @@ def _remove_illegal_attributes(root: ET.Element) -> None:
                     del node.attrib[attr]
 
 
+def _remove_illegal_lemmaRef(root: ET.Element) -> None:
+    """Remove @lemmaRef from `<w>` and `<pc>` if they contain whitespace."""
+    for el in root.findall(".//tei:w", et_ns) + root.findall(".//tei:pc", et_ns):
+        if "lemmaRef" in el.attrib and re.search(r"\s", el.get("lemmaRef")):
+            del el.attrib["lemmaRef"]
+
+
 def _rename_old_pos_to_type(root: ET.Element) -> None:
     """Rename @old_pos to @type on `<w>` and `<pc>` elements."""
     for el in root.findall(".//tei:w", et_ns) + root.findall(".//tei:pc", et_ns):
@@ -157,6 +164,7 @@ def normalize_attributes(root: ET.Element) -> None:
     """Run all attribute normalization functions."""
     _normalize_root_xml_id(root)
     _remove_illegal_attributes(root)
+    _remove_illegal_lemmaRef(root)
     _rename_old_pos_to_type(root)
     _remove_empty_type_in_w_and_pc(root)
     _move_list_bibl_id_to_xml_id(root)
