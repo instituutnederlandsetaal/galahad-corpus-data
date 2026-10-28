@@ -1689,7 +1689,7 @@ kostbare	AA(degree=pos,position=prenom)	kostbaar
 heeren	NOU-C(number=pl)	heer	
 wil	VRB(finiteness=fin,tense=pres)	willen	
 doen	VRB(finiteness=inf)	doen	
-waarnenen	VRB(finiteness=inf)	waarnenen	
+waarnenen	VRB(finiteness=inf,WF=mis)	waarnemen	
 ;	PC	;	
 eindelijk	ADV(type=reg)	eindelijk	
 verlangt	VRB(finiteness=fin,tense=pres)	verlangen	
@@ -2139,9 +2139,9 @@ openen	VRB(finiteness=inf)	openen
 Geen	PD(type=indef,subtype=oth,position=prenom)	geen	
 ander	PD(type=indef,subtype=oth,position=prenom)	ander	
 redmiddel	NOU-C(number=sg)	redmiddel	
-bleef	VRB(finiteness=fin,tense=past)	overblijven	mw_995524
-er	ADV(type=pron)	erover	mw_936455
-over	VRB(finiteness=fin,tense=past)	overblijven	mw_995524
+bleef	VRB(finiteness=fin,tense=past)	overblijven	mw_1792493070
+er	ADV(type=reg)	er	
+over	VRB(finiteness=fin,tense=past)	overblijven	mw_1792493070
 .	PC	.	
 —	PC	—	
 Tot	ADP(type=pre)	tot	
@@ -3479,7 +3479,7 @@ bestekken	NOU-C(number=pl)	bestek
 van	ADP(type=pre)	van	
 waterstaats-werken	NOU-C(number=pl)	waterstaatswerk	
 in	ADP(type=pre)	in	
-gemelde	PD(type=d-p,subtype=oth,position=prenom)	gemelde	
+gemelde	AA(degree=pos,position=prenom)	gemeld	
 provincie	NOU-C(number=sg)	provincie	
 ter	ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)	te+de	
 lezing	NOU-C(number=sg)	lezing	
@@ -3747,7 +3747,7 @@ bestekken	NOU-C(number=pl)	bestek
 van	ADP(type=pre)	van	
 waterstaats-werken	NOU-C(number=pl)	waterstaatswerk	
 in	ADP(type=pre)	in	
-gemelde	PD(type=d-p,subtype=oth,position=prenom)	gemelde	
+gemelde	AA(degree=pos,position=prenom)	gemeld	
 provincie	NOU-C(number=sg)	provincie	
 ter	ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)	te+de	
 lezing	NOU-C(number=sg)	lezing	
@@ -3824,10 +3824,10 @@ NEDER-	AA(degree=pos,position=prenom)	Nederlands	mw_291028
 LANDSCHE	AA(degree=pos,position=prenom)	Nederlands	mw_291028
 
 
-STAATS-	NOU-C(number=sg)	staatscourant	mw_807293
+STAATS-	NOU-P	Staatscourant	mw_1793190010
 
 
-COURANT	NOU-C(number=sg)	staatscourant	mw_807293
+COURANT	NOU-P	Staatscourant	mw_1793190010
 .	PC	.	
 
 
@@ -4371,7 +4371,7 @@ het	PD(type=d-p,subtype=art,position=prenom)	het
 fransche	AA(degree=pos,position=prenom)	Frans	
 wetgevende	AA(degree=pos,position=prenom)	wetgevend	
 ligchaam	NOU-C(number=sg)	lichaam	
-voorgedragen	AA(degree=pos,position=prenom)	voordragen	
+voorgedragen	AA(degree=pos,position=prenom)	voorgedragen	
 budget	NOU-C(number=sg)	budget	
 levert	VRB(finiteness=fin,tense=pres)	opleveren	mw_291649
 daarvan	ADV(type=pron)	daarvan	
@@ -5143,7 +5143,7 @@ Dat	PD(type=d-p,subtype=oth,position=prenom)	dat
 regt	NOU-C(number=sg)	recht	
 is	VRB(finiteness=fin,tense=pres)	zijn	
 genaamd	VRB(finiteness=pastpart)	namen	
-Binnenlansch	AA(degree=pos,position=prenom)	binnenlans	
+Binnenlansch	AA(degree=pos,position=prenom)	binnenlands	
 lastgeld	NOU-C(number=sg)	lastgeld	
 ,	PC	,	
 en	CONJ(type=coor)	en	
@@ -9715,7 +9715,7 @@ slagtbank	NOU-C(number=sg)	slachtbank
 gesleept	VRB(finiteness=pastpart)	slepen	
 om	ADP(type=pre)	om	
 zijne	PD(type=poss,position=prenom)	zijn	
-geweldadige	AA(degree=pos,position=prenom)	geweldadig	
+geweldadige	AA(degree=pos,position=prenom)	gewelddadig	
 plannen	NOU-C(number=pl)	plan	
 door	VRB(finiteness=inf)	doorzetten	mw_706546
 te	ADP(type=pre)	te	
@@ -10100,9 +10100,9 @@ D	NOU-P(WF=abbr)	D.
 .	PC	.	
 Spitz	NOU-P	Spitz	
 ,	PC	,	
-Mr	NOU-C(number=sg)	meester-zadelmaker	mw_681754
+Mr	NOU-C(number=sg,WF=abbr)	meester-zadelmaker	mw_1792671818
 .	PC	.	
-Zadelmaker	NOU-C(number=sg)	meester-zadelmaker	mw_681754
+Zadelmaker	NOU-C(number=sg,WF=abbr)	meester-zadelmaker	mw_1792671818
 ,	PC	,	
 WESTEINDE	NOU-P	Westeinde	
 ,	PC	,	
@@ -16495,7 +16495,7 @@ dienstdoende	AA(degree=pos,position=prenom)	dienstdoend
 schutterij	NOU-C(number=sg)	schutterij	
 in	ADP(type=pre)	in	
 deze	PD(type=d-p,subtype=oth,position=prenom)	deze	
-residentié	NOU-C(number=sg)	residentié	
+residentié	NOU-C(number=sg,WF=mis)	residentie	
 ,	PC	,	
 benoemd	VRB(finiteness=pastpart)	benoemen	
 heeft	VRB(finiteness=fin,tense=pres)	hebben	
@@ -17319,7 +17319,7 @@ en	CONJ(type=coor)	en
 toestanden	NOU-C(number=pl)	toestand	
 des	PD(type=d-p,subtype=art,position=prenom)	de	
 dampkrings	NOU-C(number=sg)	dampkring	
-overanderlijke	AA(degree=pos,position=prenom)	overanderlijk	
+overanderlijke	AA(degree=pos,position=prenom,WF=mis)	onveranderlijk	
 wetten	NOU-C(number=pl)	wet	
 volgen	VRB(finiteness=fin,tense=pres)	volgen	
 .	PC	.	
@@ -18648,9 +18648,9 @@ worden	VRB(finiteness=inf)	worden
 volgens	ADP(type=pre)	volgens	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 respective	AA(degree=pos,position=prenom)	respectief	
-meer	PD(type=indef,subtype=oth,position=prenom)	meer	
+meer	PD(type=indef,position=free)	meer	
 of	CONJ(type=coor)	of	
-minder	PD(type=indef,subtype=oth,position=prenom)	minder	
+minder	PD(type=indef,position=free)	minder	
 onmatige	AA(degree=pos,position=prenom)	onmatig	
 eischen	NOU-C(number=pl)	eis	
 van	ADP(type=pre)	van	
@@ -18830,7 +18830,7 @@ voorstaan	NOU-C(number=sg)	voorstaan
 en	CONJ(type=coor)	en	
 propagéren	NOU-C(number=sg)	propageren	
 van	ADP(type=pre)	van	
-ééne	PD(type=indef,subtype=art,position=prenom)	een	
+ééne	NUM(type=card,position=prenom,representation=let)	een	
 bepaalde	AA(degree=pos,position=prenom)	bepaald	
 kerkleer	NOU-C(number=sg)	kerkleer	
 bij	ADP(type=pre)	bij	
@@ -20488,7 +20488,7 @@ Oppassers	NOU-C(number=pl)	oppasser
 bij	ADP(type=pre)	bij	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 Internationale	AA(degree=pos,position=prenom)	internationaal	
-Landbouw-Tentoonstelling	NOU-C(number=sg)	landbouwstelling	
+Landbouw-Tentoonstelling	NOU-C(number=sg)	landbouwtentoonstelling	
 ,	PC	,	
 in	ADP(type=pre)	in	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
@@ -21014,7 +21014,7 @@ overal	ADV(type=reg)	overal
 heen	ADV(type=reg)	heen	
 ,	PC	,	
 bij	ADP(type=pre)	bij	
-GEBR	NOU-C(number=pl)	gebroeders	
+GEBR	NOU-C(number=pl,WF=abbr)	gebroeders	
 .	PC	.	
 COHEN	NOU-P	Cohen	
 ,	PC	,	
@@ -21219,7 +21219,7 @@ titel	NOU-C(number=sg)	titel
 staat	VRB(finiteness=fin,tense=pres)	staan	
 ,	PC	,	
 bij	ADP(type=pre)	bij	
-GEBRs	NOU-C(number=pl)	gebroeders	
+GEBRs	NOU-C(number=pl,WF=abbr)	gebroeders	
 .	PC	.	
 COHEN	NOU-P	Cohen	
 ,	PC	,	
@@ -21424,8 +21424,8 @@ bevoordeelt	VRB(finiteness=fin,tense=pres)	bevoordelen
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 werking	NOU-C(number=sg)	werking	
 der	PD(type=d-p,subtype=art,position=prenom)	de	
-ademhaling	NOU-C(number=pl)	ademhalingwerktuig	mw_607182
-werktuigen	NOU-C(number=pl)	ademhalingwerktuig	mw_607182
+ademhaling	NOU-C(number=pl)	ademhalingswerktuig	mw_1792744802
+werktuigen	NOU-C(number=pl)	ademhalingswerktuig	mw_1792744802
 .	PC	.	
 —	PC	—	
 In	ADP(type=pre)	in	
@@ -21494,7 +21494,7 @@ door	ADP(type=pre)	door
 Doctoren	NOU-C(number=pl)	dokter	
 ten	ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)	te+het	
 zeerste	NOU-C(number=sg)	zeerste	
-aanbevolen	AA(degree=pos,position=prenom)	aanbevelen	
+aanbevolen	AA(degree=pos,position=prenom)	aanbevolen	
 
 
 ezondheids-Corsetten	NOU-C(number=pl,WF=mis)	gezondsheidskorset	mw_261280
@@ -23549,7 +23549,7 @@ Rijnk.	NOU-P(WF=abbr)	Rijnkant
 M	NOU-C(number=sg,WF=abbr)	meter	
 .	PC	.	
 boven	ADP(type=pre)	boven	
-R	AA(degree=pos,position=prenom)	Rotterdams	
+R	AA(degree=pos,position=prenom,WF=abbr)	Rotterdams	
 .	PC	.	
 P.	NOU-C(number=sg,WF=abbr)	p.	
 ,	PC	,	
@@ -23693,7 +23693,7 @@ beperkt	AA(degree=pos,position=free)	beperkt
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 voorraden	NOU-C(number=pl)	voorraad	
 nieuwe	AA(degree=pos,position=prenom)	nieuw	
-onberoofde	AA(degree=pos,position=prenom)	onberoofd	
+onberoofde	NOU-C(number=sg)	onberoofde	
 zijn	VRB(finiteness=fin,tense=pres)	zijn	
 niet	ADV(type=reg)	niet	
 groot	AA(degree=pos,position=free)	groot	
@@ -27202,7 +27202,7 @@ aangeboden	VRB(finiteness=pastpart)	aanbieden
 eene	PD(type=indef,subtype=art,position=prenom)	een	
 sedert	ADP(type=pre)	sedert	
 kort	AA(degree=pos,position=free)	kort	
-bespeelde	AA(degree=pos,position=prenom)	bespeld	
+bespeelde	AA(degree=pos,position=prenom)	bespeeld	
 
 
 PIANINO	NOU-C(number=sg)	pianino	
@@ -28445,7 +28445,7 @@ heeft	VRB(finiteness=fin,tense=pres)	hebben
 (	PC	(	
 9122	NUM(type=card,position=free,representation=dig)	9122	
 )	PC	)	
-GEBR	NOU-C(number=pl)	gebroeders	
+GEBR	NOU-C(number=pl,WF=abbr)	gebroeders	
 .	PC	.	
 MULLER	NOU-P	Muller	
 ,	PC	,	
@@ -29061,7 +29061,7 @@ Kon	AA(degree=pos,position=prenom,WF=abbr)	koninklijk
 .	PC	.	
 Nederl	AA(degree=pos,position=prenom,WF=abbr)	Nederlands	
 .	PC	.	
-Yackt-Club	NOU-C(number=sg)	yachtclub	
+Yackt-Club	NOU-C(number=sg)	jachtclub	
 .	PC	.	
 
 
@@ -29544,7 +29544,7 @@ voorgelezen	VRB(finiteness=pastpart)	voorlezen
 twee	NUM(type=card,position=prenom,representation=let)	twee	
 rapporten	NOU-C(number=pl)	rapport	
 van	ADP(type=pre)	van	
-gemelde	PD(type=d-p,subtype=oth,position=prenom)	gemelde	
+gemelde	AA(degree=pos,position=prenom)	gemeld	
 Afdeeling	NOU-C(number=sg)	afdeling	
 ,	PC	,	
 op	ADP(type=pre)	op	
@@ -30074,7 +30074,7 @@ werd	VRB(finiteness=fin,tense=past)	worden
 hij	PD(type=pers,position=free)	hij	
 op	ADP(type=pre)	op	
 den	PD(type=d-p,subtype=art,position=prenom)	de	
-rigtstoel	NOU-C(number=sg)	richtstoel	
+rigtstoel	NOU-C(number=sg)	rechtstoel	
 gezet	VRB(finiteness=pastpart)	zetten	
 ,	PC	,	
 en	CONJ(type=coor)	en	
@@ -32476,7 +32476,7 @@ teruggekeerd	VRB(finiteness=pastpart)	terugkeren
 is	VRB(finiteness=fin,tense=pres)	zijn	
 ,	PC	,	
 zoo	ADV(type=reg)	zo	
-voldaan	AA(degree=pos,position=free)	voldoen	
+voldaan	AA(degree=pos,position=free)	voldaan	
 geweest	VRB(finiteness=pastpart)	zijn	
 ,	PC	,	
 dat	CONJ(type=sub)	dat	
@@ -33756,7 +33756,7 @@ ophouden	VRB(finiteness=inf)	ophouden
 Tegen	ADP(type=pre)	tegen	
 het	PD(type=d-p,subtype=art,position=prenom)	het	
 einde	NOU-C(number=sg)	einde	
-dezer	PD(type=d-p,subtype=oth,position=prenom)	deze	
+dezer	PD(type=d-p,position=free)	deze	
 of	CONJ(type=coor)	of	
 het	PD(type=d-p,subtype=art,position=prenom)	het	
 begin	NOU-C(number=sg)	begin	
@@ -38113,8 +38113,8 @@ quitantien	NOU-C(number=pl)	kwitantie
 welke	PD(type=w-p,position=free)	welk	
 in	ADP(type=pre)	in	
 den	PD(type=d-p,subtype=art,position=prenom)	de	
-vervroeg	NOU-C(number=sg)	vervroeg	
-den	PD(type=d-p,subtype=art,position=prenom)	de	
+vervroeg	AA(degree=pos,position=prenom)	vervroegd	mw_1792753085
+den	AA(degree=pos,position=prenom)	vervroegd	mw_1792753085
 termijn	NOU-C(number=sg)	termijn	
 van	ADP(type=pre)	van	
 betaling	NOU-C(number=sg)	betaling	
@@ -38599,7 +38599,7 @@ qualiteit	NOU-C(number=sg)	kwaliteit
 als	CONJ(type=sub)	als	
 Executeur	NOU-C(number=sg)	executeur	
 in	ADP(type=pre)	in	
-gemelde	PD(type=d-p,subtype=oth,position=prenom)	gemelde	
+gemelde	AA(degree=pos,position=prenom)	gemeld	
 Boedel	NOU-C(number=sg)	boedel	
 ,	PC	,	
 zullende	VRB(finiteness=prespart)	zullen	
@@ -38773,7 +38773,7 @@ betaling	NOU-C(number=sg)	betaling
 te	ADP(type=pre)	te	
 doen	VRB(finiteness=inf)	doen	
 ,	PC	,	
-uiterijk	AA(degree=pos,position=free)	uiterijk	
+uiterijk	AA(degree=pos,position=free,WF=mis)	uiterlijk	
 voor	ADP(type=pre)	voor	
 den	PD(type=d-p,subtype=art,position=prenom)	de	
 20	NUM(type=ord,position=free,representation=dig)	twintigste	
@@ -39033,7 +39033,7 @@ voorzien	AA(degree=pos,position=free)	voorzien
 ,	PC	,	
 tot	ADP(type=pre)	tot	
 het	PD(type=d-p,subtype=art,position=prenom)	het	
-Recepieren	NOU-C(number=sg)	recepiëren	
+Recepieren	NOU-C(number=sg)	recipiëren	
 geadmitteerd	VRB(finiteness=pastpart)	admitteren	
 ,	PC	,	
 of	CONJ(type=coor)	of	
@@ -39691,7 +39691,7 @@ Matrozen	NOU-C(number=pl)	matroos
 beklagen	VRB(finiteness=fin,tense=pres)	beklagen	
 zich	PD(type=refl,position=free)	zich	
 ten	ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)	te+het	
-uitersté	NOU-C(number=sg)	uitersté	
+uitersté	NOU-C(number=sg)	uiterste	
 over	ADP(type=pre)	over	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 slegte	AA(degree=pos,position=prenom)	slecht	
@@ -41515,9 +41515,9 @@ voor	ADP(type=pre)	voor
 primo	NUM(type=card,position=prenom,representation=let)	primo	
 Augustus	NOU-C(number=sg)	augustus	
 eerstkomende	AA(degree=pos,position=postnom)	eerstkomend	
-op-	NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)	opgifte+aangifte	mw_366674
+op-	NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)	opgift+aangifte	mw_1792747135
 en	CONJ(type=coor)	en	
-aangifte	NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)	opgifte+aangifte	mw_366674
+aangifte	NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)	opgift+aangifte	mw_1792747135
 te	ADP(type=pre)	te	
 doen	VRB(finiteness=inf)	doen	
 ,	PC	,	
@@ -41684,7 +41684,7 @@ als	CONJ(type=sub)	als
 Executeuren	NOU-C(number=pl)	executeur-testamentair	mw_612459
 Testamentair	NOU-C(number=pl)	executeur-testamentair	mw_612459
 in	ADP(type=pre)	in	
-gemelde	PD(type=d-p,subtype=oth,position=prenom)	gemelde	
+gemelde	AA(degree=pos,position=prenom)	gemeld	
 Boedel	NOU-C(number=sg)	boedel	
 ,	PC	,	
 voor	ADP(type=pre)	voor	
@@ -42603,7 +42603,7 @@ eene	PD(type=indef,subtype=art,position=prenom)	een
 partij	NOU-C(number=sg)	partij	
 over	ADP(type=pre)	over	
 onbeperkte	AA(degree=pos,position=prenom)	onbeperkt	
-geldmiddelen	NOU-C(number=pl)	geldmiddelen	
+geldmiddelen	NOU-C(number=pl)	geldmiddel	
 heeft	VRB(finiteness=fin,tense=pres)	hebben	
 te	ADP(type=pre)	te	
 beschikken	VRB(finiteness=inf)	beschikken	
@@ -45152,10 +45152,10 @@ NEDER-	AA(degree=pos,position=prenom)	Nederlands	mw_920275
 LANDSCHE	AA(degree=pos,position=prenom)	Nederlands	mw_920275
 
 
-STAATS-	NOU-C(number=sg)	staatscourant	mw_41083
+STAATS-	NOU-P	Staatscourant	mw_1793190010
 
 
-COURANT	NOU-C(number=sg)	staatscourant	mw_41083
+COURANT	NOU-P	Staatscourant	mw_1793190010
 .	PC	.	
 
 
@@ -45577,7 +45577,7 @@ genomen	VRB(finiteness=pastpart)	nemen
 te	ADP(type=pre)	te	
 hebben	VRB(finiteness=inf)	hebben	
 ,	PC	,	
-keerde	VRB(finiteness=fin,tense=past)	terugkerenen	mw_265868
+keerde	VRB(finiteness=fin,tense=past)	terugkeren	mw_1792748046
 H	PD(type=poss,position=prenom,WF=abbr)	haar	
 .	PC	.	
 M.	NOU-C(number=sg,WF=abbr)	majesteit	
@@ -45588,7 +45588,7 @@ avonds	NOU-C(number=sg)	avond
 naar	ADP(type=pre)	naar	
 hare	PD(type=poss,position=prenom)	haar	
 Staten	NOU-C(number=pl)	staat	
-terug	VRB(finiteness=fin,tense=past)	terugkerenen	mw_265868
+terug	VRB(finiteness=fin,tense=past)	terugkeren	mw_1792748046
 ;	PC	;	
 zullende	VRB(finiteness=prespart)	zullen	
 zich	PD(type=refl,position=free)	zich	
