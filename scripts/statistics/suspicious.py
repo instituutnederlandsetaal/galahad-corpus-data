@@ -5,6 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from scripts.statistics.data import TsvCorpus, TsvWord
+from scripts.statistics.ngram import SuspiciousNgrams
 from scripts.statistics.token_filter import TokenFilter
 from scripts.statistics.token_grouper import SuspiciousTokenGrouper
 from scripts.statistics.util import roman_to_int, to_main_pos
@@ -19,6 +20,7 @@ def generate_suspicious(
     """Suspicious patterns for manual review."""
     out = root / "suspicious"
     out.mkdir(parents=True, exist_ok=True)
+    SuspiciousNgrams(corpus, out / "sus_ngrams_report.txt").report()
     suspicious_analyses(corpus, out)
     sus_roman_numerals(corpus, out)
     sus_mwe(corpus, out)
@@ -235,6 +237,7 @@ def largest_diff_token_lemma(corpus: TsvCorpus, out: Path) -> None:
 
 def sus_abbr(corpus: TsvCorpus, out: Path) -> None:
     root = out / "abbr"
+    root.mkdir(parents=True, exist_ok=True)
     should_be_abbr(corpus, root)
     long_abbreviations(corpus, root)
 

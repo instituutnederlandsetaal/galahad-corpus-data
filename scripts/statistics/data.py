@@ -41,6 +41,9 @@ class TsvWord:
     def __repr__(self) -> str:
         return self.__str__()
 
+    @override
+    def __hash__(self) -> int:
+        return hash((self.token, self.pos, self.lemma, self.group))
 
     @property
     def group_token(self) -> str:
