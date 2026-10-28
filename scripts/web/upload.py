@@ -62,7 +62,11 @@ def handle_single_corpus(
     force: bool,
     recursive: bool = False,
 ):
-    corpus = f"lancelot:{input.name}"
+    corpus = (
+        "lancelot:galahad-corpus-data"
+        if input.name == "source-data"
+        else f"lancelot:{input.name}"
+    )
     if force:
         delete_corpus(base_url, corpus)
     else:
