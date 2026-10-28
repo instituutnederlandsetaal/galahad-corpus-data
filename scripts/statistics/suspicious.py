@@ -280,6 +280,9 @@ def should_be_abbr(corpus: TsvCorpus, root: Path) -> None:
             and "type=uncl" not in w.pos
             and "+" not in w.pos
             and "|" not in w.pos
+            # exceptions for de-PD and te-ADP
+            and not (to_main_pos(w.pos) == "PD" and w.lemma == "de")
+            and not (to_main_pos(w.pos) == "ADP" and w.lemma == "te")
         ),
         uniq=True,
         sort=lambda w: w[0].lemma,
