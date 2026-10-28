@@ -214,6 +214,9 @@ def lexicon_based_checks(corpus: TsvCorpus, root: Path, lexicon: Path) -> None:
             and w.lemma != "UNKNOWN"
             and bool(w.lemma)  # not empty
         ),
+        sort=lambda x: f"{x[0].lemma}{x[0].pos}",
+    )
+
 
 def largest_diff_token_lemma(corpus: TsvCorpus, out: Path) -> None:
     TokenFilter(out / "largest_diff_token_lemma.txt", corpus).filter(
