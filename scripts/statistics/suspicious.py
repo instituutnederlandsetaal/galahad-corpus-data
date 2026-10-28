@@ -26,6 +26,7 @@ def generate_suspicious(
     empty_words(corpus, out)
     sus_punctuation(corpus, out)
     lemma_weird_chars(corpus, out)
+    largest_diff_token_lemma(corpus, out)
     sus_abbr(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
@@ -213,6 +214,21 @@ def lexicon_based_checks(corpus: TsvCorpus, root: Path, lexicon: Path) -> None:
             and w.lemma != "UNKNOWN"
             and bool(w.lemma)  # not empty
         ),
+
+def largest_diff_token_lemma(corpus: TsvCorpus, out: Path) -> None:
+    TokenFilter(out / "largest_diff_token_lemma.txt", corpus).filter(
+        lambda w: (
+            abs(len(w.group_token) - len(w.lemma)) >= 5
+            and all(p not in w.pos for p in ("NUM", "RES"))
+            and "WF" not in w.pos
+            and "+" not in w.pos
+            and w.lemma
+            and w.lemma != "UNKNOWN"
+        ),
+        comment=lambda w: str(abs(len(w.group_token) - len(w.lemma))),
+        sort=lambda w: -abs(len(w[0].group_token) - len(w[0].lemma)),
+    )
+
 
 def sus_abbr(corpus: TsvCorpus, out: Path) -> None:
     root = out / "abbr"
