@@ -19090,7 +19090,7 @@
       </l>
       <l>
         <lb n="49:10" />
-        <w cert="1.0" lemma="dat" n="1019444" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" type="PD(type=rel,position=uncl,inflection=0)" xml:id="w.1019444">
+        <w cert="1.0" lemma="dat" n="1019444" pos="PD(type=d-p,position=free)" resp="thomas" type="PD(type=rel,position=uncl,inflection=0)" xml:id="w.1019444">
           <seg type="orth">dat</seg>
           <fs type="TDN-core">
             <f name="pos">
@@ -19099,11 +19099,8 @@
             <f name="type">
               <symbol value="d-p" />
             </f>
-            <f name="subtype">
-              <symbol value="art" />
-            </f>
             <f name="position">
-              <symbol value="prenom" />
+              <symbol value="free" />
             </f>
             <f name="lemma">dat</f>
           </fs>
@@ -23372,14 +23369,17 @@
             </cit>
           </note>
         </w>
-        <w cert="1.0" lemma="bekeren" n="1019574" pos="VRB(finiteness=pastpart)" resp="thomas" type="VRB(type=mai,finiteness=pastpart,inflection=t)" xml:id="w.1019574">
+        <w cert="1.0" lemma="bekeren" n="1019574" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" type="VRB(type=mai,finiteness=pastpart,inflection=t)" xml:id="w.1019574">
           <seg type="orth">bekeert</seg>
           <fs type="TDN-core">
             <f name="pos">
               <symbol value="VRB" />
             </f>
             <f name="finiteness">
-              <symbol value="pastpart" />
+              <symbol value="fin" />
+            </f>
+            <f name="tense">
+              <symbol value="pres" />
             </f>
             <f name="lemma">bekeren</f>
           </fs>
@@ -51811,28 +51811,34 @@
       </l>
       <l>
         <lb n="53:22" />
-        <w cert="1.0" lemma="tevreden" n="1020459" pos="ADV(type=reg)" resp="roland" type="VRB(type=mai,finiteness=inf,inflection=0)" xml:id="w.1020459.0">
+        <w cert="1.0" lemma="tevreden" n="1020459" pos="AA(degree=pos,position=free)" resp="thomas" type="VRB(type=mai,finiteness=inf,inflection=0)" xml:id="w.1020459.0">
           <seg type="orth">the</seg>
-          <join n="w.1020459.0_w.1020459.1_w.1020459.2" />
+          <join n="mw_1792510459" />
           <fs type="TDN-core">
             <f name="pos">
-              <symbol value="ADV" />
+              <symbol value="AA" />
             </f>
-            <f name="type">
-              <symbol value="reg" />
+            <f name="degree">
+              <symbol value="pos" />
+            </f>
+            <f name="position">
+              <symbol value="free" />
             </f>
             <f name="lemma">tevreden</f>
           </fs>
         </w>
-        <w cert="1.0" lemma="tevreden" n="1020459" pos="ADV(type=reg)" resp="roland" type="VRB(type=mai,finiteness=inf,inflection=0)" xml:id="w.1020459.1">
+        <w cert="1.0" lemma="tevreden" n="1020459" pos="AA(degree=pos,position=free)" resp="thomas" type="VRB(type=mai,finiteness=inf,inflection=0)" xml:id="w.1020459.1">
           <seg type="orth">vreden</seg>
-          <join n="w.1020459.0_w.1020459.1_w.1020459.2" />
+          <join n="mw_1792510459" />
           <fs type="TDN-core">
             <f name="pos">
-              <symbol value="ADV" />
+              <symbol value="AA" />
             </f>
-            <f name="type">
-              <symbol value="reg" />
+            <f name="degree">
+              <symbol value="pos" />
+            </f>
+            <f name="position">
+              <symbol value="free" />
             </f>
             <f name="lemma">tevreden</f>
           </fs>
