@@ -100,9 +100,13 @@ def sus_mwe(corpus: TsvCorpus, root: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "mwe_dif_lemma.txt", corpus).filter(
         lambda w: any(m.lemma != w.lemma for m in w.mwe),
+        sort=lambda w: f"{w[0].lemma}{w[0].group}",
+        group=True,
     )
     TokenFilter(out / "mwe_dif_pos.txt", corpus).filter(
         lambda w: any(m.pos != w.pos for m in w.mwe),
+        sort=lambda w: f"{w[0].lemma}{w[0].group}",
+        group=True,
     )
     TokenFilter(out / "lonely_mwe.txt", corpus).filter(lambda w: len(w.mwe) == 1)
     TokenFilter(out / "lonely_mwe_report.txt", corpus).report(lambda w: len(w.mwe) == 1)
