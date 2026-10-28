@@ -23,6 +23,7 @@ class TokenFilter:
         comment: Callable[[TsvWord], str] | None = None,
         sort: Callable[[tuple[TsvWord, str]], any] | None = None,
         uniq: bool = False,
+        group: bool = False,
     ) -> None:
         """Filter tokens based on a given condition and write to output."""
         with self.out.open("w") as f:
@@ -42,6 +43,8 @@ class TokenFilter:
                 if sort:
                     conditioned_words.sort(key=sort)
                 for w, cmt in conditioned_words:
+                    if group:
+                        w = w.to_group_string()
                     f.write(f"{w}{cmt}\n")
 
     def report(self, condition: Callable[[TsvWord], bool], ngram: int = 1) -> None:

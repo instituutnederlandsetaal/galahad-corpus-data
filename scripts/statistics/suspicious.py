@@ -251,8 +251,9 @@ def long_abbreviations(corpus: TsvCorpus, root: Path) -> None:
             and len(w.group_token) > 5
             and "." not in w.group_token
         ),
-        sort=lambda w: f"{w[0].lemma}{w[0].token}",
+        sort=lambda w: f"{w[0].lemma}{w[0].group}{w[0].token}",
         uniq=True,
+        group=True,
     )
 
 

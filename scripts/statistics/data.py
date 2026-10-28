@@ -33,9 +33,17 @@ class TsvWord:
         # TSV column order: token \t pos \t lemma \t group
         return TsvWord(cols[0], cols[1], cols[2], cols[3])
 
+    def to_string(self) -> str:
+        """Return a string representation of the TsvWord."""
+        return f"{self.token:<20}\t{self.lemma:<20}\t{self.pos}\t{self.group}"
+
+    def to_group_string(self) -> str:
+        """Return a string representation of the group token."""
+        return f"{self.group_token:<20}\t{self.lemma:<20}\t{self.pos}\t{self.group}"
+
     @override
     def __str__(self) -> str:
-        return f"{self.token:<20}\t{self.lemma:<20}\t{self.pos}\t{self.group}"
+        return self.to_string()
 
     @override
     def __repr__(self) -> str:
