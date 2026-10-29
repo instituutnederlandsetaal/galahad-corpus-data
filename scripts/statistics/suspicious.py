@@ -27,11 +27,18 @@ def generate_suspicious(
     sus_nou_p(corpus, out)
     empty_words(corpus, out)
     sus_punctuation(corpus, out)
-    lemma_weird_chars(corpus, out)
-    largest_diff_token_lemma(corpus, out)
+    sus_lemma(corpus, out)
     sus_abbr(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
+
+
+def sus_lemma(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious lemmas with weird characters or patterns."""
+    out = root / "lemma"
+    out.mkdir(parents=True, exist_ok=True)
+    lemma_weird_chars(corpus, out)
+    largest_diff_token_lemma(corpus, out)
 
 
 def suspicious_analyses(corpus: TsvCorpus, root: Path) -> None:
