@@ -59,19 +59,16 @@ def check_exists_corpus(base_url: str, corpus: str):
 def handle_single_corpus(
     base_url: str,
     input: Path,
+    fmt: str,
     force: bool,
     recursive: bool = False,
 ):
-    corpus = (
-        "lancelot:galahad-corpus-data"
-        if input.name == "source-data"
-        else f"lancelot:{input.name}"
-    )
+    corpus = f"lancelot:{input.name}"
     if force:
         delete_corpus(base_url, corpus)
     else:
         check_exists_corpus(base_url, corpus)
-    create_corpus(base_url, corpus)
+    create_corpus(base_url, corpus, fmt)
     zip_bytes = zip_folder(input, recursive=recursive)
     print(f"Zipped {input.name}")
     zip_file = Path("corpus.zip")
@@ -84,15 +81,16 @@ if __name__ == "__main__":
     cli.add_argument("-r", action="store_true")
     cli.add_argument("-f", action="store_true")
     cli.add_argument("--host", default="localhost")
+    cli.add_argument("--format", default="GalahadCobaltTEI")
     cli.add_argument("input", type=Path)
     args = cli.parse_args()
     base_url = add_scheme(args.host)
 
     if not args.r:
-        handle_single_corpus(base_url, args.input, args.f)
+        handle_single_corpus(base_url, args.input, args.format, args.f)
     else:  # handle upper folder as single corpus and subfolders as subcorpora
         # subcorpora
         for subdir in args.input.iterdir():
-            handle_single_corpus(base_url, subdir, args.f)
+            handle_single_corpus(base_url, subdir, args.format, args.f)
         # total corpus
-        handle_single_corpus(base_url, args.input, args.f, recursive=True)
+        handle_single_corpus(base_url, args.input, args.format, args.f, recursive=True)
