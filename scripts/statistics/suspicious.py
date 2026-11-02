@@ -29,8 +29,98 @@ def generate_suspicious(
     sus_punctuation(corpus, out)
     sus_lemma(corpus, out)
     sus_abbr(corpus, out)
+    sus_pos(corpus, out)
     if lexicon is not None:
         lexicon_based_checks(corpus, out, lexicon)
+
+
+def sus_pos(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious POS tags."""
+    out = root / "pos"
+    out.mkdir(parents=True, exist_ok=True)
+    sus_noun_distance(corpus, out)
+    sus_aa_free(corpus, out)
+
+
+def sus_aa_free(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious AA-free patterns."""
+    out = root / "sus_aa_free.txt"
+    f = out.open("w", encoding="utf-8")
+    for dir in corpus:
+        f.write(f"{dir.name:-^30}\n")
+        words = list(dir.words)
+        for i, w in enumerate(words):
+            if (
+                "AA(degree=pos,position=free" in w.pos
+                and w.lemma not in {"vol", "alleen"}
+                and "+" not in w.pos
+            ):
+                next = words[i + 1] if i + 1 < len(words) else None
+                if next is not None and "NOU-C" in next.pos and "+" not in next.pos:
+                    # suspicious!
+                    WINDOW = 7
+                    context = words[
+                        max(0, i - WINDOW) : min(len(words), i + WINDOW)
+                    ]  # 7 words before and after
+                    for i, cw in enumerate(context):
+                        if i == WINDOW:
+                            f.write(f">> {cw}\n")
+                        else:
+                            f.write(f"   {cw}\n")
+                    f.write("\n")  # space between context windows
+
+
+def sus_noun_distance(corpus: TsvCorpus, root: Path) -> None:
+    """Suspicious noun distance patterns."""
+    out = root / "sus_noun_distance.txt"
+    f = out.open("w", encoding="utf-8")
+    for dir in corpus:
+        f.write(f"{dir.name:-^30}\n")
+        words = list(dir.words)
+        report: list[tuple[TsvWord, int]] = []
+        for i, w in enumerate(words):
+            if "prenom" in w.pos and w.lemma not in {"de+een", "de+ander"}:
+                # get the index in the w.pos string of prenom and check if there exists a NOU later in the w.to_main_pos
+                prenom_index = w.pos.find("prenom")
+                nou_index = w.pos.find("NOU")
+                noun_dist = -1
+                if nou_index > prenom_index:
+                    noun_dist = 0
+                if noun_dist == -1:
+                    # look further
+                    for j in range(1, len(words) - i):
+                        neighbour = words[i + j]
+                        if "NOU" in neighbour.pos or "NUM" in neighbour.pos:
+                            noun_dist = j
+                            break
+                    # look back (until current noun_dist) and commit if closer
+                    for j in range(1, i + 1):
+                        if j > noun_dist:
+                            break  # no need to look further back than the current closest noun
+                        neighbour = words[i - j]
+                        if "NOU" in neighbour.pos or "NUM" in neighbour.pos:
+                            noun_dist = j
+                            break
+                # still no match, report
+                if noun_dist > 1:  # thats unusual
+                    # save context
+                    WINDOW = 10
+                    context = words[
+                        max(0, i - WINDOW) : i + WINDOW
+                    ]  # 5 words before and after
+                    report.append((w, noun_dist, context))
+        # sort by dist
+        report.sort(key=lambda x: x[1])
+        for w, dist, context in report:
+            if dist >= 8:
+                for i, cw in enumerate(context):
+                    if i == WINDOW:
+                        f.write(f">> {cw}\n")
+                    elif "NOU" in cw.pos or "NUM" in cw.pos:
+                        f.write(f"»  {cw}\n")
+                    else:
+                        f.write(f"   {cw}\n")
+                f.write("\n")  # add a blank line after each context for readability
 
 
 def sus_lemma(corpus: TsvCorpus, root: Path) -> None:
