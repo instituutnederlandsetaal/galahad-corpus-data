@@ -159,38 +159,6 @@
          geordonneert              ordonneren                VRB(finiteness=pastpart)
 
 
-         aen                       aan                       ADP(type=pre)
-         desen                     deze                      PD(type=d-p,subtype=oth,position=prenom)
-         brief                     brief                     NOU-C(number=sg)
-         uuytgehangen              uithangen                 VRB(finiteness=pastpart)
-         .                         .                         PC
-         Actum                     actum                     AA(degree=pos,position=free)
-         XXI                       eenentwintig              NUM(type=card,position=prenom,representation=rom)
-         decembris                 december                  NOU-C(number=sg)
-         .                         .                         PC
-         COUTUMES                  coutumes                  RES(type=for)
->>       DES                                                 
-         SEIGNEURIES               seigneuries               RES(type=for)
-         DE                        de                        RES(type=for)
-         Coutumes                  coutumes                  RES(type=for)
-
-
-         .                         .                         PC
-         COUTUMES                  coutumes                  RES(type=for)
-         DES                                                 
-         SEIGNEURIES               seigneuries               RES(type=for)
-         DE                        de                        RES(type=for)
-         Coutumes                  coutumes                  RES(type=for)
-         de                        de                        RES(type=for)
-         Quartier                  quartier                  RES(type=for)
-         de                        de                        RES(type=for)
-         COUTUMES                  coutumes                  RES(type=for)
->>       DES                                                 
-         SEIGNEURIES               seigneuries               RES(type=for)
-         DE                        de                        RES(type=for)
-         STEYNOCKERZEEL                                      
-
-
    [MWE] daer                      daarin                    ADV(type=pron)
          breder                    breed                     AA(degree=comp,position=free)
    [MWE] in                        daarin                    ADV(type=pron)
@@ -458,7 +426,7 @@
          te                        te                        ADP(type=pre)
          lande                     land                      NOU-C(number=sg)
          deur                      door                      ADP(type=pre)
->>       eenen                     een                       PD(type=indef,subtype=oth,position=prenom)
+>>       eenen                     een                       PD(type=indef,position=free)
          ghenoemt                  genoemd                   AA(degree=pos,position=free)
          Crats                     Crats                     NOU-P
          heeft                     hebben                    VRB(finiteness=fin,tense=pres)
@@ -2405,6 +2373,22 @@
 
 
 ----------------------dbnl-excerpts-18----------------------
+         tobbetjes                 tobbetje                  NOU-C(number=pl)
+         ,                         ,                         PC
+         en                        en                        CONJ(type=coor)
+         meer                      meer                      PD(type=indef,subtype=oth,position=prenom)
+         andere                    ander                     PD(type=indef,subtype=oth,position=prenom)
+         zaaken                    zaak                      NOU-C(number=pl)
+         van                       van                       ADP(type=pre)
+         weinig                    weinig                    PD(type=indef,subtype=oth,position=prenom)
+         waarde                    waarde                    NOU-C(number=sg)
+         .                         .                         PC
+>>       Dan                       dan                       CONJ(type=coor)
+         dit                       dit                       PD(type=d-p,subtype=oth,position=prenom)
+         huisraad                  huisraad                  NOU-C(number=sg)
+         en                        en                        CONJ(type=coor)
+
+
 ----------------------dbnl-excerpts-19----------------------
          ,                         ,                         PC
          desverkiezende            desverkiezende            ADV(type=reg)
@@ -2549,22 +2533,6 @@
          tween                     twee                      NUM(type=card,position=free,representation=let)
          ,                         ,                         PC
          Sine                      zijn                      PD(type=poss,position=prenom)
-
-
-         ooc                       ook                       ADV(type=reg)
-         niemens                   niemand                   PD(type=indef,position=free)
-         goed                      goed                      NOU-C(number=sg)
-         begheren                  begeren                   VRB(finiteness=inf)
-         in                        in                        ADP(type=pre)
-         dinen                     dijn                      PD(type=poss,position=prenom)
-         moet                      moed                      NOU-C(number=sg)
-         ,                         ,                         PC
-         (                         (                         PC
-         Die                       die                       PD(type=d-p,position=free)
->>       hem                                                 
-         )                         )                         PC
-         nauwe                     nauw                      ADV(type=reg)
-         jeghen                    jegen                     ADP(type=pre)
 
 
          mede                      mede                      ADV(type=reg)
@@ -3832,22 +3800,6 @@
          sinen                     zijn                      PD(type=poss,position=prenom)
 
 
-   [MWE] om                        daarom                    ADV(type=pron)
-         en                        ne                        ADV(type=reg)
-         achte                     achten                    VRB(finiteness=fin,tense=pres)
-         hy                        hij                       PD(type=pers,position=free)
-         niet                      niet                      ADV(type=reg)
-         op                        op                        ADP(type=pre)
-         die                       de                        PD(type=d-p,subtype=art,position=prenom)
-         uytwendige                uitwendig                 AA(degree=pos,position=prenom)
-         cierheit                  sierheid                  NOU-C(number=sg)
-         ,                         ,                         PC
->>       Rechter                                             
-         ,                         ,                         PC
-         dijckrechter              dijkrechter               NOU-C(number=sg)
-         ,                         ,                         PC
-
-
          datmen                    dat+men                   CONJ(type=sub)+PD(type=pers,position=free)
          genen                     geen                      PD(type=indef,subtype=oth,position=prenom)
          yeranden                  gerend                    AA(degree=pos,position=prenom)
@@ -4424,22 +4376,6 @@
          )                         )                         PC
 
 
-         woort                     woord                     NOU-C(number=sg)
-         seeght                    zeggen                    VRB(finiteness=fin,tense=pres)
-   [MWE] daer                      daarbij                   ADV(type=pron)
-   [MWE] bi                        daarbij                   ADV(type=pron)
-         dat                       dat                       CONJ(type=sub)
-         onse                      ons                       PD(type=poss,position=prenom)
-         heere                     heer                      NOU-C(number=sg)
-         troostelicke              troostelijk               AA(degree=pos,position=free)
-         sy                        zijn                      VRB(finiteness=fin,tense=pres)
-         in                        in                        ADP(type=pre)
->>       de                                                  
-         ewangelie                 evangelie                 NOU-C(number=sg)
-         ten                       te+dat                    ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)
-         achtersten                achterst                  AA(degree=sup,position=prenom)
-
-
          een                       een                       PD(type=indef,subtype=art,position=prenom)
          onsinnich                 onzinnig                  AA(degree=pos,position=prenom)
          wijf                      wijf                      NOU-C(number=sg)
@@ -4502,22 +4438,6 @@
          en                        ne                        ADV(type=reg)
          souden                    zullen                    VRB(finiteness=fin,tense=past)
          moghen                    mogen                     VRB(finiteness=inf)
-
-
-         Gode                      God                       NOU-P
-         al                        al                        PD(type=indef,position=free)
-         dat                       dat                       CONJ(type=sub)
-         hi                        hij                       PD(type=pers,position=free)
-         verleisten                verleesten                VRB(finiteness=inf)
-         mochte                    mogen                     VRB(finiteness=fin,tense=past)
-         sonder                    zonder                    ADP(type=pre)
-         hem                       hij                       PD(type=pers,position=free)
-         selven                    zelf                      PD(type=d-p,position=free)
-         ,                         ,                         PC
->>       het                                                 
-         en                        ne                        ADV(type=reg)
-         ware                      zijn                      VRB(finiteness=fin,tense=past)
-         haer                      zij                       PD(type=pers,position=free)
 
 
          nedert                    nederen                   VRB(finiteness=fin,tense=pres)
@@ -4809,6 +4729,22 @@
          …,                        …,                        PC
 
 
+         keeren                    keren                     VRB(finiteness=inf)
+         ,                         ,                         PC
+   [MWE] t                         hetwelk                   PD(type=w-p,position=free)
+         '                         '                         PC
+   [MWE] welck                     hetwelk                   PD(type=w-p,position=free)
+         de                        de                        PD(type=d-p,subtype=art,position=prenom)
+         Schippers                 schipper                  NOU-C(number=pl)
+         seer                      zeer                      AA(degree=pos,position=free)
+         dreven                    drijven                   VRB(finiteness=fin,tense=past)
+         …,                        …,                        PC
+>>       dan                       dan                       CONJ(type=coor)
+         de                        de                        PD(type=d-p,subtype=art,position=prenom)
+         Comijsen                  commies                   NOU-C(number=pl)
+   [MWE] stonden                   aanstaan                  VRB(finiteness=fin,tense=past)
+
+
          History                   historie                  NOU-C(number=sg)
          van                       van                       ADP(type=pre)
          iaer                      jaar                      NOU-C(number=sg)
@@ -4871,22 +4807,6 @@
          bij                       bij                       ADP(type=pre)
          sorcelerien               sorcelerij                NOU-C(number=sg)
          oft                       of                        CONJ(type=coor)
-
-
-         men                       men                       PD(type=pers,position=free)
-         in                        in                        ADP(type=pre)
-         't                        het                       PD(type=d-p,subtype=art,position=prenom)
-         vier                      vuur                      NOU-C(number=sg)
-         doet                      doen                      VRB(finiteness=fin,tense=pres)
-         ,                         ,                         PC
-         Ende                      en                        CONJ(type=coor)
-   [MWE] vercoopse                 voortverkopen+zij         VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)
-         (                         (                         PC
-         uwe                       uw                        PD(type=poss,position=prenom)
->>       waren                                               
-         )                         )                         PC
-         dan                       dan                       ADV(type=reg)
-   [MWE] voort                     voortverkopen+zij         VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)
 
 
          hij                       hij                       PD(type=pers,position=free)
@@ -5450,6 +5370,22 @@
          ziet                      zien                      VRB(finiteness=fin,tense=pres)
 
 
+         dingen                    ding                      NOU-C(number=pl)
+         geschiet                  geschieden                VRB(finiteness=pastpart)
+         zijn                      zijn                      VRB(finiteness=fin,tense=pres)
+         ,                         ,                         PC
+         't                        het                       PD(type=pers,position=free)
+         Zyn                       zijn                      VRB(finiteness=fin,tense=pres)
+         wyven                     wijf                      NOU-C(number=pl)
+         van                       van                       ADP(type=pre)
+         mans                      man                       NOU-C(number=pl)
+         …:                        …:                        PC
+>>       Dan                       dan                       CONJ(type=coor)
+         't                        het                       PD(type=pers,position=free)
+         zyn                       zijn                      VRB(finiteness=fin,tense=pres)
+         weer                      weder                     ADV(type=reg)
+
+
          genoemt                   noemen                    VRB(finiteness=pastpart)
          ,                         ,                         PC
          Slechts                   slechts                   ADV(type=reg)
@@ -5594,8 +5530,6 @@
          kwyt                      kwijt                     AA(degree=pos,position=free)
 
 
-         er                        haar                      PD(type=poss,position=prenom)
-         slagpennen                slagpen                   NOU-C(number=pl)
          al                        al                        ADV(type=reg)
          kwyt                      kwijt                     AA(degree=pos,position=free)
          ,                         ,                         PC
@@ -5604,21 +5538,7 @@
          nou                       nu                        ADV(type=reg)
          maar                      maar                      ADV(type=reg)
          pas                       passen                    VRB(finiteness=fin,tense=pres)
->>       op                                                  
-         '                         '                         PC
-         er                        haar                      PD(type=poss,position=prenom)
-   [MWE] wind                      windveer                  NOU-C(number=pl)
-
-
-         al                        al                        ADV(type=reg)
-         kwyt                      kwijt                     AA(degree=pos,position=free)
-         ,                         ,                         PC
-         zy                        zij                       PD(type=pers,position=free)
-         dryft                     drijven                   VRB(finiteness=fin,tense=pres)
-         nou                       nu                        ADV(type=reg)
-         maar                      maar                      ADV(type=reg)
-         pas                       passen                    VRB(finiteness=fin,tense=pres)
-         op                                                  
+         op                        op                        ADP(type=pre)
          '                         '                         PC
 >>       er                        haar                      PD(type=poss,position=prenom)
    [MWE] wind                      windveer                  NOU-C(number=pl)
@@ -5690,22 +5610,6 @@
          rugh                      rug                       NOU-C(number=sg)
 
 
-         der                       de                        PD(type=d-p,subtype=art,position=prenom)
-         Ziele                     ziel                      NOU-C(number=sg)
-         vaert                     varen                     VRB(finiteness=fin,tense=pres)
-         hy                        hij                       PD(type=pers,position=free)
-         opwaerts                  opwaarts                  ADV(type=reg)
-         in                        in                        ADP(type=pre)
-         Abrahams                  Abraham                   NOU-P
-         sachte                    zacht                     AA(degree=pos,position=prenom)
-         schoot                    schoot                    NOU-C(number=sg)
-         …                         …                         PC
->>       even                                                
-         gelijck                   gelijk                    CONJ(type=sub)
-         Ioseph                    Jozef                     NOU-P
-         uyt                       uit                       ADP(type=pre)
-
-
          uw                        uw                        PD(type=poss,position=prenom)
          betrouwen                 betrouwen                 NOU-C(number=sg)
          op                        op                        ADP(type=pre)
@@ -5765,7 +5669,7 @@
          (                         (                         PC
          R.)                                                 
 >>       Dingen                    Dingen                    NOU-P
-         Nicht                     niet                      ADV(type=reg)
+         Nicht                     nicht                     NOU-C(number=sg)
          gecamert                  kameren                   VRB(finiteness=pastpart)
          en                        en                        CONJ(type=coor)
 
@@ -5864,22 +5768,6 @@
          ,                         ,                         PC
          vry-gelt                  vrijgeld                  NOU-C(number=sg)
          :                         :                         PC
-
-
-         zeldsaem                  zeldzaam                  AA(degree=pos,position=free)
-         opgeslorpen               opslurpen                 VRB(finiteness=pastpart)
-         ,                         ,                         PC
-         Gy                        gij                       PD(type=pers,position=free)
-         vaders                    vader                     NOU-C(number=pl)
-         …                         …                         PC
-   [MWE] voedt                     opvoeden                  VRB(finiteness=fin,tense=pres)
-         …                         …                         PC
-         (                         (                         PC
-         uwe                       uw                        PD(type=poss,position=prenom)
->>       kinderen                                            
-         )                         )                         PC
-   [MWE] op                        opvoeden                  VRB(finiteness=fin,tense=pres)
-         in                        in                        ADP(type=pre)
 
 
          te                        te                        ADP(type=pre)
@@ -6315,22 +6203,6 @@
          ,                         ,                         PC
 
 
-         de                        de                        PD(type=d-p,subtype=art,position=prenom)
-         jonge                     jong                      AA(degree=pos,position=prenom)
-         wulp                      wulp                      NOU-C(number=sg)
-         moet                      moeten                    VRB(finiteness=fin,tense=pres)
-         ryden                     rijden                    VRB(finiteness=inf)
-         ,                         ,                         PC
-         Xeranthemum               xeranthemum               NOU-C(number=sg)
-         een                       een                       PD(type=indef,subtype=art,position=prenom)
-         kruidgewas                kruidgewas                NOU-C(number=sg)
-         ,                         ,                         PC
->>       dus                                                 
-         genoemt                   noemen                    VRB(finiteness=pastpart)
-         van                       van                       ADP(type=pre)
-         ξῆρος                     xeros                     RES(type=for)
-
-
          Zuidelyke                 zuidelijk                 AA(degree=pos,position=prenom)
          Deelen                    deel                      NOU-C(number=pl)
          van                       van                       ADP(type=pre)
@@ -6507,22 +6379,6 @@
          men                       men                       PD(type=pers,position=free)
 
 
-         koomt                     komen                     VRB(finiteness=fin,tense=pres)
-         ,                         ,                         PC
-         Positief                  positief                  AA(degree=pos,position=prenom)
-         of                        of                        CONJ(type=coor)
-         finaal                    finaal                    AA(degree=pos,position=prenom)
-         Antwoord                  antwoord                  NOU-C(number=sg)
-         van                       van                       ADP(type=pre)
-         den                       de                        PD(type=d-p,subtype=art,position=prenom)
-         R                         R.                        NOU-P(WF=abbr)
-         :                         :                         PC
->>       V                         van                       ADP(type=pre)
-         :                         :                         PC
-         Staten                    staat                     NOU-C(number=pl)
-         ,                         ,                         PC
-
-
 ------------------dictionary-quotations-19------------------
          kolenzuur                 koolzuur                  NOU-C(number=sg)
          natron                    natron                    NOU-C(number=sg)
@@ -6586,38 +6442,6 @@
          verzinken                 verzinken                 VRB(finiteness=inf)
          ,                         ,                         PC
          Elk                       elk                       PD(type=indef,subtype=oth,position=prenom)
-
-
-         niet                      niet                      ADV(type=reg)
-         zeggen                    zeggen                    VRB(finiteness=inf)
-         vleeschelijke             vleselijk                 AA(degree=pos,position=prenom)
-         ,                         ,                         PC
-         maar                      maar                      CONJ(type=coor)
-         toch                      toch                      ADV(type=reg)
-         eigene                    eigen                     AA(degree=pos,position=prenom)
-         )                         )                         PC
-         zuster                    zuster                    NOU-C(number=sg)
-         van                       van                       ADP(type=pre)
->>       D                         D.                        NOU-P
-         .,                        .,                        PC
-         Aanstonds                 aanstonds                 ADV(type=reg)
-   [MWE] ving                      aanvangen                 VRB(finiteness=fin,tense=past)
-
-
-         te                        te                        ADP(type=pre)
-   [MWE] bootsen                   nabootsen                 VRB(finiteness=inf)
-         ,                         ,                         PC
-         naar                      naar                      ADP(type=pre)
-         afgelegene                afgelegen                 AA(degree=pos,position=prenom)
-         plaatsen                  plaats                    NOU-C(number=pl)
-         lokt                      lokken                    VRB(finiteness=fin,tense=pres)
-         en                        en                        CONJ(type=coor)
-         verscheurt                verscheuren               VRB(finiteness=fin,tense=pres)
-         ,                         ,                         PC
->>       De                                                  
-         weesjongens               weesjongens               RES(type=for)
-         scille                    scille                    RES(type=for)
-         wol                       wol                       RES(type=for)
 
 
          honneurs                  honneur                   NOU-C(number=pl)
@@ -6698,22 +6522,6 @@
          ontsprongen               ontspringen               VRB(finiteness=pastpart)
          En                        en                        CONJ(type=coor)
          klacht                    klacht                    NOU-C(number=sg)
-
-
-         regtsgeding               rechtsgeding              NOU-C(number=sg)
-         gewezen                   wijzen                    VRB(finiteness=pastpart)
-         …,                        …,                        PC
-         heb                       hebben                    VRB(finiteness=fin,tense=pres)
-         ik                        ik                        PD(type=pers,position=free)
-         B                         B.                        NOU-P(WF=abbr)
-         .,                        .,                        PC
-         deurwaarder               deurwaarder               NOU-C(number=sg)
-         …                         …                         PC
-         Aan                       aan                       ADP(type=pre)
->>       D                         D.                        NOU-P
-         .                         .                         PC
-         …                         …                         PC
-         Bij                       bij                       ADP(type=pre)
 
 
          ik                        ik                        PD(type=pers,position=free)
@@ -7009,7 +6817,7 @@
          meenen                    menen                     VRB(finiteness=fin,tense=pres)
          of                        of                        CONJ(type=coor)
          gelooven                  geloven                   VRB(finiteness=fin,tense=pres)
-         dan                       dan                       CONJ(type=coor)
+         dan                       dan                       CONJ(type=sub)
          het                       het                       PD(type=d-p,subtype=art,position=prenom)
          menschenkind              mensenkind                NOU-C(number=sg)
          dat                       dat                       PD(type=d-p,position=free)
@@ -7467,22 +7275,6 @@
          ,                         ,                         PC
          want                      want                      CONJ(type=coor)
          Huer                      haar                      PD(type=poss,position=prenom)
-
-
-         hellen                    hel                       NOU-C(number=sg)
-         En                        en                        CONJ(type=coor)
-         my                        mij                       PD(type=refl,position=free)
-         verbaerghen               verbergen                 VRB(finiteness=inf)
-         !                         !                         PC
-         Vercondygher              verkondiger               NOU-C(number=sg)
-         des                       het                       PD(type=d-p,subtype=art,position=prenom)
-         woordts                   woord                     NOU-C(number=sg)
-         .                         .                         PC
-         Die                       die                       PD(type=d-p,position=free)
->>       hem                                                 
-         hier                      hier                      ADV(type=reg)
-         nu                        nu                        ADV(type=reg)
-         wilt                      willen                    VRB(finiteness=fin,tense=pres)
 
 
          die                       die                       PD(type=d-p,position=free)
@@ -11957,7 +11749,7 @@
          die                       de                        PD(type=d-p,subtype=art,position=prenom)
          .                         .                         PC
          coninc.                   koning                    NOU-C(number=sg)
-         selu...                   zelf                      PD(type=d-p,position=postnom)
+         selu...                   zelf                      PD(type=d-p,position=postnom,WF=trunc)
          want                      want                      CONJ(type=coor)
          si                        zij                       PD(type=pers,position=free)
          verloren                  verliezen                 VRB(finiteness=fin,tense=past)
@@ -14081,22 +13873,6 @@
          tot                       tot                       ADP(type=pre)
 
 
-         de                        de                        PD(type=d-p,subtype=art,position=prenom)
-         onverdraagelijke          onverdraaglijk            AA(degree=pos,position=prenom)
-         pakhuijshuur              pakhuishuur               NOU-C(number=sg)
-         &                         &                         PC
-         duurte                    duurte                    NOU-C(number=sg)
-         niet                      niet                      ADV(type=reg)
-         te                        te                        ADP(type=pre)
-         houden                    houden                    VRB(finiteness=inf)
-         ‘                         ‘                         PC
-         E                         twee                      NUM(type=card,position=prenom,representation=dig,WF=mis)
->>       D                         pond                      RES(type=symb)
-         vars                      vers                      AA(degree=pos,position=prenom)
-         vlees                     vlees                     NOU-C(number=sg)
-         kost                      kosten                    VRB(finiteness=fin,tense=pres)
-
-
          opregt                    oprecht                   AA(degree=pos,position=free)
          &                         &                         PC
          Eenvoudig                 eenvoudig                 AA(degree=pos,position=free)
@@ -14382,39 +14158,7 @@
 >>       Tien                      tien                      NUM(type=card,position=postnom,representation=let)
          a                         à                         ADP(type=pre)
          Amsterdam                 Amsterdam                 NOU-P
-         pr                        per                       ADP(type=pre)
-
-
-         Jn                        in                        ADP(type=pre)
-         Nummer                    nummer                    NOU-C(number=sg)
-         Tien                      tien                      NUM(type=card,position=postnom,representation=let)
-         a                         à                         ADP(type=pre)
-         Amsterdam                 Amsterdam                 NOU-P
-         pr                        per                       ADP(type=pre)
-         Cappt                     kapitein                  NOU-C(number=sg,WF=abbr)
-         jan                       Jan                       NOU-P
-         davidsz                   Davidsz                   NOU-P
-         kroese                    Kroese                    NOU-P
->>       D                         die                       PD(type=d-p,position=free)
-         :                         :                         PC
-         G                         God                       NOU-P(WF=abbr)
-         :                         :                         PC
-
-
-         Wegens                    wegens                    ADP(type=pre)
-         d                         de                        PD(type=d-p,subtype=art,position=prenom)
-   [MWE] Oost                      Oost-Indische Compagnie   NOU-P
-   [MWE] Indische                  Oost-Indische Compagnie   NOU-P
-   [MWE] Compagnij                 Oost-Indische Compagnie   NOU-P
-         Residerende               resideren                 VRB(finiteness=prespart)
-         tot                       tot                       ADP(type=pre)
-         Battavya                  Batavia                   NOU-P
-         pr                        per                       ADP(type=pre)
-         Vrundt                    vriend                    NOU-C(number=sg)
->>       d                         die                       PD(type=d-p,position=free)
-         godt                      God                       NOU-P
-         geleyde                   geleiden                  VRB(finiteness=fin,tense=pres)
-         Sr                        sinjeur                   NOU-C(number=sg,WF=abbr)
+         pr                        per                       ADP(type=pre,WF=abbr)
 
 
          seer                      zeer                      AA(degree=pos,position=free)
@@ -14433,20 +14177,20 @@
          oostinjese                Oost-Indisch              AA(degree=pos,position=prenom)
 
 
-   [MWE] Roose                     Rozengang                 NOU-P
-   [MWE] Gang                      Rozengang                 NOU-P
-         Tot                       tot                       ADP(type=pre)
-         Amsterdam                 Amsterdam                 NOU-P
-         Per                       per                       ADP(type=pre)
-         Captyn                    kapitein                  NOU-C(number=sg)
-         Noster                    Noster                    NOU-P
-         met                       met                       ADP(type=pre)
-         een                       een                       PD(type=indef,subtype=art,position=prenom)
-         vriendt                   vriend                    NOU-C(number=sg)
->>       D                         die                       PD(type=d-p,position=free)
-         g                         God                       NOU-P(WF=abbr)
-         gelijt                    geleiden                  VRB(finiteness=fin,tense=pres)
-         Courzou                   Curaçao                   NOU-P
+         Godst                     God                       NOU-P
+         hulp                      hulp                      NOU-C(number=sg)
+         op                        op                        ADP(type=pre)
+         het                       het                       PD(type=d-p,subtype=art,position=prenom)
+         eijlant                   eiland                    NOU-C(number=sg)
+         CuraCou                   Curaçao                   NOU-P
+         gekoome                   komen                     VRB(finiteness=pastpart)
+         maar                      maar                      CONJ(type=coor)
+         mijn                      mijn                      PD(type=poss,position=prenom)
+         Zeer                      zeer                      AA(degree=pos,position=free)
+>>       liefde                    liefd                     AA(degree=pos,position=prenom)
+         vrou                      vrouw                     NOU-C(number=sg)
+         ik                        ik                        PD(type=pers,position=free)
+         wenste                    wensen                    VRB(finiteness=fin,tense=past)
 
 
          de                        de                        PD(type=d-p,subtype=art,position=prenom)
@@ -15359,22 +15103,6 @@
 >>       hare                      her                       ADV(type=reg)
          ,                         ,                         PC
          Coninc                    koning                    NOU-C(number=sg)
-         ,                         ,                         PC
-
-
-         die                       de                        PD(type=d-p,subtype=art,position=prenom)
-         minnen                    min                       NOU-C(number=sg)
-         beweget                   bewegen                   VRB(finiteness=fin,tense=pres)
-         .                         .                         PC
-         Ende                      en                        CONJ(type=coor)
-         overmids                  overmits                  ADP(type=pre)
-         die                       de                        PD(type=d-p,subtype=art,position=prenom)
-         gave                      gave                      NOU-C(number=sg)
-         Goods                     God                       NOU-P
-         ende                      en                        CONJ(type=coor)
->>       onse                      wij                       PD(type=pers,position=free)
-         minlec                    minnelijk                 AA(degree=pos,position=free)
-         uutkeren                  uitkeren                  NOU-C(number=sg)
          ,                         ,                         PC
 
 

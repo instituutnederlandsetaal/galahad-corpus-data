@@ -122,7 +122,7 @@
          te                        te                        ADP(type=pre)
          lande                     land                      NOU-C(number=sg)
          deur                      door                      ADP(type=pre)
->>       eenen                     een                       PD(type=indef,subtype=oth,position=prenom)
+>>       eenen                     een                       PD(type=indef,position=free)
          ghenoemt                  genoemd                   AA(degree=pos,position=free)
          Crats                     Crats                     NOU-P
          heeft                     hebben                    VRB(finiteness=fin,tense=pres)
@@ -709,6 +709,22 @@
 
 
 ----------------------dbnl-excerpts-18----------------------
+         tobbetjes                 tobbetje                  NOU-C(number=pl)
+         ,                         ,                         PC
+         en                        en                        CONJ(type=coor)
+         meer                      meer                      PD(type=indef,subtype=oth,position=prenom)
+         andere                    ander                     PD(type=indef,subtype=oth,position=prenom)
+         zaaken                    zaak                      NOU-C(number=pl)
+         van                       van                       ADP(type=pre)
+         weinig                    weinig                    PD(type=indef,subtype=oth,position=prenom)
+         waarde                    waarde                    NOU-C(number=sg)
+         .                         .                         PC
+>>       Dan                       dan                       CONJ(type=coor)
+         dit                       dit                       PD(type=d-p,subtype=oth,position=prenom)
+         huisraad                  huisraad                  NOU-C(number=sg)
+         en                        en                        CONJ(type=coor)
+
+
 ----------------------dbnl-excerpts-19----------------------
          ,                         ,                         PC
          desverkiezende            desverkiezende            ADV(type=reg)
@@ -1449,6 +1465,22 @@
          de                        de                        PD(type=d-p,subtype=art,position=prenom)
 
 
+         keeren                    keren                     VRB(finiteness=inf)
+         ,                         ,                         PC
+   [MWE] t                         hetwelk                   PD(type=w-p,position=free)
+         '                         '                         PC
+   [MWE] welck                     hetwelk                   PD(type=w-p,position=free)
+         de                        de                        PD(type=d-p,subtype=art,position=prenom)
+         Schippers                 schipper                  NOU-C(number=pl)
+         seer                      zeer                      AA(degree=pos,position=free)
+         dreven                    drijven                   VRB(finiteness=fin,tense=past)
+         …,                        …,                        PC
+>>       dan                       dan                       CONJ(type=coor)
+         de                        de                        PD(type=d-p,subtype=art,position=prenom)
+         Comijsen                  commies                   NOU-C(number=pl)
+   [MWE] stonden                   aanstaan                  VRB(finiteness=fin,tense=past)
+
+
          par.                      Parisis                   AA(degree=pos,position=postnom,WF=abbr)
          sdaechs                   de+dag                    PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)
          ,                         ,                         PC
@@ -1592,6 +1624,22 @@
          tenderen                  tenger                    AA(degree=pos,position=prenom)
          manier                    manier                    NOU-C(number=sg)
          als                       als                       CONJ(type=sub)
+
+
+         dingen                    ding                      NOU-C(number=pl)
+         geschiet                  geschieden                VRB(finiteness=pastpart)
+         zijn                      zijn                      VRB(finiteness=fin,tense=pres)
+         ,                         ,                         PC
+         't                        het                       PD(type=pers,position=free)
+         Zyn                       zijn                      VRB(finiteness=fin,tense=pres)
+         wyven                     wijf                      NOU-C(number=pl)
+         van                       van                       ADP(type=pre)
+         mans                      man                       NOU-C(number=pl)
+         …:                        …:                        PC
+>>       Dan                       dan                       CONJ(type=coor)
+         't                        het                       PD(type=pers,position=free)
+         zyn                       zijn                      VRB(finiteness=fin,tense=pres)
+         weer                      weder                     ADV(type=reg)
 
 
          '                         '                         PC
@@ -2257,7 +2305,7 @@
          meenen                    menen                     VRB(finiteness=fin,tense=pres)
          of                        of                        CONJ(type=coor)
          gelooven                  geloven                   VRB(finiteness=fin,tense=pres)
-         dan                       dan                       CONJ(type=coor)
+         dan                       dan                       CONJ(type=sub)
          het                       het                       PD(type=d-p,subtype=art,position=prenom)
          menschenkind              mensenkind                NOU-C(number=sg)
          dat                       dat                       PD(type=d-p,position=free)
@@ -3669,7 +3717,7 @@
          die                       de                        PD(type=d-p,subtype=art,position=prenom)
          .                         .                         PC
          coninc.                   koning                    NOU-C(number=sg)
-         selu...                   zelf                      PD(type=d-p,position=postnom)
+         selu...                   zelf                      PD(type=d-p,position=postnom,WF=trunc)
          want                      want                      CONJ(type=coor)
          si                        zij                       PD(type=pers,position=free)
          verloren                  verliezen                 VRB(finiteness=fin,tense=past)
@@ -3693,22 +3741,6 @@
          ende                      en                        CONJ(type=coor)
          trac                      trekken                   VRB(finiteness=fin,tense=past)
          den                       de                        PD(type=d-p,subtype=art,position=prenom)
-
-
-         staet                     staan                     VRB(finiteness=fin,tense=pres)
-         mi                        ik                        PD(type=pers,position=free)
-         langhe                    lang                      ADV(type=reg)
-         te                        te                        ADP(type=pre)
-         sine                      zijn                      VRB(finiteness=inf)
-         wildi                     willen+gij                VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)
-         niet                      niet                      ADV(type=reg)
-         den                       de                        PD(type=d-p,subtype=art,position=prenom)
-         wille                     wil                       NOU-C(number=sg)
-         mine                      mijn                      PD(type=poss,position=prenom)
->>       Min                       mijn                      NOU-C(number=sg)
-   [MWE] wel                       vulgeren                  VRB(finiteness=inf)
-   [MWE] geren                     vulgeren                  VRB(finiteness=inf)
-         huwen                     uw                        PD(type=poss,position=prenom)
 
 
          .                         .                         PC
